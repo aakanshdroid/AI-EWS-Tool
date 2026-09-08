@@ -1,0 +1,6 @@
+print("=" * 40)
+print("       EWS TOOL - DAY 1 TEST       ")
+print("=" * 40)
+print("Development environment is working.")
+print("Python EWS application can run successfully.")
+print("=" * 40)
