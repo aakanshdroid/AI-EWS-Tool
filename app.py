@@ -11,12 +11,11 @@ st.title("🚨 Early Warning System & Credit Monitoring Engine")
 @st.cache_data(ttl=30)
 def load_db_table(table_name):
     if not os.path.exists(DB_PATH):
-        st.error(f"Database not found at '{DB_PATH}'. Run 'python -m src.main' first.")
         return pd.DataFrame()
     conn = sqlite3.connect(DB_PATH)
     try:
         df = pd.read_sql_query(f"SELECT * FROM {table_name}", conn)
-        # Convert object columns to string to ensure PyArrow compatibility
+        # Ensure object columns are strings for PyArrow stability
         for col in df.columns:
             if df[col].dtype == "object":
                 df[col] = df[col].astype(str)
@@ -45,11 +44,13 @@ def save_audit_action(account_num, decision, rationale, reviewer_id="CO_001"):
     )
     conn.commit()
     conn.close()
-    st.cache_data.clear()  # Refresh cached tables
+    st.cache_data.clear()
 
-tab1, tab2, tab3, tab4 = st.tabs([
+# Streamlit Tabs Definition
+tab1, tab2, tab3, tab4, tab5 = st.tabs([
     "📊 Risk Overview", 
     "🔎 Evidence Pack", 
+    "📈 Trend & Peer Analytics", 
     "✍️ Human Review", 
     "📜 Governance & Audit Trail"
 ])
@@ -61,10 +62,12 @@ with tab1:
     st.subheader("Account-Level EWS Scores")
     if not ews_df.empty:
         st.dataframe(ews_df, use_container_width=True)
+    else:
+        st.info("No EWS data available. Run 'python -m src.main' to populate results.")
 
 # --- TAB 2: EVIDENCE PACK ---
 with tab2:
-    st.subheader("Explainability & Evidence Pack (Steps 10–12)")
+    st.subheader("Explainability & Evidence Pack")
     if not ews_df.empty:
         selected_acc = st.selectbox("Select Account Number:", ews_df["Account_Number"])
         acc_info = ews_df[ews_df["Account_Number"] == selected_acc].iloc[0]
@@ -74,9 +77,30 @@ with tab2:
         col2.metric("Risk Band", acc_info.get("Risk_Band", "N/A"))
         col3.metric("Critical Override", acc_info.get("Critical_Override", "N/A"))
 
-# --- TAB 3: HUMAN REVIEW ---
+# --- TAB 3: TREND & PEER ANALYTICS ---
 with tab3:
-    st.subheader("Human Credit Review & Decisioning (Steps 13–14)")
+    st.subheader("Multi-Quarter Trend Deterioration & Sector Benchmarking")
+    trend_data = load_db_table("trend_analytics_results")
+    peer_data = load_db_table("peer_benchmark_results")
+    
+    col_a, col_b = st.columns(2)
+    with col_a:
+        st.markdown("### 📉 Quarterly Metric Deterioration")
+        if not trend_data.empty:
+            st.dataframe(trend_data, use_container_width=True)
+        else:
+            st.info("No trend analytics generated yet.")
+            
+    with col_b:
+        st.markdown("### 🏢 Peer Group Benchmarking")
+        if not peer_data.empty:
+            st.dataframe(peer_data, use_container_width=True)
+        else:
+            st.info("No peer benchmark results generated yet.")
+
+# --- TAB 4: HUMAN REVIEW ---
+with tab4:
+    st.subheader("Human Credit Review & Decisioning")
     if not ews_df.empty:
         acc_to_review = st.selectbox("Select Account to Action:", ews_df["Account_Number"], key="review_acc")
         
@@ -93,9 +117,9 @@ with tab3:
                 save_audit_action(acc_to_review, decision, rationale)
                 st.success(f"Decision for {acc_to_review} logged successfully!")
 
-# --- TAB 4: AUDIT TRAIL ---
-with tab4:
-    st.subheader("Audit Trail & Feedback Logs (Step 15)")
+# --- TAB 5: AUDIT TRAIL ---
+with tab5:
+    st.subheader("Audit Trail & Governance Logs")
     audit_df = load_db_table("audit_trail")
     if not audit_df.empty:
         st.dataframe(audit_df, use_container_width=True)
@@ -106,4 +130,4 @@ with tab4:
             mime="text/csv",
         )
     else:
-        st.info("No human review actions logged yet. Submit a decision in the 'Human Review' tab to see it recorded here.")
+        st.info("No audit logs recorded yet.")
