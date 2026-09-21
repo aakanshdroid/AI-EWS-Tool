@@ -1,10 +1,10 @@
 import os
-import streamlit as st
 import resend
 
 def get_secret(key_name, default_val=""):
-    """Fetch secrets from Streamlit Cloud or local environment variables."""
+    """Safely fetch secrets from Streamlit Cloud or fallback to local environment variables."""
     try:
+        import streamlit as st
         if hasattr(st, "secrets") and key_name in st.secrets:
             return st.secrets[key_name]
     except Exception:
