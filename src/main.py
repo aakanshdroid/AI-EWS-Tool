@@ -5,6 +5,7 @@ from common.scoring_engine import calculate_scores
 from ews.ews_calculator import calculate_ews_indicators
 from credit_monitoring.cm_calculator import calculate_cm_indicators
 from src.database import init_db, save_dataframe_to_db
+from common.notifier import send_critical_alert_email  # <--- Added Step 2 Import
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -21,6 +22,28 @@ def load_excel_file(filename, default_df):
     else:
         print(f"Warning: File '{filename}' not found in project root. Using default data.")
         return default_df
+
+def check_and_send_alerts(df):
+    """Scans calculated results for critical risk scores or overrides and sends alerts."""
+    if df.empty:
+        return
+        
+    for _, row in df.iterrows():
+        account_no = row.get("Account_Number", row.get("Borrower_ID", "N/A"))
+        borrower_name = row.get("Borrower_Name", "Unknown Borrower")
+        risk_score = row.get("Overall_Risk_Score", row.get("Total_Risk_Score", 0))
+        risk_band = row.get("Risk_Band", "N/A")
+        override = str(row.get("Critical_Override", "NO"))
+
+        # Trigger condition: Score >= 80 OR Critical Override is YES
+        if risk_score >= 80 or override.upper() == "YES":
+            send_critical_alert_email(
+                account_number=account_no,
+                borrower_name=borrower_name,
+                risk_score=risk_score,
+                risk_band=risk_band,
+                override_flag=override
+            )
 
 def run_pipeline():
     print("=" * 60)
@@ -70,6 +93,11 @@ def run_pipeline():
     ews_scored = calculate_scores(ews_raw, rules_df)
     cm_scored = calculate_scores(cm_raw, rules_df)
     print("[3/5] Threshold scoring completed.")
+
+    # --- STEP 2 INTEGRATION: Trigger Email Alerts for Critical Accounts ---
+    print("[3.5/5] Scanning for critical alert triggers...")
+    check_and_send_alerts(ews_scored)
+    check_and_send_alerts(cm_scored)
 
     # 5. Initialize Database & Persist Results
     init_db()
