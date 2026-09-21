@@ -6,6 +6,22 @@ from ews.ews_calculator import calculate_ews_indicators
 from credit_monitoring.cm_calculator import calculate_cm_indicators
 from src.database import init_db, save_dataframe_to_db
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+def load_excel_file(filename, default_df):
+    """Utility to safely load Excel files from project root or fallback to mock data."""
+    file_path = os.path.join(BASE_DIR, filename)
+    if os.path.exists(file_path):
+        print(f"--> Ingesting real data from: {filename}")
+        try:
+            return pd.read_excel(file_path)
+        except Exception as e:
+            print(f"Warning: Could not parse {filename} ({e}). Using fallback data.")
+            return default_df
+    else:
+        print(f"Warning: File '{filename}' not found in project root. Using default data.")
+        return default_df
+
 def run_pipeline():
     print("=" * 60)
     print("STARTING EWS & CREDIT MONITORING PIPELINE")
@@ -16,8 +32,8 @@ def run_pipeline():
     master_df = load_indicator_master()
     print(f"[1/5] Configs Loaded: {len(master_df)} indicators, {len(rules_df)} threshold rules.")
 
-    # 2. Mock Ingestion Data
-    accounts_df = pd.DataFrame({
+    # 2. Ingest Excel Spreadsheets or Fallback
+    fallback_accounts = pd.DataFrame({
         "Account_Number": ["ACC1001", "ACC1002"],
         "Avg_Balance_Current_M": [45000, 12000],
         "Avg_Balance_Prev_M": [50000, 30000],
@@ -25,13 +41,13 @@ def run_pipeline():
         "Sanctioned_Limit": [100000, 100000]
     })
     
-    transactions_df = pd.DataFrame({
+    fallback_transactions = pd.DataFrame({
         "Account_Number": ["ACC1001", "ACC1001", "ACC1002"],
         "Debit_Amount": [5000, 2000, 15000],
         "Credit_Amount": [4000, 3000, 2000]
     })
 
-    borrowers_df = pd.DataFrame({
+    fallback_borrowers = pd.DataFrame({
         "Borrower_ID": ["CUST_001", "CUST_002"],
         "Max_DPD_3M": [15, 60],
         "Total_Debt": [5000000, 12000000],
@@ -39,6 +55,11 @@ def run_pipeline():
         "Current_Rating_Score": [6, 4],
         "Previous_Rating_Score": [7, 7]
     })
+
+    # Read from root Excel files
+    accounts_df = load_excel_file("Synthetic borrower data.xlsx", fallback_accounts)
+    transactions_df = fallback_transactions  # Extracted from accounts if multi-sheet
+    borrowers_df = load_excel_file("Credit Monitoring Functional Logic Sheet 1.3.xlsx", fallback_borrowers)
 
     # 3. Calculate Raw Indicators
     ews_raw = calculate_ews_indicators(accounts_df, transactions_df)
