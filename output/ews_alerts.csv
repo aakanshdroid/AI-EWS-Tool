@@ -1,0 +1,2044 @@
+Borrower_ID,Indicator_ID,Indicator_Name,Category,Score,Severity,Critical_Indicator,Final_Status
+BORR-0001,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0001,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0001,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0001,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0001,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0001,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0001,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0001,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0001,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0001,EWS-021,Management Change,Governance,100.0,Critical,False,Critical
+BORR-0001,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0001,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0001,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0001,EWS-036,Round Tripping,Fraud Risk,100.0,Critical,True,Critical
+BORR-0001,EWS-037,ESG Action / Event,ESG,40.0,Medium,False,Critical
+BORR-0001,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0001,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0001,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0001,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0002,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Green
+BORR-0002,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0002,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Green
+BORR-0002,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Green
+BORR-0002,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Green
+BORR-0002,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Green
+BORR-0003,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0003,EWS-026,Statutory Payment Delay,Compliance,50.0,Medium,False,Critical
+BORR-0003,EWS-032,Customer Complaint Severity,Operational Risk,40.0,Medium,False,Critical
+BORR-0003,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0003,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0004,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0004,EWS-004,Payment Defaults,Repayment Behaviour,75.0,High,True,Critical
+BORR-0004,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0004,EWS-008,EBITDA Margin Deterioration,Financial Performance,75.0,High,False,Critical
+BORR-0004,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0004,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0004,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0004,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0004,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0004,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0004,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0004,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0004,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0004,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0004,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0004,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0004,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0005,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0005,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0005,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0005,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0005,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0005,EWS-008,EBITDA Margin Deterioration,Financial Performance,75.0,High,False,Critical
+BORR-0005,EWS-009,Increase in Debtor Days,Working Capital,100.0,Critical,True,Critical
+BORR-0005,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0005,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0005,EWS-012,Increase in Provisions,Financial Performance,100.0,Critical,True,Critical
+BORR-0005,EWS-014,Increase in Unsecured Loans,Leverage,75.0,High,True,Critical
+BORR-0005,EWS-015,Finance Cost Growth Gap,Financial Performance,75.0,High,False,Critical
+BORR-0005,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0005,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0005,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0005,EWS-025,Group Company Stress,Group Risk,100.0,Critical,False,Critical
+BORR-0005,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0005,EWS-030,Sector Growth Gap,Sector Risk,75.0,High,False,Critical
+BORR-0005,EWS-031,Adverse News,External Risk,100.0,Critical,False,Critical
+BORR-0005,EWS-032,Customer Complaint Severity,Operational Risk,40.0,Medium,False,Critical
+BORR-0005,EWS-035,Adverse Site Visit,Operations,80.0,Critical,True,Critical
+BORR-0005,EWS-038,Carbon Emission Increase,Climate Risk,100.0,Critical,False,Critical
+BORR-0005,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0005,EWS-040,Inventory Valuation Change,Financial Reporting,75.0,High,False,Critical
+BORR-0005,EWS-042,Leverage,Leverage,75.0,High,False,Critical
+BORR-0005,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0005,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0006,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0006,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0006,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0006,EWS-011,Increase in Creditor Days,Working Capital,75.0,High,True,Critical
+BORR-0006,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0006,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0006,EWS-015,Finance Cost Growth Gap,Financial Performance,75.0,High,False,Critical
+BORR-0006,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0006,EWS-027,Regulatory Event,Compliance,100.0,Critical,True,Critical
+BORR-0006,EWS-029,Business Model Change,Business Risk,100.0,Critical,False,Critical
+BORR-0006,EWS-033,Workforce Disruption,Operational Risk,50.0,Medium,False,Critical
+BORR-0006,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0006,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0007,EWS-015,Finance Cost Growth Gap,Financial Performance,75.0,High,False,Green
+BORR-0007,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Green
+BORR-0008,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0008,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0008,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0008,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0008,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0008,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0008,EWS-028,Litigation,Legal,75.0,High,True,Critical
+BORR-0008,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0008,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0008,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0009,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0009,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0009,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0009,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0009,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0009,EWS-008,EBITDA Margin Deterioration,Financial Performance,75.0,High,False,Critical
+BORR-0009,EWS-009,Increase in Debtor Days,Working Capital,75.0,High,True,Critical
+BORR-0009,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0009,EWS-011,Increase in Creditor Days,Working Capital,75.0,High,True,Critical
+BORR-0009,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0009,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0009,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0009,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0009,EWS-024,Related Party Transaction Increase,Governance,75.0,High,False,Critical
+BORR-0009,EWS-026,Statutory Payment Delay,Compliance,50.0,Medium,False,Critical
+BORR-0009,EWS-028,Litigation,Legal,75.0,High,True,Critical
+BORR-0009,EWS-030,Sector Growth Gap,Sector Risk,75.0,High,False,Critical
+BORR-0009,EWS-032,Customer Complaint Severity,Operational Risk,40.0,Medium,False,Critical
+BORR-0009,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0009,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0009,EWS-040,Inventory Valuation Change,Financial Reporting,75.0,High,False,Critical
+BORR-0009,EWS-041,DSCR,Debt Servicing,100.0,Critical,True,Critical
+BORR-0009,EWS-042,Leverage,Leverage,75.0,High,False,Critical
+BORR-0009,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0009,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0010,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Green
+BORR-0010,EWS-028,Litigation,Legal,50.0,Medium,True,Green
+BORR-0010,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Green
+BORR-0010,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Green
+BORR-0010,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Green
+BORR-0011,EWS-004,Payment Defaults,Repayment Behaviour,75.0,High,True,Critical
+BORR-0011,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0011,EWS-008,EBITDA Margin Deterioration,Financial Performance,75.0,High,False,Critical
+BORR-0011,EWS-009,Increase in Debtor Days,Working Capital,75.0,High,True,Critical
+BORR-0011,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0011,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0011,EWS-018,External Rating Downgrade,Rating,75.0,High,True,Critical
+BORR-0011,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0011,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0011,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0011,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0011,EWS-041,DSCR,Debt Servicing,75.0,High,True,Critical
+BORR-0011,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0011,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0012,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0012,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0012,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0012,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0012,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0012,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0012,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0013,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Green
+BORR-0013,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Green
+BORR-0013,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Green
+BORR-0013,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Green
+BORR-0014,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Green
+BORR-0014,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0014,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Green
+BORR-0014,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Green
+BORR-0014,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Green
+BORR-0014,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Green
+BORR-0015,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0015,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0015,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0015,EWS-028,Litigation,Legal,75.0,High,True,Critical
+BORR-0015,EWS-035,Adverse Site Visit,Operations,60.0,High,True,Critical
+BORR-0015,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0015,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0016,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0016,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0016,EWS-005,Non-Core Repayment Source,Repayment Behaviour,75.0,High,True,Critical
+BORR-0016,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0016,EWS-008,EBITDA Margin Deterioration,Financial Performance,75.0,High,False,Critical
+BORR-0016,EWS-009,Increase in Debtor Days,Working Capital,75.0,High,True,Critical
+BORR-0016,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0016,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0016,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0016,EWS-014,Increase in Unsecured Loans,Leverage,75.0,High,True,Critical
+BORR-0016,EWS-015,Finance Cost Growth Gap,Financial Performance,75.0,High,False,Critical
+BORR-0016,EWS-016,LC Events,Trade Finance,50.0,Medium,False,Critical
+BORR-0016,EWS-018,External Rating Downgrade,Rating,100.0,Critical,True,Critical
+BORR-0016,EWS-021,Management Change,Governance,100.0,Critical,False,Critical
+BORR-0016,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0016,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0016,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0016,EWS-027,Regulatory Event,Compliance,100.0,Critical,True,Critical
+BORR-0016,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0016,EWS-029,Business Model Change,Business Risk,100.0,Critical,False,Critical
+BORR-0016,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0016,EWS-033,Workforce Disruption,Operational Risk,50.0,Medium,False,Critical
+BORR-0016,EWS-037,ESG Action / Event,ESG,60.0,High,False,Critical
+BORR-0016,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0016,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0016,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0016,EWS-041,DSCR,Debt Servicing,75.0,High,True,Critical
+BORR-0016,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0016,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0016,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0017,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0017,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0017,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0017,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0017,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0017,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0017,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0017,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0017,EWS-014,Increase in Unsecured Loans,Leverage,75.0,High,True,Critical
+BORR-0017,EWS-015,Finance Cost Growth Gap,Financial Performance,75.0,High,False,Critical
+BORR-0017,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0017,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0017,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0017,EWS-026,Statutory Payment Delay,Compliance,50.0,Medium,False,Critical
+BORR-0017,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0017,EWS-030,Sector Growth Gap,Sector Risk,75.0,High,False,Critical
+BORR-0017,EWS-032,Customer Complaint Severity,Operational Risk,100.0,Critical,False,Critical
+BORR-0017,EWS-033,Workforce Disruption,Operational Risk,50.0,Medium,False,Critical
+BORR-0017,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0017,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0017,EWS-040,Inventory Valuation Change,Financial Reporting,75.0,High,False,Critical
+BORR-0017,EWS-041,DSCR,Debt Servicing,75.0,High,True,Critical
+BORR-0017,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0017,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0017,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0018,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0018,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0018,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0018,EWS-005,Non-Core Repayment Source,Repayment Behaviour,75.0,High,True,Critical
+BORR-0018,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0018,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0018,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0018,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0018,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0018,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0018,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0018,EWS-026,Statutory Payment Delay,Compliance,50.0,Medium,False,Critical
+BORR-0018,EWS-031,Adverse News,External Risk,40.0,Medium,False,Critical
+BORR-0018,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0018,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0018,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0019,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0019,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0019,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0019,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0019,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0019,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0020,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0020,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0020,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0020,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0020,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0021,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0021,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0021,EWS-005,Non-Core Repayment Source,Repayment Behaviour,75.0,High,True,Critical
+BORR-0021,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0021,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0021,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0021,EWS-012,Increase in Provisions,Financial Performance,100.0,Critical,True,Critical
+BORR-0021,EWS-014,Increase in Unsecured Loans,Leverage,75.0,High,True,Critical
+BORR-0021,EWS-017,BG Events,Trade Finance,50.0,Medium,False,Critical
+BORR-0021,EWS-018,External Rating Downgrade,Rating,50.0,Medium,True,Critical
+BORR-0021,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0021,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0021,EWS-026,Statutory Payment Delay,Compliance,50.0,Medium,False,Critical
+BORR-0021,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0021,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0021,EWS-032,Customer Complaint Severity,Operational Risk,40.0,Medium,False,Critical
+BORR-0021,EWS-033,Workforce Disruption,Operational Risk,50.0,Medium,False,Critical
+BORR-0021,EWS-035,Adverse Site Visit,Operations,40.0,Medium,True,Critical
+BORR-0021,EWS-037,ESG Action / Event,ESG,40.0,Medium,False,Critical
+BORR-0021,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0021,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0021,EWS-040,Inventory Valuation Change,Financial Reporting,75.0,High,False,Critical
+BORR-0021,EWS-041,DSCR,Debt Servicing,50.0,Medium,True,Critical
+BORR-0021,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0021,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0021,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0022,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0022,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0022,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0022,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0022,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0022,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0022,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0023,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0023,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0023,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0023,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0023,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0023,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0024,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,75.0,High,False,Critical
+BORR-0024,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0024,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0024,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0024,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0024,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0024,EWS-021,Management Change,Governance,100.0,Critical,False,Critical
+BORR-0024,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0024,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0024,EWS-035,Adverse Site Visit,Operations,40.0,Medium,True,Critical
+BORR-0024,EWS-036,Round Tripping,Fraud Risk,100.0,Critical,True,Critical
+BORR-0024,EWS-037,ESG Action / Event,ESG,40.0,Medium,False,Critical
+BORR-0024,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0024,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0024,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0025,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0025,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0025,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0025,CRITICAL-COMBO,Payment defaults + stretched creditors,Critical Combination,100.0,Critical,True,Critical
+BORR-0026,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0026,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0026,EWS-032,Customer Complaint Severity,Operational Risk,40.0,Medium,False,Critical
+BORR-0026,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0026,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0027,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0027,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0027,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0027,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0027,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0027,EWS-031,Adverse News,External Risk,40.0,Medium,False,Critical
+BORR-0027,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0027,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0028,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0028,EWS-018,External Rating Downgrade,Rating,50.0,Medium,True,Critical
+BORR-0028,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0028,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0029,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Green
+BORR-0029,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0029,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Green
+BORR-0029,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Green
+BORR-0029,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Green
+BORR-0029,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Green
+BORR-0030,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0030,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0030,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0030,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0030,EWS-008,EBITDA Margin Deterioration,Financial Performance,75.0,High,False,Critical
+BORR-0030,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0030,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0030,EWS-018,External Rating Downgrade,Rating,50.0,Medium,True,Critical
+BORR-0030,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0030,EWS-028,Litigation,Legal,75.0,High,True,Critical
+BORR-0030,EWS-031,Adverse News,External Risk,40.0,Medium,False,Critical
+BORR-0030,EWS-032,Customer Complaint Severity,Operational Risk,80.0,Critical,False,Critical
+BORR-0030,EWS-033,Workforce Disruption,Operational Risk,50.0,Medium,False,Critical
+BORR-0030,EWS-035,Adverse Site Visit,Operations,60.0,High,True,Critical
+BORR-0030,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0030,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0030,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0031,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Green
+BORR-0031,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Green
+BORR-0031,EWS-028,Litigation,Legal,50.0,Medium,True,Green
+BORR-0031,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Green
+BORR-0032,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0032,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0032,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0032,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0032,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0032,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0032,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0032,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0032,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0032,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0032,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0033,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0033,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0033,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0033,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0033,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0033,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0033,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0033,EWS-009,Increase in Debtor Days,Working Capital,75.0,High,True,Critical
+BORR-0033,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0033,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0033,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0033,EWS-014,Increase in Unsecured Loans,Leverage,75.0,High,True,Critical
+BORR-0033,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0033,EWS-018,External Rating Downgrade,Rating,50.0,Medium,True,Critical
+BORR-0033,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0033,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0033,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0033,EWS-025,Group Company Stress,Group Risk,100.0,Critical,False,Critical
+BORR-0033,EWS-030,Sector Growth Gap,Sector Risk,75.0,High,False,Critical
+BORR-0033,EWS-033,Workforce Disruption,Operational Risk,50.0,Medium,False,Critical
+BORR-0033,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0033,EWS-040,Inventory Valuation Change,Financial Reporting,75.0,High,False,Critical
+BORR-0033,EWS-041,DSCR,Debt Servicing,50.0,Medium,True,Critical
+BORR-0033,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0033,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0033,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0034,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0034,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Green
+BORR-0034,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Green
+BORR-0034,EWS-031,Adverse News,External Risk,40.0,Medium,False,Green
+BORR-0034,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Green
+BORR-0035,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0035,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0035,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0035,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0035,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0035,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0035,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0036,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0036,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0036,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0036,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0036,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0036,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0036,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0037,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Green
+BORR-0038,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Green
+BORR-0038,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Green
+BORR-0038,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Green
+BORR-0038,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Green
+BORR-0039,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0039,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,75.0,High,False,Critical
+BORR-0039,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0039,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0039,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0039,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0039,EWS-008,EBITDA Margin Deterioration,Financial Performance,100.0,Critical,False,Critical
+BORR-0039,EWS-009,Increase in Debtor Days,Working Capital,75.0,High,True,Critical
+BORR-0039,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0039,EWS-011,Increase in Creditor Days,Working Capital,75.0,High,True,Critical
+BORR-0039,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0039,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0039,EWS-015,Finance Cost Growth Gap,Financial Performance,75.0,High,False,Critical
+BORR-0039,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0039,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0039,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0039,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0039,EWS-035,Adverse Site Visit,Operations,40.0,Medium,True,Critical
+BORR-0039,EWS-037,ESG Action / Event,ESG,40.0,Medium,False,Critical
+BORR-0039,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0039,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0039,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0039,EWS-041,DSCR,Debt Servicing,50.0,Medium,True,Critical
+BORR-0039,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0039,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0039,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0040,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0040,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0040,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0041,EWS-001,High Bank Utilization,Liquidity,75.0,High,False,Critical
+BORR-0041,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0041,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0041,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0041,EWS-009,Increase in Debtor Days,Working Capital,75.0,High,True,Critical
+BORR-0041,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0041,EWS-011,Increase in Creditor Days,Working Capital,75.0,High,True,Critical
+BORR-0041,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0041,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0041,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0041,EWS-016,LC Events,Trade Finance,50.0,Medium,False,Critical
+BORR-0041,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0041,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0041,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0041,EWS-027,Regulatory Event,Compliance,100.0,Critical,True,Critical
+BORR-0041,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0041,EWS-030,Sector Growth Gap,Sector Risk,75.0,High,False,Critical
+BORR-0041,EWS-031,Adverse News,External Risk,40.0,Medium,False,Critical
+BORR-0041,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0041,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0041,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0041,EWS-041,DSCR,Debt Servicing,75.0,High,True,Critical
+BORR-0041,EWS-042,Leverage,Leverage,75.0,High,False,Critical
+BORR-0041,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0041,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0042,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0042,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,75.0,High,False,Critical
+BORR-0042,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0042,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0042,EWS-008,EBITDA Margin Deterioration,Financial Performance,75.0,High,False,Critical
+BORR-0042,EWS-009,Increase in Debtor Days,Working Capital,75.0,High,True,Critical
+BORR-0042,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0042,EWS-011,Increase in Creditor Days,Working Capital,75.0,High,True,Critical
+BORR-0042,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0042,EWS-014,Increase in Unsecured Loans,Leverage,75.0,High,True,Critical
+BORR-0042,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0042,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0042,EWS-026,Statutory Payment Delay,Compliance,50.0,Medium,False,Critical
+BORR-0042,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0042,EWS-030,Sector Growth Gap,Sector Risk,100.0,Critical,False,Critical
+BORR-0042,EWS-032,Customer Complaint Severity,Operational Risk,80.0,Critical,False,Critical
+BORR-0042,EWS-036,Round Tripping,Fraud Risk,100.0,Critical,True,Critical
+BORR-0042,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0042,EWS-039,Depreciation Change,Financial Performance,75.0,High,False,Critical
+BORR-0042,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0042,EWS-041,DSCR,Debt Servicing,50.0,Medium,True,Critical
+BORR-0042,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0042,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0042,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0043,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,75.0,High,False,Critical
+BORR-0043,EWS-010,Increase in Inventory Days,Working Capital,75.0,High,False,Critical
+BORR-0043,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0043,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0043,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0043,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0043,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0043,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0043,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0043,EWS-031,Adverse News,External Risk,40.0,Medium,False,Critical
+BORR-0043,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0043,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0043,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0043,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0043,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0044,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0044,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,100.0,Critical,False,Critical
+BORR-0044,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0044,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0044,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0044,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0044,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0044,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0044,EWS-011,Increase in Creditor Days,Working Capital,75.0,High,True,Critical
+BORR-0044,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0044,EWS-014,Increase in Unsecured Loans,Leverage,75.0,High,True,Critical
+BORR-0044,EWS-015,Finance Cost Growth Gap,Financial Performance,75.0,High,False,Critical
+BORR-0044,EWS-020,Auditor Change,Governance,100.0,Critical,False,Critical
+BORR-0044,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0044,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0044,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0044,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0044,EWS-037,ESG Action / Event,ESG,60.0,High,False,Critical
+BORR-0044,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0044,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0044,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0044,EWS-041,DSCR,Debt Servicing,50.0,Medium,True,Critical
+BORR-0044,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0044,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0044,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0045,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0045,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0045,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0045,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0045,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0045,EWS-009,Increase in Debtor Days,Working Capital,75.0,High,True,Critical
+BORR-0045,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0045,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0045,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0045,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0045,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0045,EWS-016,LC Events,Trade Finance,50.0,Medium,False,Critical
+BORR-0045,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0045,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0045,EWS-026,Statutory Payment Delay,Compliance,100.0,Critical,False,Critical
+BORR-0045,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0045,EWS-031,Adverse News,External Risk,40.0,Medium,False,Critical
+BORR-0045,EWS-032,Customer Complaint Severity,Operational Risk,40.0,Medium,False,Critical
+BORR-0045,EWS-035,Adverse Site Visit,Operations,40.0,Medium,True,Critical
+BORR-0045,EWS-037,ESG Action / Event,ESG,60.0,High,False,Critical
+BORR-0045,EWS-038,Carbon Emission Increase,Climate Risk,100.0,Critical,False,Critical
+BORR-0045,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0045,EWS-040,Inventory Valuation Change,Financial Reporting,75.0,High,False,Critical
+BORR-0045,EWS-041,DSCR,Debt Servicing,75.0,High,True,Critical
+BORR-0045,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0045,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0045,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0046,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0046,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0046,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0046,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0046,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0046,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0046,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0046,EWS-031,Adverse News,External Risk,40.0,Medium,False,Critical
+BORR-0046,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0046,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0046,EWS-041,DSCR,Debt Servicing,50.0,Medium,True,Critical
+BORR-0046,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0046,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0047,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0047,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0047,EWS-015,Finance Cost Growth Gap,Financial Performance,75.0,High,False,Critical
+BORR-0047,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0047,EWS-026,Statutory Payment Delay,Compliance,50.0,Medium,False,Critical
+BORR-0047,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0047,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0047,EWS-041,DSCR,Debt Servicing,50.0,Medium,True,Critical
+BORR-0047,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0047,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0047,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0048,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0048,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Green
+BORR-0048,EWS-025,Group Company Stress,Group Risk,100.0,Critical,False,Green
+BORR-0048,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Green
+BORR-0049,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0049,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,100.0,Critical,False,Critical
+BORR-0049,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0049,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0049,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0049,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0049,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0049,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0049,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0049,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0049,EWS-014,Increase in Unsecured Loans,Leverage,75.0,High,True,Critical
+BORR-0049,EWS-015,Finance Cost Growth Gap,Financial Performance,100.0,Critical,False,Critical
+BORR-0049,EWS-017,BG Events,Trade Finance,50.0,Medium,False,Critical
+BORR-0049,EWS-020,Auditor Change,Governance,100.0,Critical,False,Critical
+BORR-0049,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0049,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0049,EWS-025,Group Company Stress,Group Risk,100.0,Critical,False,Critical
+BORR-0049,EWS-028,Litigation,Legal,75.0,High,True,Critical
+BORR-0049,EWS-033,Workforce Disruption,Operational Risk,50.0,Medium,False,Critical
+BORR-0049,EWS-036,Round Tripping,Fraud Risk,100.0,Critical,True,Critical
+BORR-0049,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0049,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0049,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0049,EWS-041,DSCR,Debt Servicing,75.0,High,True,Critical
+BORR-0049,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0049,EWS-043,Current Ratio,Liquidity,75.0,High,False,Critical
+BORR-0049,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0050,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0050,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0050,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0050,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0050,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0050,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0051,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0051,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0051,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0051,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0051,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0051,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0052,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Green
+BORR-0052,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0052,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Green
+BORR-0052,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Green
+BORR-0052,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Green
+BORR-0052,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Green
+BORR-0052,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Green
+BORR-0052,EWS-028,Litigation,Legal,50.0,Medium,True,Green
+BORR-0052,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Green
+BORR-0052,EWS-041,DSCR,Debt Servicing,50.0,Medium,True,Green
+BORR-0052,EWS-042,Leverage,Leverage,50.0,Medium,False,Green
+BORR-0053,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0053,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0053,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0053,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0053,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0054,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0054,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Green
+BORR-0054,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Green
+BORR-0054,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Green
+BORR-0055,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Green
+BORR-0055,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Green
+BORR-0055,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Green
+BORR-0055,EWS-028,Litigation,Legal,75.0,High,True,Green
+BORR-0055,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Green
+BORR-0056,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0056,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0056,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0056,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0056,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0056,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0056,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0056,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0056,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0056,EWS-031,Adverse News,External Risk,40.0,Medium,False,Critical
+BORR-0056,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0056,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0056,EWS-041,DSCR,Debt Servicing,50.0,Medium,True,Critical
+BORR-0056,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0057,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0057,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0057,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0057,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0057,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0057,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0057,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0057,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0057,EWS-020,Auditor Change,Governance,100.0,Critical,False,Critical
+BORR-0057,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0057,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0057,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0057,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0057,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0057,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0057,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0057,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0058,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0058,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0058,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0058,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0058,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0059,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0059,EWS-004,Payment Defaults,Repayment Behaviour,75.0,High,True,Critical
+BORR-0059,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0059,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0059,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0059,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0059,EWS-020,Auditor Change,Governance,100.0,Critical,False,Critical
+BORR-0059,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0059,EWS-028,Litigation,Legal,75.0,High,True,Critical
+BORR-0059,EWS-029,Business Model Change,Business Risk,100.0,Critical,False,Critical
+BORR-0059,EWS-031,Adverse News,External Risk,80.0,Critical,False,Critical
+BORR-0059,EWS-035,Adverse Site Visit,Operations,40.0,Medium,True,Critical
+BORR-0059,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0059,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0059,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0060,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0060,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0060,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0060,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0060,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0060,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0060,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0060,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0060,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0060,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0060,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0060,EWS-028,Litigation,Legal,100.0,Critical,True,Critical
+BORR-0060,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0060,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0060,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0060,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0061,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0061,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0061,EWS-025,Group Company Stress,Group Risk,100.0,Critical,False,Critical
+BORR-0061,EWS-026,Statutory Payment Delay,Compliance,50.0,Medium,False,Critical
+BORR-0061,EWS-031,Adverse News,External Risk,40.0,Medium,False,Critical
+BORR-0061,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0062,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0062,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0062,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0062,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0062,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0062,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0062,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0062,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0062,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0063,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Green
+BORR-0063,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Green
+BORR-0063,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0063,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Green
+BORR-0063,EWS-020,Auditor Change,Governance,100.0,Critical,False,Green
+BORR-0063,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Green
+BORR-0064,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Green
+BORR-0064,EWS-020,Auditor Change,Governance,100.0,Critical,False,Green
+BORR-0064,EWS-040,Inventory Valuation Change,Financial Reporting,75.0,High,False,Green
+BORR-0065,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Green
+BORR-0065,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Green
+BORR-0065,EWS-028,Litigation,Legal,50.0,Medium,True,Green
+BORR-0065,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Green
+BORR-0066,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0066,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0066,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0066,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0066,EWS-025,Group Company Stress,Group Risk,100.0,Critical,False,Critical
+BORR-0066,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0066,EWS-032,Customer Complaint Severity,Operational Risk,40.0,Medium,False,Critical
+BORR-0066,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0066,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0067,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0067,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0067,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0067,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0067,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0067,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0068,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0068,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0068,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0068,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0068,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0069,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0069,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0069,EWS-021,Management Change,Governance,100.0,Critical,False,Critical
+BORR-0069,EWS-037,ESG Action / Event,ESG,60.0,High,False,Critical
+BORR-0069,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0069,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0070,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0070,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0070,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0070,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0070,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0070,EWS-010,Increase in Inventory Days,Working Capital,75.0,High,False,Critical
+BORR-0070,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0070,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0070,EWS-018,External Rating Downgrade,Rating,50.0,Medium,True,Critical
+BORR-0070,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0070,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0070,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0070,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0070,EWS-030,Sector Growth Gap,Sector Risk,75.0,High,False,Critical
+BORR-0070,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0070,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0070,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0071,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0071,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0071,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0072,EWS-004,Payment Defaults,Repayment Behaviour,75.0,High,True,Critical
+BORR-0072,EWS-008,EBITDA Margin Deterioration,Financial Performance,75.0,High,False,Critical
+BORR-0072,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0072,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0072,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0072,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0072,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0072,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0072,EWS-026,Statutory Payment Delay,Compliance,50.0,Medium,False,Critical
+BORR-0072,EWS-033,Workforce Disruption,Operational Risk,50.0,Medium,False,Critical
+BORR-0072,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0072,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0072,CRITICAL-COMBO,Payment defaults + stretched creditors,Critical Combination,100.0,Critical,True,Critical
+BORR-0073,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0073,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0073,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0073,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0073,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0073,EWS-014,Increase in Unsecured Loans,Leverage,75.0,High,True,Critical
+BORR-0073,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0073,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0073,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0073,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0073,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0073,EWS-032,Customer Complaint Severity,Operational Risk,40.0,Medium,False,Critical
+BORR-0073,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0073,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0074,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0074,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0074,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0074,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0074,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0074,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0074,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0074,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0074,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0074,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0074,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0074,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0074,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0074,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0074,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0074,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0074,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0074,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0075,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Green
+BORR-0075,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Green
+BORR-0075,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Green
+BORR-0076,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0076,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0076,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0076,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0076,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0076,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0077,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0077,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0077,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0077,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0078,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0078,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0078,EWS-032,Customer Complaint Severity,Operational Risk,40.0,Medium,False,Critical
+BORR-0078,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0078,CRITICAL-COMBO,Payment defaults + stretched creditors,Critical Combination,100.0,Critical,True,Critical
+BORR-0079,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0079,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0079,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0079,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0079,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0079,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0079,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0080,EWS-004,Payment Defaults,Repayment Behaviour,75.0,High,True,Critical
+BORR-0080,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0080,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0080,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0080,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0080,EWS-018,External Rating Downgrade,Rating,75.0,High,True,Critical
+BORR-0080,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0080,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0080,EWS-029,Business Model Change,Business Risk,100.0,Critical,False,Critical
+BORR-0080,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0080,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0080,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0080,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0081,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0081,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0081,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0081,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0081,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0081,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0081,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0081,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0081,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0081,EWS-014,Increase in Unsecured Loans,Leverage,75.0,High,True,Critical
+BORR-0081,EWS-015,Finance Cost Growth Gap,Financial Performance,100.0,Critical,False,Critical
+BORR-0081,EWS-020,Auditor Change,Governance,100.0,Critical,False,Critical
+BORR-0081,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0081,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0081,EWS-030,Sector Growth Gap,Sector Risk,75.0,High,False,Critical
+BORR-0081,EWS-031,Adverse News,External Risk,80.0,Critical,False,Critical
+BORR-0081,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0081,EWS-039,Depreciation Change,Financial Performance,75.0,High,False,Critical
+BORR-0081,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0081,EWS-041,DSCR,Debt Servicing,100.0,Critical,True,Critical
+BORR-0081,EWS-042,Leverage,Leverage,75.0,High,False,Critical
+BORR-0081,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0081,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0082,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0082,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0082,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0082,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0082,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0082,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0082,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0083,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0083,EWS-009,Increase in Debtor Days,Working Capital,75.0,High,True,Critical
+BORR-0083,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0083,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0083,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0083,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0083,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0083,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0083,EWS-026,Statutory Payment Delay,Compliance,50.0,Medium,False,Critical
+BORR-0083,EWS-027,Regulatory Event,Compliance,100.0,Critical,True,Critical
+BORR-0083,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0083,EWS-032,Customer Complaint Severity,Operational Risk,60.0,High,False,Critical
+BORR-0083,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0083,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0083,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0083,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0083,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0084,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Green
+BORR-0084,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Green
+BORR-0085,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0085,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,75.0,High,False,Critical
+BORR-0085,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0085,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0085,EWS-006,Stock / Inventory Variance,Operations,75.0,High,False,Critical
+BORR-0085,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0085,EWS-009,Increase in Debtor Days,Working Capital,75.0,High,True,Critical
+BORR-0085,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0085,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0085,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0085,EWS-014,Increase in Unsecured Loans,Leverage,75.0,High,True,Critical
+BORR-0085,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0085,EWS-016,LC Events,Trade Finance,50.0,Medium,False,Critical
+BORR-0085,EWS-017,BG Events,Trade Finance,50.0,Medium,False,Critical
+BORR-0085,EWS-018,External Rating Downgrade,Rating,50.0,Medium,True,Critical
+BORR-0085,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0085,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0085,EWS-024,Related Party Transaction Increase,Governance,75.0,High,False,Critical
+BORR-0085,EWS-029,Business Model Change,Business Risk,100.0,Critical,False,Critical
+BORR-0085,EWS-030,Sector Growth Gap,Sector Risk,75.0,High,False,Critical
+BORR-0085,EWS-031,Adverse News,External Risk,40.0,Medium,False,Critical
+BORR-0085,EWS-037,ESG Action / Event,ESG,40.0,Medium,False,Critical
+BORR-0085,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0085,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0085,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0085,EWS-041,DSCR,Debt Servicing,50.0,Medium,True,Critical
+BORR-0085,EWS-042,Leverage,Leverage,75.0,High,False,Critical
+BORR-0085,EWS-043,Current Ratio,Liquidity,75.0,High,False,Critical
+BORR-0085,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0086,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0086,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0086,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0086,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0086,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0086,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0086,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0086,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0086,EWS-041,DSCR,Debt Servicing,50.0,Medium,True,Critical
+BORR-0086,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0086,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0087,EWS-004,Payment Defaults,Repayment Behaviour,75.0,High,True,Critical
+BORR-0087,CRITICAL-COMBO,Payment defaults + stretched creditors,Critical Combination,100.0,Critical,True,Critical
+BORR-0088,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0088,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0088,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0088,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0088,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0088,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0088,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0088,EWS-025,Group Company Stress,Group Risk,100.0,Critical,False,Critical
+BORR-0088,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0088,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0088,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0088,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0088,CRITICAL-COMBO,Payment defaults + stretched creditors,Critical Combination,100.0,Critical,True,Critical
+BORR-0089,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0089,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0089,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0089,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0089,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0090,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0090,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0090,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0090,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0090,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0090,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0090,EWS-031,Adverse News,External Risk,40.0,Medium,False,Critical
+BORR-0090,EWS-032,Customer Complaint Severity,Operational Risk,60.0,High,False,Critical
+BORR-0090,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0090,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0090,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0091,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Green
+BORR-0091,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Green
+BORR-0091,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Green
+BORR-0091,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Green
+BORR-0092,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0092,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0092,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0092,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0093,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0093,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0093,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0093,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0094,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0094,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0094,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0094,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0094,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0094,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0094,EWS-035,Adverse Site Visit,Operations,40.0,Medium,True,Critical
+BORR-0094,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0094,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0094,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0094,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0094,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0095,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0095,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0095,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0095,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0095,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0095,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0095,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0095,EWS-032,Customer Complaint Severity,Operational Risk,40.0,Medium,False,Critical
+BORR-0095,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0095,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0095,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0096,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0096,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0096,EWS-004,Payment Defaults,Repayment Behaviour,100.0,Critical,True,Critical
+BORR-0096,EWS-005,Non-Core Repayment Source,Repayment Behaviour,75.0,High,True,Critical
+BORR-0096,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0096,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0096,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0096,EWS-010,Increase in Inventory Days,Working Capital,75.0,High,False,Critical
+BORR-0096,EWS-012,Increase in Provisions,Financial Performance,100.0,Critical,True,Critical
+BORR-0096,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0096,EWS-021,Management Change,Governance,100.0,Critical,False,Critical
+BORR-0096,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0096,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0096,EWS-025,Group Company Stress,Group Risk,100.0,Critical,False,Critical
+BORR-0096,EWS-026,Statutory Payment Delay,Compliance,50.0,Medium,False,Critical
+BORR-0096,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0096,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0096,EWS-031,Adverse News,External Risk,40.0,Medium,False,Critical
+BORR-0096,EWS-032,Customer Complaint Severity,Operational Risk,60.0,High,False,Critical
+BORR-0096,EWS-033,Workforce Disruption,Operational Risk,50.0,Medium,False,Critical
+BORR-0096,EWS-035,Adverse Site Visit,Operations,40.0,Medium,True,Critical
+BORR-0096,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0096,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0096,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0096,EWS-041,DSCR,Debt Servicing,50.0,Medium,True,Critical
+BORR-0096,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0096,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0096,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0097,EWS-027,Regulatory Event,Compliance,100.0,Critical,True,Critical
+BORR-0097,EWS-037,ESG Action / Event,ESG,40.0,Medium,False,Critical
+BORR-0097,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0098,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0098,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0098,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0098,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0098,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0098,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0098,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0099,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0099,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0099,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0099,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0099,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0099,EWS-028,Litigation,Legal,75.0,High,True,Critical
+BORR-0099,EWS-032,Customer Complaint Severity,Operational Risk,40.0,Medium,False,Critical
+BORR-0099,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0099,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0100,EWS-004,Payment Defaults,Repayment Behaviour,75.0,High,True,Critical
+BORR-0100,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0100,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0100,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0100,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0100,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0100,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0100,EWS-021,Management Change,Governance,100.0,Critical,False,Critical
+BORR-0100,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0100,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0100,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0100,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0100,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0101,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0101,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0101,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0101,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0101,EWS-021,Management Change,Governance,100.0,Critical,False,Critical
+BORR-0101,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0101,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0101,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0101,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0101,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0101,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0101,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0102,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0102,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Green
+BORR-0102,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Green
+BORR-0103,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0103,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Green
+BORR-0103,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Green
+BORR-0103,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Green
+BORR-0104,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Green
+BORR-0104,EWS-042,Leverage,Leverage,50.0,Medium,False,Green
+BORR-0105,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0105,EWS-004,Payment Defaults,Repayment Behaviour,75.0,High,True,Critical
+BORR-0105,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0105,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0105,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0105,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0105,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0105,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0105,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0105,EWS-037,ESG Action / Event,ESG,40.0,Medium,False,Critical
+BORR-0105,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0105,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0105,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0105,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0105,CRITICAL-COMBO,Payment defaults + stretched creditors,Critical Combination,100.0,Critical,True,Critical
+BORR-0106,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0106,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0106,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0106,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0106,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0106,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0106,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0106,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0106,EWS-035,Adverse Site Visit,Operations,40.0,Medium,True,Critical
+BORR-0106,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0107,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Green
+BORR-0107,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Green
+BORR-0107,EWS-018,External Rating Downgrade,Rating,50.0,Medium,True,Green
+BORR-0108,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0108,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0108,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0108,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0108,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0109,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0109,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0109,EWS-027,Regulatory Event,Compliance,100.0,Critical,True,Critical
+BORR-0109,EWS-030,Sector Growth Gap,Sector Risk,75.0,High,False,Critical
+BORR-0109,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0109,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0110,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0110,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,75.0,High,False,Critical
+BORR-0110,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0110,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0110,EWS-009,Increase in Debtor Days,Working Capital,75.0,High,True,Critical
+BORR-0110,EWS-010,Increase in Inventory Days,Working Capital,75.0,High,False,Critical
+BORR-0110,EWS-011,Increase in Creditor Days,Working Capital,75.0,High,True,Critical
+BORR-0110,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0110,EWS-014,Increase in Unsecured Loans,Leverage,75.0,High,True,Critical
+BORR-0110,EWS-015,Finance Cost Growth Gap,Financial Performance,75.0,High,False,Critical
+BORR-0110,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0110,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0110,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0110,EWS-028,Litigation,Legal,75.0,High,True,Critical
+BORR-0110,EWS-030,Sector Growth Gap,Sector Risk,75.0,High,False,Critical
+BORR-0110,EWS-033,Workforce Disruption,Operational Risk,50.0,Medium,False,Critical
+BORR-0110,EWS-035,Adverse Site Visit,Operations,60.0,High,True,Critical
+BORR-0110,EWS-037,ESG Action / Event,ESG,40.0,Medium,False,Critical
+BORR-0110,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0110,EWS-040,Inventory Valuation Change,Financial Reporting,75.0,High,False,Critical
+BORR-0110,EWS-041,DSCR,Debt Servicing,50.0,Medium,True,Critical
+BORR-0110,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0110,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0110,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0111,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0111,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0111,EWS-025,Group Company Stress,Group Risk,100.0,Critical,False,Critical
+BORR-0111,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0112,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0112,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0112,EWS-004,Payment Defaults,Repayment Behaviour,75.0,High,True,Critical
+BORR-0112,EWS-005,Non-Core Repayment Source,Repayment Behaviour,75.0,High,True,Critical
+BORR-0112,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0112,EWS-008,EBITDA Margin Deterioration,Financial Performance,75.0,High,False,Critical
+BORR-0112,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0112,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0112,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0112,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0112,EWS-014,Increase in Unsecured Loans,Leverage,75.0,High,True,Critical
+BORR-0112,EWS-015,Finance Cost Growth Gap,Financial Performance,75.0,High,False,Critical
+BORR-0112,EWS-016,LC Events,Trade Finance,50.0,Medium,False,Critical
+BORR-0112,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0112,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0112,EWS-026,Statutory Payment Delay,Compliance,50.0,Medium,False,Critical
+BORR-0112,EWS-027,Regulatory Event,Compliance,100.0,Critical,True,Critical
+BORR-0112,EWS-028,Litigation,Legal,75.0,High,True,Critical
+BORR-0112,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0112,EWS-031,Adverse News,External Risk,40.0,Medium,False,Critical
+BORR-0112,EWS-037,ESG Action / Event,ESG,40.0,Medium,False,Critical
+BORR-0112,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0112,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0112,EWS-041,DSCR,Debt Servicing,50.0,Medium,True,Critical
+BORR-0112,EWS-042,Leverage,Leverage,75.0,High,False,Critical
+BORR-0112,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0112,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0113,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0113,EWS-025,Group Company Stress,Group Risk,100.0,Critical,False,Critical
+BORR-0113,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0113,CRITICAL-COMBO,Payment defaults + stretched creditors,Critical Combination,100.0,Critical,True,Critical
+BORR-0114,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0114,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Green
+BORR-0114,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Green
+BORR-0115,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0115,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0115,EWS-035,Adverse Site Visit,Operations,40.0,Medium,True,Critical
+BORR-0115,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0115,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0116,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Green
+BORR-0116,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Green
+BORR-0116,EWS-028,Litigation,Legal,50.0,Medium,True,Green
+BORR-0116,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Green
+BORR-0117,EWS-004,Payment Defaults,Repayment Behaviour,75.0,High,True,Green
+BORR-0117,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0117,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Green
+BORR-0117,EWS-042,Leverage,Leverage,50.0,Medium,False,Green
+BORR-0118,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0118,EWS-018,External Rating Downgrade,Rating,50.0,Medium,True,Critical
+BORR-0118,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0118,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0119,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0119,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0119,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0119,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0119,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0119,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0119,EWS-037,ESG Action / Event,ESG,40.0,Medium,False,Critical
+BORR-0119,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0119,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0119,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0119,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0120,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0120,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0120,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0120,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0120,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0120,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0120,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0120,EWS-031,Adverse News,External Risk,40.0,Medium,False,Critical
+BORR-0120,EWS-032,Customer Complaint Severity,Operational Risk,60.0,High,False,Critical
+BORR-0120,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0120,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0120,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0121,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0121,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0121,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0121,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0121,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0121,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0121,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0121,EWS-017,BG Events,Trade Finance,50.0,Medium,False,Critical
+BORR-0121,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0121,EWS-028,Litigation,Legal,75.0,High,True,Critical
+BORR-0121,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0121,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0122,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Green
+BORR-0122,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Green
+BORR-0122,EWS-028,Litigation,Legal,75.0,High,True,Green
+BORR-0123,EWS-001,High Bank Utilization,Liquidity,75.0,High,False,Critical
+BORR-0123,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,100.0,Critical,False,Critical
+BORR-0123,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0123,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0123,EWS-005,Non-Core Repayment Source,Repayment Behaviour,75.0,High,True,Critical
+BORR-0123,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0123,EWS-008,EBITDA Margin Deterioration,Financial Performance,75.0,High,False,Critical
+BORR-0123,EWS-009,Increase in Debtor Days,Working Capital,75.0,High,True,Critical
+BORR-0123,EWS-010,Increase in Inventory Days,Working Capital,75.0,High,False,Critical
+BORR-0123,EWS-011,Increase in Creditor Days,Working Capital,75.0,High,True,Critical
+BORR-0123,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0123,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0123,EWS-015,Finance Cost Growth Gap,Financial Performance,100.0,Critical,False,Critical
+BORR-0123,EWS-022,Promoter Pledge,Promoter,100.0,Critical,True,Critical
+BORR-0123,EWS-023,Promoter Holding Decline,Promoter,75.0,High,False,Critical
+BORR-0123,EWS-024,Related Party Transaction Increase,Governance,75.0,High,False,Critical
+BORR-0123,EWS-025,Group Company Stress,Group Risk,100.0,Critical,False,Critical
+BORR-0123,EWS-028,Litigation,Legal,100.0,Critical,True,Critical
+BORR-0123,EWS-030,Sector Growth Gap,Sector Risk,75.0,High,False,Critical
+BORR-0123,EWS-031,Adverse News,External Risk,40.0,Medium,False,Critical
+BORR-0123,EWS-032,Customer Complaint Severity,Operational Risk,60.0,High,False,Critical
+BORR-0123,EWS-033,Workforce Disruption,Operational Risk,50.0,Medium,False,Critical
+BORR-0123,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0123,EWS-039,Depreciation Change,Financial Performance,75.0,High,False,Critical
+BORR-0123,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0123,EWS-041,DSCR,Debt Servicing,100.0,Critical,True,Critical
+BORR-0123,EWS-042,Leverage,Leverage,75.0,High,False,Critical
+BORR-0123,EWS-043,Current Ratio,Liquidity,75.0,High,False,Critical
+BORR-0123,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0124,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0124,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,75.0,High,False,Critical
+BORR-0124,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0124,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0124,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0124,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0124,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0124,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0124,EWS-010,Increase in Inventory Days,Working Capital,75.0,High,False,Critical
+BORR-0124,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0124,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0124,EWS-014,Increase in Unsecured Loans,Leverage,75.0,High,True,Critical
+BORR-0124,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0124,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0124,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0124,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0124,EWS-026,Statutory Payment Delay,Compliance,75.0,High,False,Critical
+BORR-0124,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0124,EWS-030,Sector Growth Gap,Sector Risk,75.0,High,False,Critical
+BORR-0124,EWS-032,Customer Complaint Severity,Operational Risk,60.0,High,False,Critical
+BORR-0124,EWS-033,Workforce Disruption,Operational Risk,50.0,Medium,False,Critical
+BORR-0124,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0124,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0124,EWS-040,Inventory Valuation Change,Financial Reporting,100.0,Critical,False,Critical
+BORR-0124,EWS-041,DSCR,Debt Servicing,100.0,Critical,True,Critical
+BORR-0124,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0124,EWS-043,Current Ratio,Liquidity,75.0,High,False,Critical
+BORR-0124,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0125,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0125,EWS-020,Auditor Change,Governance,100.0,Critical,False,Critical
+BORR-0125,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0125,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0126,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,75.0,High,False,Green
+BORR-0126,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Green
+BORR-0126,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0126,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Green
+BORR-0126,EWS-032,Customer Complaint Severity,Operational Risk,40.0,Medium,False,Green
+BORR-0126,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Green
+BORR-0127,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0127,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0127,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0127,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0127,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0127,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0128,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0128,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0128,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0128,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0128,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0128,EWS-027,Regulatory Event,Compliance,100.0,Critical,True,Critical
+BORR-0128,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0129,EWS-004,Payment Defaults,Repayment Behaviour,75.0,High,True,Yellow
+BORR-0129,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Yellow
+BORR-0129,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Yellow
+BORR-0129,EWS-015,Finance Cost Growth Gap,Financial Performance,75.0,High,False,Yellow
+BORR-0129,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Yellow
+BORR-0129,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Yellow
+BORR-0129,EWS-028,Litigation,Legal,50.0,Medium,True,Yellow
+BORR-0129,EWS-030,Sector Growth Gap,Sector Risk,75.0,High,False,Yellow
+BORR-0129,EWS-035,Adverse Site Visit,Operations,60.0,High,True,Yellow
+BORR-0129,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Yellow
+BORR-0130,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0130,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0130,EWS-008,EBITDA Margin Deterioration,Financial Performance,75.0,High,False,Critical
+BORR-0130,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0130,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0130,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0130,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0130,EWS-026,Statutory Payment Delay,Compliance,50.0,Medium,False,Critical
+BORR-0130,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0130,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0130,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0130,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0131,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0131,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0131,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0131,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0131,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0131,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0131,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0131,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0131,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0131,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0131,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0132,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0132,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0132,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0132,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0133,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0133,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0133,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0133,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0133,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0134,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0134,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Green
+BORR-0135,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Green
+BORR-0135,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0135,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Green
+BORR-0136,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0136,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Green
+BORR-0137,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,75.0,High,False,Critical
+BORR-0137,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0137,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0137,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0137,EWS-008,EBITDA Margin Deterioration,Financial Performance,75.0,High,False,Critical
+BORR-0137,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0137,EWS-010,Increase in Inventory Days,Working Capital,75.0,High,False,Critical
+BORR-0137,EWS-011,Increase in Creditor Days,Working Capital,75.0,High,True,Critical
+BORR-0137,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0137,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0137,EWS-015,Finance Cost Growth Gap,Financial Performance,100.0,Critical,False,Critical
+BORR-0137,EWS-017,BG Events,Trade Finance,50.0,Medium,False,Critical
+BORR-0137,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0137,EWS-024,Related Party Transaction Increase,Governance,75.0,High,False,Critical
+BORR-0137,EWS-025,Group Company Stress,Group Risk,100.0,Critical,False,Critical
+BORR-0137,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0137,EWS-031,Adverse News,External Risk,60.0,High,False,Critical
+BORR-0137,EWS-038,Carbon Emission Increase,Climate Risk,100.0,Critical,False,Critical
+BORR-0137,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0137,EWS-040,Inventory Valuation Change,Financial Reporting,75.0,High,False,Critical
+BORR-0137,EWS-041,DSCR,Debt Servicing,50.0,Medium,True,Critical
+BORR-0137,EWS-042,Leverage,Leverage,75.0,High,False,Critical
+BORR-0137,EWS-043,Current Ratio,Liquidity,75.0,High,False,Critical
+BORR-0137,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0138,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Green
+BORR-0138,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Green
+BORR-0138,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Green
+BORR-0138,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Green
+BORR-0139,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0139,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0139,EWS-005,Non-Core Repayment Source,Repayment Behaviour,75.0,High,True,Critical
+BORR-0139,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0139,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0139,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0139,EWS-014,Increase in Unsecured Loans,Leverage,75.0,High,True,Critical
+BORR-0139,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0139,EWS-016,LC Events,Trade Finance,50.0,Medium,False,Critical
+BORR-0139,EWS-018,External Rating Downgrade,Rating,50.0,Medium,True,Critical
+BORR-0139,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0139,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0139,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0139,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0139,EWS-031,Adverse News,External Risk,40.0,Medium,False,Critical
+BORR-0139,EWS-032,Customer Complaint Severity,Operational Risk,60.0,High,False,Critical
+BORR-0139,EWS-035,Adverse Site Visit,Operations,40.0,Medium,True,Critical
+BORR-0139,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0139,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0139,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0139,EWS-041,DSCR,Debt Servicing,100.0,Critical,True,Critical
+BORR-0139,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0139,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0139,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0140,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0140,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0140,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0140,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0140,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0140,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0140,CRITICAL-COMBO,Payment defaults + stretched creditors,Critical Combination,100.0,Critical,True,Critical
+BORR-0141,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0141,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0141,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0141,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0141,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0141,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0141,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0141,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0141,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0141,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0141,EWS-030,Sector Growth Gap,Sector Risk,75.0,High,False,Critical
+BORR-0141,EWS-032,Customer Complaint Severity,Operational Risk,60.0,High,False,Critical
+BORR-0141,EWS-035,Adverse Site Visit,Operations,40.0,Medium,True,Critical
+BORR-0141,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0141,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0141,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0141,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0142,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0142,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0142,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0142,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0142,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0142,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0142,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0142,EWS-025,Group Company Stress,Group Risk,100.0,Critical,False,Critical
+BORR-0142,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0142,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0142,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0142,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0142,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0143,EWS-001,High Bank Utilization,Liquidity,75.0,High,False,Critical
+BORR-0143,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,100.0,Critical,False,Critical
+BORR-0143,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0143,EWS-004,Payment Defaults,Repayment Behaviour,100.0,Critical,True,Critical
+BORR-0143,EWS-005,Non-Core Repayment Source,Repayment Behaviour,75.0,High,True,Critical
+BORR-0143,EWS-006,Stock / Inventory Variance,Operations,75.0,High,False,Critical
+BORR-0143,EWS-008,EBITDA Margin Deterioration,Financial Performance,75.0,High,False,Critical
+BORR-0143,EWS-009,Increase in Debtor Days,Working Capital,100.0,Critical,True,Critical
+BORR-0143,EWS-010,Increase in Inventory Days,Working Capital,75.0,High,False,Critical
+BORR-0143,EWS-011,Increase in Creditor Days,Working Capital,75.0,High,True,Critical
+BORR-0143,EWS-012,Increase in Provisions,Financial Performance,100.0,Critical,True,Critical
+BORR-0143,EWS-014,Increase in Unsecured Loans,Leverage,100.0,Critical,True,Critical
+BORR-0143,EWS-015,Finance Cost Growth Gap,Financial Performance,100.0,Critical,False,Critical
+BORR-0143,EWS-022,Promoter Pledge,Promoter,100.0,Critical,True,Critical
+BORR-0143,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0143,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0143,EWS-026,Statutory Payment Delay,Compliance,50.0,Medium,False,Critical
+BORR-0143,EWS-028,Litigation,Legal,100.0,Critical,True,Critical
+BORR-0143,EWS-030,Sector Growth Gap,Sector Risk,100.0,Critical,False,Critical
+BORR-0143,EWS-032,Customer Complaint Severity,Operational Risk,80.0,Critical,False,Critical
+BORR-0143,EWS-035,Adverse Site Visit,Operations,60.0,High,True,Critical
+BORR-0143,EWS-037,ESG Action / Event,ESG,40.0,Medium,False,Critical
+BORR-0143,EWS-038,Carbon Emission Increase,Climate Risk,100.0,Critical,False,Critical
+BORR-0143,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0143,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0143,EWS-041,DSCR,Debt Servicing,100.0,Critical,True,Critical
+BORR-0143,EWS-042,Leverage,Leverage,75.0,High,False,Critical
+BORR-0143,EWS-043,Current Ratio,Liquidity,100.0,Critical,False,Critical
+BORR-0143,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0144,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0144,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0144,EWS-028,Litigation,Legal,75.0,High,True,Critical
+BORR-0144,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0144,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0145,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0145,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Green
+BORR-0145,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Green
+BORR-0145,EWS-026,Statutory Payment Delay,Compliance,50.0,Medium,False,Green
+BORR-0146,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0146,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,75.0,High,False,Critical
+BORR-0146,EWS-005,Non-Core Repayment Source,Repayment Behaviour,75.0,High,True,Critical
+BORR-0146,EWS-006,Stock / Inventory Variance,Operations,75.0,High,False,Critical
+BORR-0146,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0146,EWS-009,Increase in Debtor Days,Working Capital,75.0,High,True,Critical
+BORR-0146,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0146,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0146,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0146,EWS-020,Auditor Change,Governance,100.0,Critical,False,Critical
+BORR-0146,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0146,EWS-025,Group Company Stress,Group Risk,100.0,Critical,False,Critical
+BORR-0146,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0146,EWS-030,Sector Growth Gap,Sector Risk,100.0,Critical,False,Critical
+BORR-0146,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0146,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0146,EWS-040,Inventory Valuation Change,Financial Reporting,75.0,High,False,Critical
+BORR-0146,EWS-041,DSCR,Debt Servicing,50.0,Medium,True,Critical
+BORR-0146,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0146,EWS-043,Current Ratio,Liquidity,100.0,Critical,False,Critical
+BORR-0146,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0147,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0147,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Green
+BORR-0147,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Green
+BORR-0147,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Green
+BORR-0147,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Green
+BORR-0148,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0148,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0148,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0148,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0148,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0148,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0148,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0148,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0148,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0148,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0148,EWS-032,Customer Complaint Severity,Operational Risk,40.0,Medium,False,Critical
+BORR-0148,EWS-036,Round Tripping,Fraud Risk,100.0,Critical,True,Critical
+BORR-0148,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0148,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0148,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0149,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0149,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,100.0,Critical,False,Critical
+BORR-0149,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0149,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0149,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0149,EWS-006,Stock / Inventory Variance,Operations,75.0,High,False,Critical
+BORR-0149,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0149,EWS-009,Increase in Debtor Days,Working Capital,75.0,High,True,Critical
+BORR-0149,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0149,EWS-011,Increase in Creditor Days,Working Capital,75.0,High,True,Critical
+BORR-0149,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0149,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0149,EWS-015,Finance Cost Growth Gap,Financial Performance,100.0,Critical,False,Critical
+BORR-0149,EWS-018,External Rating Downgrade,Rating,50.0,Medium,True,Critical
+BORR-0149,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0149,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0149,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0149,EWS-025,Group Company Stress,Group Risk,100.0,Critical,False,Critical
+BORR-0149,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0149,EWS-031,Adverse News,External Risk,80.0,Critical,False,Critical
+BORR-0149,EWS-035,Adverse Site Visit,Operations,60.0,High,True,Critical
+BORR-0149,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0149,EWS-039,Depreciation Change,Financial Performance,75.0,High,False,Critical
+BORR-0149,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0149,EWS-041,DSCR,Debt Servicing,100.0,Critical,True,Critical
+BORR-0149,EWS-042,Leverage,Leverage,75.0,High,False,Critical
+BORR-0149,EWS-043,Current Ratio,Liquidity,100.0,Critical,False,Critical
+BORR-0149,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0150,EWS-004,Payment Defaults,Repayment Behaviour,75.0,High,True,Critical
+BORR-0150,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0150,EWS-008,EBITDA Margin Deterioration,Financial Performance,75.0,High,False,Critical
+BORR-0150,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0150,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0150,EWS-018,External Rating Downgrade,Rating,50.0,Medium,True,Critical
+BORR-0150,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0150,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0150,EWS-030,Sector Growth Gap,Sector Risk,75.0,High,False,Critical
+BORR-0150,EWS-031,Adverse News,External Risk,40.0,Medium,False,Critical
+BORR-0150,EWS-035,Adverse Site Visit,Operations,40.0,Medium,True,Critical
+BORR-0150,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0150,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0150,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0151,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0151,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0151,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0151,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0151,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0151,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0151,EWS-031,Adverse News,External Risk,40.0,Medium,False,Critical
+BORR-0151,EWS-041,DSCR,Debt Servicing,50.0,Medium,True,Critical
+BORR-0151,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0152,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0152,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0152,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0152,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0152,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0152,EWS-008,EBITDA Margin Deterioration,Financial Performance,75.0,High,False,Critical
+BORR-0152,EWS-009,Increase in Debtor Days,Working Capital,75.0,High,True,Critical
+BORR-0152,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0152,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0152,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0152,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0152,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0152,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0152,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0152,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0152,EWS-035,Adverse Site Visit,Operations,40.0,Medium,True,Critical
+BORR-0152,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0152,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0152,EWS-040,Inventory Valuation Change,Financial Reporting,75.0,High,False,Critical
+BORR-0152,EWS-041,DSCR,Debt Servicing,100.0,Critical,True,Critical
+BORR-0152,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0152,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0152,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0153,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0153,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0153,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0153,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0153,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0153,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0153,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0153,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0153,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0153,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0153,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0153,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0153,EWS-038,Carbon Emission Increase,Climate Risk,100.0,Critical,False,Critical
+BORR-0153,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0153,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0153,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0154,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Green
+BORR-0154,EWS-020,Auditor Change,Governance,100.0,Critical,False,Green
+BORR-0154,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Green
+BORR-0154,EWS-037,ESG Action / Event,ESG,40.0,Medium,False,Green
+BORR-0154,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Green
+BORR-0154,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Green
+BORR-0155,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0155,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0155,CRITICAL-COMBO,Payment defaults + stretched creditors,Critical Combination,100.0,Critical,True,Critical
+BORR-0156,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0156,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0156,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0156,CRITICAL-COMBO,Payment defaults + stretched creditors,Critical Combination,100.0,Critical,True,Critical
+BORR-0157,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0157,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0157,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0157,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0157,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0158,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0158,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0158,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0158,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0158,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0159,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0159,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0159,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0159,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0159,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0159,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0159,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0159,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0159,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0159,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0159,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0159,EWS-032,Customer Complaint Severity,Operational Risk,60.0,High,False,Critical
+BORR-0159,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0159,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0160,EWS-004,Payment Defaults,Repayment Behaviour,75.0,High,True,Critical
+BORR-0160,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0160,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0160,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0160,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0160,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0160,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0160,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0160,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0160,EWS-025,Group Company Stress,Group Risk,100.0,Critical,False,Critical
+BORR-0160,EWS-028,Litigation,Legal,75.0,High,True,Critical
+BORR-0160,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0160,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0160,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0160,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0161,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Green
+BORR-0162,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Green
+BORR-0162,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Green
+BORR-0163,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0163,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0163,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0163,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0163,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0163,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0163,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0163,EWS-028,Litigation,Legal,75.0,High,True,Critical
+BORR-0163,EWS-037,ESG Action / Event,ESG,40.0,Medium,False,Critical
+BORR-0163,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0163,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0163,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0164,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0164,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0164,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0164,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0165,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0165,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0165,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0165,EWS-005,Non-Core Repayment Source,Repayment Behaviour,75.0,High,True,Critical
+BORR-0165,EWS-008,EBITDA Margin Deterioration,Financial Performance,100.0,Critical,False,Critical
+BORR-0165,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0165,EWS-011,Increase in Creditor Days,Working Capital,75.0,High,True,Critical
+BORR-0165,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0165,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0165,EWS-015,Finance Cost Growth Gap,Financial Performance,75.0,High,False,Critical
+BORR-0165,EWS-021,Management Change,Governance,100.0,Critical,False,Critical
+BORR-0165,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0165,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0165,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0165,EWS-028,Litigation,Legal,75.0,High,True,Critical
+BORR-0165,EWS-030,Sector Growth Gap,Sector Risk,100.0,Critical,False,Critical
+BORR-0165,EWS-031,Adverse News,External Risk,40.0,Medium,False,Critical
+BORR-0165,EWS-033,Workforce Disruption,Operational Risk,50.0,Medium,False,Critical
+BORR-0165,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0165,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0165,EWS-041,DSCR,Debt Servicing,100.0,Critical,True,Critical
+BORR-0165,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0165,EWS-043,Current Ratio,Liquidity,75.0,High,False,Critical
+BORR-0165,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0166,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0166,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0166,EWS-004,Payment Defaults,Repayment Behaviour,75.0,High,True,Critical
+BORR-0166,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0166,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0166,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0166,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0166,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0166,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0166,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0166,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0166,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0166,EWS-040,Inventory Valuation Change,Financial Reporting,75.0,High,False,Critical
+BORR-0166,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0166,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0167,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0167,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0167,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0167,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0167,EWS-021,Management Change,Governance,100.0,Critical,False,Critical
+BORR-0167,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0167,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0167,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0167,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0168,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Yellow
+BORR-0168,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Yellow
+BORR-0168,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Yellow
+BORR-0168,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Yellow
+BORR-0168,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Yellow
+BORR-0168,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Yellow
+BORR-0168,EWS-028,Litigation,Legal,50.0,Medium,True,Yellow
+BORR-0168,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Yellow
+BORR-0168,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Yellow
+BORR-0168,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Yellow
+BORR-0168,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Yellow
+BORR-0169,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0169,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0169,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0169,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0169,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0169,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0170,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0170,EWS-028,Litigation,Legal,100.0,Critical,True,Critical
+BORR-0170,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0170,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0170,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0170,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0171,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0171,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0171,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0171,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0171,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0171,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0172,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0172,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0172,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0172,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0172,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0172,EWS-028,Litigation,Legal,75.0,High,True,Critical
+BORR-0172,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0173,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0173,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0173,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0173,EWS-036,Round Tripping,Fraud Risk,100.0,Critical,True,Critical
+BORR-0173,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0173,CRITICAL-COMBO,Payment defaults + stretched creditors,Critical Combination,100.0,Critical,True,Critical
+BORR-0174,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0174,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0174,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0174,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0174,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0174,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0174,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0175,EWS-008,EBITDA Margin Deterioration,Financial Performance,75.0,High,False,Critical
+BORR-0175,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0175,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0175,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0175,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0175,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0175,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0175,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0176,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0176,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0176,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0176,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0176,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0177,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0177,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0177,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0177,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0177,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0177,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0177,EWS-011,Increase in Creditor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0177,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0177,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0177,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0177,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0177,EWS-035,Adverse Site Visit,Operations,80.0,Critical,True,Critical
+BORR-0177,EWS-038,Carbon Emission Increase,Climate Risk,75.0,High,False,Critical
+BORR-0177,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0177,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0177,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0178,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0178,EWS-004,Payment Defaults,Repayment Behaviour,75.0,High,True,Critical
+BORR-0178,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0178,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0178,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0178,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0178,EWS-029,Business Model Change,Business Risk,100.0,Critical,False,Critical
+BORR-0178,EWS-030,Sector Growth Gap,Sector Risk,75.0,High,False,Critical
+BORR-0178,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0178,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0178,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0179,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0179,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0179,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0179,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0179,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0179,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0179,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0179,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0179,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0179,EWS-026,Statutory Payment Delay,Compliance,50.0,Medium,False,Critical
+BORR-0179,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0179,EWS-035,Adverse Site Visit,Operations,40.0,Medium,True,Critical
+BORR-0179,EWS-036,Round Tripping,Fraud Risk,100.0,Critical,True,Critical
+BORR-0179,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0179,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0180,EWS-008,EBITDA Margin Deterioration,Financial Performance,75.0,High,False,Critical
+BORR-0180,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0180,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0180,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0180,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0181,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0181,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0181,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0181,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0182,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0182,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0182,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0182,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0182,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0183,EWS-004,Payment Defaults,Repayment Behaviour,75.0,High,True,Critical
+BORR-0183,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0183,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0183,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0183,EWS-037,ESG Action / Event,ESG,40.0,Medium,False,Critical
+BORR-0183,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0183,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0184,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0184,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0184,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0184,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0184,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0184,EWS-014,Increase in Unsecured Loans,Leverage,75.0,High,True,Critical
+BORR-0184,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0184,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0184,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0184,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0184,EWS-026,Statutory Payment Delay,Compliance,50.0,Medium,False,Critical
+BORR-0184,EWS-031,Adverse News,External Risk,60.0,High,False,Critical
+BORR-0184,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0184,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0184,EWS-040,Inventory Valuation Change,Financial Reporting,75.0,High,False,Critical
+BORR-0184,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0185,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,75.0,High,False,Critical
+BORR-0185,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0185,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0186,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0186,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0186,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0186,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0186,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0186,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0187,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,75.0,High,False,Green
+BORR-0187,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Green
+BORR-0188,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0188,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0188,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0188,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0189,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0189,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0189,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0189,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0189,EWS-012,Increase in Provisions,Financial Performance,75.0,High,True,Critical
+BORR-0189,EWS-014,Increase in Unsecured Loans,Leverage,75.0,High,True,Critical
+BORR-0189,EWS-015,Finance Cost Growth Gap,Financial Performance,75.0,High,False,Critical
+BORR-0189,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0189,EWS-024,Related Party Transaction Increase,Governance,50.0,Medium,False,Critical
+BORR-0189,EWS-026,Statutory Payment Delay,Compliance,50.0,Medium,False,Critical
+BORR-0189,EWS-028,Litigation,Legal,100.0,Critical,True,Critical
+BORR-0189,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0189,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0189,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0189,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0190,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0190,EWS-006,Stock / Inventory Variance,Operations,50.0,Medium,False,Critical
+BORR-0190,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0190,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0190,CRITICAL-COMBO,Payment defaults + stretched creditors,Critical Combination,100.0,Critical,True,Critical
+BORR-0191,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0191,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0191,EWS-025,Group Company Stress,Group Risk,100.0,Critical,False,Critical
+BORR-0191,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0192,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0192,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Green
+BORR-0193,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0193,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0193,EWS-039,Depreciation Change,Financial Performance,50.0,Medium,False,Critical
+BORR-0193,CRITICAL-COMBO,Payment defaults + stretched creditors,Critical Combination,100.0,Critical,True,Critical
+BORR-0194,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0194,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0194,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0194,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0195,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Green
+BORR-0195,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Green
+BORR-0195,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Green
+BORR-0195,EWS-032,Customer Complaint Severity,Operational Risk,60.0,High,False,Green
+BORR-0195,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Green
+BORR-0196,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0196,EWS-015,Finance Cost Growth Gap,Financial Performance,75.0,High,False,Critical
+BORR-0196,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0196,EWS-037,ESG Action / Event,ESG,40.0,Medium,False,Critical
+BORR-0196,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0196,CRITICAL-COMBO,Payment defaults + stretched creditors,Critical Combination,100.0,Critical,True,Critical
+BORR-0197,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0197,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0197,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0197,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0197,EWS-028,Litigation,Legal,75.0,High,True,Critical
+BORR-0197,EWS-037,ESG Action / Event,ESG,40.0,Medium,False,Critical
+BORR-0197,EWS-038,Carbon Emission Increase,Climate Risk,100.0,Critical,False,Critical
+BORR-0197,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical
+BORR-0198,EWS-001,High Bank Utilization,Liquidity,50.0,Medium,False,Critical
+BORR-0198,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0198,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0198,EWS-004,Payment Defaults,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0198,EWS-005,Non-Core Repayment Source,Repayment Behaviour,75.0,High,True,Critical
+BORR-0198,EWS-008,EBITDA Margin Deterioration,Financial Performance,50.0,Medium,False,Critical
+BORR-0198,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0198,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0198,EWS-011,Increase in Creditor Days,Working Capital,75.0,High,True,Critical
+BORR-0198,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0198,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0198,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0198,EWS-021,Management Change,Governance,100.0,Critical,False,Critical
+BORR-0198,EWS-022,Promoter Pledge,Promoter,75.0,High,True,Critical
+BORR-0198,EWS-023,Promoter Holding Decline,Promoter,50.0,Medium,False,Critical
+BORR-0198,EWS-024,Related Party Transaction Increase,Governance,75.0,High,False,Critical
+BORR-0198,EWS-025,Group Company Stress,Group Risk,100.0,Critical,False,Critical
+BORR-0198,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0198,EWS-029,Business Model Change,Business Risk,100.0,Critical,False,Critical
+BORR-0198,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0198,EWS-032,Customer Complaint Severity,Operational Risk,40.0,Medium,False,Critical
+BORR-0198,EWS-033,Workforce Disruption,Operational Risk,50.0,Medium,False,Critical
+BORR-0198,EWS-037,ESG Action / Event,ESG,60.0,High,False,Critical
+BORR-0198,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0198,EWS-039,Depreciation Change,Financial Performance,75.0,High,False,Critical
+BORR-0198,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0198,EWS-041,DSCR,Debt Servicing,75.0,High,True,Critical
+BORR-0198,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0198,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0199,EWS-002,Adhoc / Temporary Limit Requests,Banking Behaviour,75.0,High,False,Critical
+BORR-0199,EWS-004,Payment Defaults,Repayment Behaviour,75.0,High,True,Critical
+BORR-0199,EWS-008,EBITDA Margin Deterioration,Financial Performance,75.0,High,False,Critical
+BORR-0199,EWS-009,Increase in Debtor Days,Working Capital,50.0,Medium,True,Critical
+BORR-0199,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0199,EWS-012,Increase in Provisions,Financial Performance,50.0,Medium,True,Critical
+BORR-0199,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0199,EWS-015,Finance Cost Growth Gap,Financial Performance,50.0,Medium,False,Critical
+BORR-0199,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0199,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0199,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0199,EWS-035,Adverse Site Visit,Operations,40.0,Medium,True,Critical
+BORR-0199,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0199,CRITICAL-COMBO,Stretched debtors + rising provisions,Critical Combination,100.0,Critical,True,Critical
+BORR-0200,EWS-003,Credit Facility Reduction / Decline,Banking Behaviour,50.0,Medium,False,Critical
+BORR-0200,EWS-004,Payment Defaults,Repayment Behaviour,75.0,High,True,Critical
+BORR-0200,EWS-005,Non-Core Repayment Source,Repayment Behaviour,50.0,Medium,True,Critical
+BORR-0200,EWS-008,EBITDA Margin Deterioration,Financial Performance,75.0,High,False,Critical
+BORR-0200,EWS-010,Increase in Inventory Days,Working Capital,50.0,Medium,False,Critical
+BORR-0200,EWS-014,Increase in Unsecured Loans,Leverage,50.0,Medium,True,Critical
+BORR-0200,EWS-016,LC Events,Trade Finance,50.0,Medium,False,Critical
+BORR-0200,EWS-022,Promoter Pledge,Promoter,50.0,Medium,True,Critical
+BORR-0200,EWS-025,Group Company Stress,Group Risk,100.0,Critical,False,Critical
+BORR-0200,EWS-028,Litigation,Legal,50.0,Medium,True,Critical
+BORR-0200,EWS-030,Sector Growth Gap,Sector Risk,50.0,Medium,False,Critical
+BORR-0200,EWS-032,Customer Complaint Severity,Operational Risk,40.0,Medium,False,Critical
+BORR-0200,EWS-035,Adverse Site Visit,Operations,80.0,Critical,True,Critical
+BORR-0200,EWS-037,ESG Action / Event,ESG,40.0,Medium,False,Critical
+BORR-0200,EWS-038,Carbon Emission Increase,Climate Risk,50.0,Medium,False,Critical
+BORR-0200,EWS-040,Inventory Valuation Change,Financial Reporting,50.0,Medium,False,Critical
+BORR-0200,EWS-041,DSCR,Debt Servicing,50.0,Medium,True,Critical
+BORR-0200,EWS-042,Leverage,Leverage,50.0,Medium,False,Critical
+BORR-0200,EWS-043,Current Ratio,Liquidity,50.0,Medium,False,Critical
+BORR-0200,CRITICAL-COMBO,Non-core repayment source + rising unsecured loans,Critical Combination,100.0,Critical,True,Critical

@@ -1,117 +1,417 @@
-import os
+from pathlib import Path
+import sys
+
 import pandas as pd
-from common.config_loader import load_scoring_rules, load_indicator_master
-from common.scoring_engine import calculate_scores
-from ews.ews_calculator import calculate_ews_indicators
-from credit_monitoring.cm_calculator import calculate_cm_indicators
-from src.database import init_db, save_dataframe_to_db
-from common.notifier import send_critical_alert_email  # <--- Added Step 2 Import
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-def load_excel_file(filename, default_df):
-    """Utility to safely load Excel files from project root or fallback to mock data."""
-    file_path = os.path.join(BASE_DIR, filename)
-    if os.path.exists(file_path):
-        print(f"--> Ingesting real data from: {filename}")
-        try:
-            return pd.read_excel(file_path)
-        except Exception as e:
-            print(f"Warning: Could not parse {filename} ({e}). Using fallback data.")
-            return default_df
-    else:
-        print(f"Warning: File '{filename}' not found in project root. Using default data.")
-        return default_df
+# ============================================================
+# PROJECT PATH
+# ============================================================
 
-def check_and_send_alerts(df):
-    """Scans calculated results for critical risk scores or overrides and sends alerts."""
-    if df.empty:
-        return
-        
-    for _, row in df.iterrows():
-        account_no = row.get("Account_Number", row.get("Borrower_ID", "N/A"))
-        borrower_name = row.get("Borrower_Name", "Unknown Borrower")
-        risk_score = row.get("Overall_Risk_Score", row.get("Total_Risk_Score", 0))
-        risk_band = row.get("Risk_Band", "N/A")
-        override = str(row.get("Critical_Override", "NO"))
+BASE_DIR = Path(
+    __file__
+).resolve().parent.parent
 
-        # Trigger condition: Score >= 80 OR Critical Override is YES
-        if risk_score >= 80 or override.upper() == "YES":
-            send_critical_alert_email(
-                account_number=account_no,
-                borrower_name=borrower_name,
-                risk_score=risk_score,
-                risk_band=risk_band,
-                override_flag=override
+OUTPUT_DIR = (
+    BASE_DIR
+    / "output"
+)
+
+OUTPUT_DIR.mkdir(
+    parents=True,
+    exist_ok=True
+)
+
+
+# ============================================================
+# IMPORT PROJECT MODULES
+# ============================================================
+
+from src.synthetic_generator import (
+    generate_all_data
+)
+
+from src.scoring_engine import (
+    score_ews_dataset,
+    score_cm_dataset,
+    generate_alerts
+)
+
+
+# ============================================================
+# CONFIGURATION
+# ============================================================
+
+NUMBER_OF_BORROWERS = 200
+
+
+# ============================================================
+# EXPORT SYNTHETIC DATA TO EXCEL
+# ============================================================
+
+def export_to_excel(
+    borrower_master,
+    ews_raw,
+    ews_results,
+    cm_raw,
+    cm_results,
+    alerts
+):
+
+    excel_path = (
+        OUTPUT_DIR
+        / "AI_EWS_Synthetic_Data_200.xlsx"
+    )
+
+    print()
+    print("Creating Excel workbook...")
+
+    with pd.ExcelWriter(
+        excel_path,
+        engine="openpyxl"
+    ) as writer:
+
+        # ----------------------------------------------------
+        # Sheet 1 - Borrower Master
+        # ----------------------------------------------------
+
+        borrower_master.to_excel(
+            writer,
+            sheet_name="Borrower_Master",
+            index=False
+        )
+
+        # ----------------------------------------------------
+        # Sheet 2 - EWS Raw Data
+        # ----------------------------------------------------
+
+        ews_raw.to_excel(
+            writer,
+            sheet_name="EWS_Raw_Data",
+            index=False
+        )
+
+        # ----------------------------------------------------
+        # Sheet 3 - EWS Results
+        # ----------------------------------------------------
+
+        ews_results.to_excel(
+            writer,
+            sheet_name="EWS_Results",
+            index=False
+        )
+
+        # ----------------------------------------------------
+        # Sheet 4 - Credit Monitoring Raw
+        # ----------------------------------------------------
+
+        cm_raw.to_excel(
+            writer,
+            sheet_name="CM_Raw_Data",
+            index=False
+        )
+
+        # ----------------------------------------------------
+        # Sheet 5 - Credit Monitoring Results
+        # ----------------------------------------------------
+
+        cm_results.to_excel(
+            writer,
+            sheet_name="CM_Results",
+            index=False
+        )
+
+        # ----------------------------------------------------
+        # Sheet 6 - Alerts
+        # ----------------------------------------------------
+
+        alerts.to_excel(
+            writer,
+            sheet_name="EWS_Alerts",
+            index=False
+        )
+
+        # ----------------------------------------------------
+        # Formatting
+        # ----------------------------------------------------
+
+        workbook = writer.book
+
+        for worksheet in workbook.worksheets:
+
+            # Freeze first row
+            worksheet.freeze_panes = "A2"
+
+            # Auto filter
+            worksheet.auto_filter.ref = (
+                worksheet.dimensions
             )
 
-def run_pipeline():
-    print("=" * 60)
-    print("STARTING EWS & CREDIT MONITORING PIPELINE")
-    print("=" * 60)
+            # Set column widths
+            for column in worksheet.columns:
 
-    # 1. Load Rule Configurations
-    rules_df = load_scoring_rules()
-    master_df = load_indicator_master()
-    print(f"[1/5] Configs Loaded: {len(master_df)} indicators, {len(rules_df)} threshold rules.")
+                max_length = 0
 
-    # 2. Ingest Excel Spreadsheets or Fallback
-    fallback_accounts = pd.DataFrame({
-        "Account_Number": ["ACC1001", "ACC1002"],
-        "Avg_Balance_Current_M": [45000, 12000],
-        "Avg_Balance_Prev_M": [50000, 30000],
-        "Outstanding_Amount": [85000, 95000],
-        "Sanctioned_Limit": [100000, 100000]
-    })
-    
-    fallback_transactions = pd.DataFrame({
-        "Account_Number": ["ACC1001", "ACC1001", "ACC1002"],
-        "Debit_Amount": [5000, 2000, 15000],
-        "Credit_Amount": [4000, 3000, 2000]
-    })
+                column_letter = (
+                    column[0].column_letter
+                )
 
-    fallback_borrowers = pd.DataFrame({
-        "Borrower_ID": ["CUST_001", "CUST_002"],
-        "Max_DPD_3M": [15, 60],
-        "Total_Debt": [5000000, 12000000],
-        "TNW": [2000000, 1500000],
-        "Current_Rating_Score": [6, 4],
-        "Previous_Rating_Score": [7, 7]
-    })
+                for cell in column:
 
-    # Read from root Excel files
-    accounts_df = load_excel_file("Synthetic borrower data.xlsx", fallback_accounts)
-    transactions_df = fallback_transactions  # Extracted from accounts if multi-sheet
-    borrowers_df = load_excel_file("Credit Monitoring Functional Logic Sheet 1.3.xlsx", fallback_borrowers)
+                    try:
 
-    # 3. Calculate Raw Indicators
-    ews_raw = calculate_ews_indicators(accounts_df, transactions_df)
-    cm_raw = calculate_cm_indicators(borrowers_df)
-    print("[2/5] Raw EWS and CM indicators calculated successfully.")
+                        cell_length = len(
+                            str(cell.value)
+                        )
 
-    # 4. Map Risk Scores
-    ews_scored = calculate_scores(ews_raw, rules_df)
-    cm_scored = calculate_scores(cm_raw, rules_df)
-    print("[3/5] Threshold scoring completed.")
+                        if cell_length > max_length:
+                            max_length = cell_length
 
-    # --- STEP 2 INTEGRATION: Trigger Email Alerts for Critical Accounts ---
-    print("[3.5/5] Scanning for critical alert triggers...")
-    check_and_send_alerts(ews_scored)
-    check_and_send_alerts(cm_scored)
+                    except Exception:
+                        pass
 
-    # 5. Initialize Database & Persist Results
-    init_db()
-    save_dataframe_to_db(ews_scored, "ews_results")
-    save_dataframe_to_db(cm_scored, "cm_results")
-    print("[4/5] Results successfully persisted to database.")
+                worksheet.column_dimensions[
+                    column_letter
+                ].width = min(
+                    max(max_length + 2, 10),
+                    35
+                )
 
-    # 6. Display Pipeline Results
-    print("\n" + "=" * 25 + " EWS RESULTS " + "=" * 25)
-    print(ews_scored)
+    print(
+        f"✓ Excel workbook created:\n"
+        f"{excel_path}"
+    )
 
-    print("\n" + "=" * 22 + " CM RESULTS " + "=" * 22)
-    print(cm_scored)
-    print("=" * 60)
+    return excel_path
+
+# ============================================================
+# MAIN
+# ============================================================
+
+def main():
+
+    print()
+    print("=" * 75)
+    print(
+        "AI EWS + CREDIT MONITORING"
+    )
+    print(
+        "STRUCTURED SYNTHETIC CORPORATE BORROWER GENERATOR"
+    )
+    print("=" * 75)
+
+    print()
+    print(
+        f"Generating {NUMBER_OF_BORROWERS} "
+        "corporate borrowers..."
+    )
+
+    # --------------------------------------------------------
+    # 1. Generate structured borrower data
+    # --------------------------------------------------------
+
+    (
+        borrower_master,
+        ews_raw,
+        cm_raw
+    ) = generate_all_data(
+        n=NUMBER_OF_BORROWERS
+    )
+
+    print(
+        "✓ Borrower master generated"
+    )
+
+    print(
+        "✓ EWS indicators generated"
+    )
+
+    print(
+        "✓ Credit monitoring indicators generated"
+    )
+
+    # --------------------------------------------------------
+    # 2. Score EWS
+    # --------------------------------------------------------
+
+    print()
+    print(
+        "Calculating EWS scores..."
+    )
+
+    ews_results = score_ews_dataset(
+        ews_raw
+    )
+
+    print(
+        "✓ EWS scoring completed"
+    )
+
+    # --------------------------------------------------------
+    # 3. Score Credit Monitoring
+    # --------------------------------------------------------
+
+    print(
+        "Calculating Credit Monitoring scores..."
+    )
+
+    cm_results = score_cm_dataset(
+        cm_raw
+    )
+
+    print(
+        "✓ Credit Monitoring scoring completed"
+    )
+
+    # --------------------------------------------------------
+    # 4. Generate alerts
+    # --------------------------------------------------------
+
+    print(
+        "Generating alerts..."
+    )
+
+    alerts = generate_alerts(
+        ews_results
+    )
+
+    print(
+        "✓ Alert generation completed"
+    )
+
+    # --------------------------------------------------------
+    # 5. Merge master information
+    # --------------------------------------------------------
+
+    ews_final = borrower_master.merge(
+        ews_results,
+        on="Borrower_ID",
+        how="left"
+    )
+
+    cm_final = borrower_master.merge(
+        cm_results,
+        on="Borrower_ID",
+        how="left"
+    )
+
+    # --------------------------------------------------------
+    # 6. Save CSV files
+    # --------------------------------------------------------
+
+    borrower_master.to_csv(
+        OUTPUT_DIR
+        / "borrower_master_200.csv",
+        index=False
+    )
+
+    ews_raw.to_csv(
+        OUTPUT_DIR
+        / "ews_raw_inputs_200.csv",
+        index=False
+    )
+
+    cm_raw.to_csv(
+        OUTPUT_DIR
+        / "credit_monitoring_raw_inputs_200.csv",
+        index=False
+    )
+
+    ews_final.to_csv(
+        OUTPUT_DIR
+        / "ews_results_200.csv",
+        index=False
+    )
+
+    cm_final.to_csv(
+        OUTPUT_DIR
+        / "credit_monitoring_results_200.csv",
+        index=False
+    )
+
+    alerts.to_csv(
+        OUTPUT_DIR
+        / "ews_alerts.csv",
+        index=False
+    )
+
+    # --------------------------------------------------------
+    # 7. Export Excel workbook
+    # --------------------------------------------------------
+
+    export_to_excel(
+        borrower_master=borrower_master,
+        ews_raw=ews_raw,
+        ews_results=ews_final,
+        cm_raw=cm_raw,
+        cm_results=cm_final,
+        alerts=alerts
+    )
+
+    # --------------------------------------------------------
+    # 8. Summary
+    # --------------------------------------------------------
+
+    print()
+    print("=" * 75)
+    print("GENERATION COMPLETE")
+    print("=" * 75)
+
+    print()
+    print(
+        "Borrowers:",
+        len(borrower_master)
+    )
+
+    print()
+    print(
+        "EWS Risk Distribution:"
+    )
+
+    print(
+        ews_final[
+            "Final_Status"
+        ]
+        .value_counts()
+        .to_string()
+    )
+
+    print()
+    print(
+        "Credit Monitoring Distribution:"
+    )
+
+    print(
+        cm_final[
+            "Final_Status"
+        ]
+        .value_counts()
+        .to_string()
+    )
+
+    print()
+    print(
+        "Total alerts:",
+        len(alerts)
+    )
+
+    print()
+    print(
+        "Output location:"
+    )
+
+    print(
+        OUTPUT_DIR
+    )
+
+    print()
+    print("=" * 75)
+
+
+# ============================================================
+# RUN
+# ============================================================
 
 if __name__ == "__main__":
-    run_pipeline()
+
+    main()
