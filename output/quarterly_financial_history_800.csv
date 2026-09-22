@@ -1,0 +1,801 @@
+Borrower_ID,Borrower_Name,Sector,Risk_Profile,Quarter,Sales_Cr,EBITDA_Margin_pct,DSCR,Debt_to_TNW,Current_Ratio,Debtor_Days,Inventory_Days,Creditor_Days,Total_Debt_Cr,TNW_Cr
+BORR-0001,"Choudhury, Bakshi and Maharaj",Manufacturing,Watch,Q1,313.28,8.32,1.5,2.08,1.53,50.0,60.0,45.0,182.54,69.17
+BORR-0002,Kapoor and Sons,Trading,Healthy,Q1,159.84,14.79,1.5,2.08,1.53,50.0,60.0,45.0,39.96,46.32
+BORR-0003,"Chaudry, Chahal and Sami",Engineering,Healthy,Q1,345.62,12.8,1.5,2.08,1.53,50.0,60.0,45.0,219.03,168.85
+BORR-0004,Balan Inc,Infrastructure,Watch,Q1,897.17,17.24,1.5,2.08,1.53,50.0,60.0,45.0,241.27,215.77
+BORR-0005,Kaul PLC,Auto Components,Stressed,Q1,160.84,15.82,1.5,2.08,1.53,50.0,60.0,45.0,54.25,70.51
+BORR-0006,"Bala, Issac and Saini",Pharmaceuticals,Watch,Q1,143.12,15.34,1.5,2.08,1.53,50.0,60.0,45.0,32.04,42.69
+BORR-0007,Sen PLC,Logistics,Healthy,Q1,954.57,12.14,1.5,2.08,1.53,50.0,60.0,45.0,574.31,202.53
+BORR-0008,Ahuja-Dutta,Pharmaceuticals,Watch,Q1,434.67,15.26,1.5,2.08,1.53,50.0,60.0,45.0,166.06,127.38
+BORR-0009,"Sami, Oak and Mall",Power,Stressed,Q1,139.62,15.82,1.5,2.08,1.53,50.0,60.0,45.0,57.88,26.24
+BORR-0010,Kale LLC,Chemicals,Healthy,Q1,294.93,12.41,1.5,2.08,1.53,50.0,60.0,45.0,137.34,140.1
+BORR-0011,Chanda Group,Trading,Watch,Q1,121.34,15.79,1.5,2.08,1.53,50.0,60.0,45.0,56.79,45.09
+BORR-0012,Parmer LLC,Power,Healthy,Q1,118.6,12.9,1.5,2.08,1.53,50.0,60.0,45.0,59.38,41.1
+BORR-0013,"Lalla, Bassi and Sharaf",Pharmaceuticals,Healthy,Q1,243.06,11.16,1.5,2.08,1.53,50.0,60.0,45.0,161.37,104.1
+BORR-0014,"Dash, Radhakrishnan and Brar",Renewable Energy,Healthy,Q1,49.8,13.6,1.5,2.08,1.53,50.0,60.0,45.0,34.08,16.09
+BORR-0015,"Memon, Pathak and Handa",Textiles,Healthy,Q1,55.78,13.5,1.5,2.08,1.53,50.0,60.0,45.0,21.0,8.11
+BORR-0016,"Boase, Bath and Kari",Trading,Stressed,Q1,128.89,16.88,1.5,2.08,1.53,50.0,60.0,45.0,31.81,20.93
+BORR-0017,Buch-Kaul,Steel,Stressed,Q1,70.12,13.21,1.5,2.08,1.53,50.0,60.0,45.0,45.86,15.65
+BORR-0018,Rai LLC,Engineering,Watch,Q1,247.19,14.24,1.5,2.08,1.53,50.0,60.0,45.0,94.21,42.66
+BORR-0019,Patla-Gaba,Manufacturing,Healthy,Q1,73.39,12.22,1.5,2.08,1.53,50.0,60.0,45.0,25.03,16.09
+BORR-0020,Pant-Kadakia,Manufacturing,Healthy,Q1,52.43,10.2,1.5,2.08,1.53,50.0,60.0,45.0,9.16,24.35
+BORR-0021,"Loke, Bora and Garg",Steel,Stressed,Q1,861.33,14.59,1.5,2.08,1.53,50.0,60.0,45.0,342.71,332.86
+BORR-0022,"Konda, Gade and Shere",Chemicals,Healthy,Q1,149.13,11.8,1.5,2.08,1.53,50.0,60.0,45.0,52.37,65.9
+BORR-0023,Madan-Kanda,Auto Components,Healthy,Q1,188.37,14.74,1.5,2.08,1.53,50.0,60.0,45.0,132.25,92.4
+BORR-0024,"Nair, Bhalla and Karnik",Steel,Watch,Q1,52.49,14.15,1.5,2.08,1.53,50.0,60.0,45.0,27.58,9.72
+BORR-0025,Mutti Group,Engineering,Healthy,Q1,113.33,9.68,1.5,2.08,1.53,50.0,60.0,45.0,29.21,16.28
+BORR-0026,Bhatti-Kakar,Construction,Healthy,Q1,205.4,11.06,1.5,2.08,1.53,50.0,60.0,45.0,56.11,71.26
+BORR-0027,"Murty, Kala and Tata",Logistics,Healthy,Q1,56.76,12.86,1.5,2.08,1.53,50.0,60.0,45.0,25.15,11.49
+BORR-0028,Shanker-Dhar,Food Processing,Healthy,Q1,267.06,13.94,1.5,2.08,1.53,50.0,60.0,45.0,75.38,111.59
+BORR-0029,Dewan-Koshy,Renewable Energy,Healthy,Q1,96.68,14.2,1.5,2.08,1.53,50.0,60.0,45.0,51.09,30.91
+BORR-0030,"Yohannan, Lall and Sangha",Power,Watch,Q1,136.75,15.98,1.5,2.08,1.53,50.0,60.0,45.0,44.6,24.7
+BORR-0031,"Rastogi, Pathak and Kanda",Logistics,Healthy,Q1,98.74,12.33,1.5,2.08,1.53,50.0,60.0,45.0,44.66,42.82
+BORR-0032,Upadhyay Group,Auto Components,Healthy,Q1,1039.28,13.75,1.5,2.08,1.53,50.0,60.0,45.0,396.59,418.11
+BORR-0033,Batta Inc,Steel,Stressed,Q1,222.79,15.64,1.5,2.08,1.53,50.0,60.0,45.0,103.61,83.39
+BORR-0034,Dutta Ltd,Power,Healthy,Q1,63.2,14.9,1.5,2.08,1.53,50.0,60.0,45.0,11.28,18.68
+BORR-0035,Bhatt-Rajan,Pharmaceuticals,Healthy,Q1,432.87,15.25,1.5,2.08,1.53,50.0,60.0,45.0,167.88,106.64
+BORR-0036,Sidhu-Wadhwa,Trading,Healthy,Q1,54.07,13.18,1.5,2.08,1.53,50.0,60.0,45.0,24.73,16.05
+BORR-0037,Apte-Contractor,Construction,Healthy,Q1,236.36,12.6,1.5,2.08,1.53,50.0,60.0,45.0,74.8,87.33
+BORR-0038,"Yadav, Loke and Oak",Textiles,Healthy,Q1,53.07,11.91,1.5,2.08,1.53,50.0,60.0,45.0,21.53,15.74
+BORR-0039,Memon Group,Pharmaceuticals,Stressed,Q1,57.99,19.51,1.5,2.08,1.53,50.0,60.0,45.0,34.6,22.46
+BORR-0040,Setty Inc,Renewable Energy,Healthy,Q1,230.26,11.74,1.5,2.08,1.53,50.0,60.0,45.0,159.71,108.51
+BORR-0041,"Lall, Tella and Gokhale",Power,Stressed,Q1,417.79,13.97,1.5,2.08,1.53,50.0,60.0,45.0,218.76,121.14
+BORR-0042,"Cherian, Misra and Tripathi",Steel,Stressed,Q1,250.63,16.04,1.5,2.08,1.53,50.0,60.0,45.0,64.79,74.21
+BORR-0043,"Issac, Dua and Prakash",Renewable Energy,Watch,Q1,179.25,12.04,1.5,2.08,1.53,50.0,60.0,45.0,92.9,31.47
+BORR-0044,Zacharia PLC,Food Processing,Stressed,Q1,157.62,15.74,1.5,2.08,1.53,50.0,60.0,45.0,100.92,33.47
+BORR-0045,Naik Group,Steel,Stressed,Q1,58.18,15.67,1.5,2.08,1.53,50.0,60.0,45.0,28.58,15.51
+BORR-0046,Choudhury LLC,Infrastructure,Watch,Q1,92.41,14.92,1.5,2.08,1.53,50.0,60.0,45.0,36.49,35.62
+BORR-0047,Khatri-Bhardwaj,Steel,Watch,Q1,124.42,11.61,1.5,2.08,1.53,50.0,60.0,45.0,64.51,42.2
+BORR-0048,Brar Inc,Renewable Energy,Healthy,Q1,526.65,9.86,1.5,2.08,1.53,50.0,60.0,45.0,359.96,100.79
+BORR-0049,"Sunder, Biswas and Walia",Renewable Energy,Stressed,Q1,309.24,14.8,1.5,2.08,1.53,50.0,60.0,45.0,121.86,78.13
+BORR-0050,Dave Ltd,Auto Components,Healthy,Q1,54.83,11.6,1.5,2.08,1.53,50.0,60.0,45.0,10.79,19.48
+BORR-0051,Gandhi-Lanka,Steel,Healthy,Q1,250.77,12.76,1.5,2.08,1.53,50.0,60.0,45.0,154.07,69.24
+BORR-0052,"Sampath, Kakar and Zacharia",Pharmaceuticals,Watch,Q1,123.12,14.9,1.5,2.08,1.53,50.0,60.0,45.0,27.81,30.07
+BORR-0053,"Iyer, Muni and Rastogi",Renewable Energy,Healthy,Q1,89.47,11.38,1.5,2.08,1.53,50.0,60.0,45.0,69.56,16.53
+BORR-0054,"Prakash, Sarma and Varughese",Trading,Healthy,Q1,360.72,10.34,1.5,2.08,1.53,50.0,60.0,45.0,157.45,89.14
+BORR-0055,Dara-Kota,Infrastructure,Healthy,Q1,558.96,11.68,1.5,2.08,1.53,50.0,60.0,45.0,299.55,162.75
+BORR-0056,Bhatt LLC,Engineering,Watch,Q1,454.12,14.52,1.5,2.08,1.53,50.0,60.0,45.0,194.94,131.48
+BORR-0057,Karpe PLC,Renewable Energy,Watch,Q1,82.96,13.52,1.5,2.08,1.53,50.0,60.0,45.0,15.75,37.25
+BORR-0058,Amble Inc,Manufacturing,Healthy,Q1,134.66,11.78,1.5,2.08,1.53,50.0,60.0,45.0,25.24,57.81
+BORR-0059,"Bhargava, Karnik and Bir",Infrastructure,Watch,Q1,285.77,13.05,1.5,2.08,1.53,50.0,60.0,45.0,139.81,40.71
+BORR-0060,Narayanan Inc,Power,Watch,Q1,485.18,13.52,1.5,2.08,1.53,50.0,60.0,45.0,333.79,126.31
+BORR-0061,"Khanna, Mallick and Sunder",Manufacturing,Healthy,Q1,111.06,12.15,1.5,2.08,1.53,50.0,60.0,45.0,42.5,23.56
+BORR-0062,Zacharia and Sons,Textiles,Watch,Q1,168.44,14.67,1.5,2.08,1.53,50.0,60.0,45.0,90.36,24.52
+BORR-0063,"Solanki, Kibe and Solanki",Textiles,Healthy,Q1,72.45,15.1,1.5,2.08,1.53,50.0,60.0,45.0,39.53,25.42
+BORR-0064,Gupta-Chandra,Auto Components,Healthy,Q1,54.7,12.28,1.5,2.08,1.53,50.0,60.0,45.0,42.15,15.18
+BORR-0065,Sankar LLC,Chemicals,Healthy,Q1,455.6,13.35,1.5,2.08,1.53,50.0,60.0,45.0,123.11,77.52
+BORR-0066,Roy-Sibal,Pharmaceuticals,Healthy,Q1,735.86,15.36,1.5,2.08,1.53,50.0,60.0,45.0,138.14,231.56
+BORR-0067,"Bhagat, Chaudhari and Bhat",Renewable Energy,Healthy,Q1,166.3,12.74,1.5,2.08,1.53,50.0,60.0,45.0,44.31,70.23
+BORR-0068,Nori-Chopra,Logistics,Healthy,Q1,494.23,15.7,1.5,2.08,1.53,50.0,60.0,45.0,315.03,220.66
+BORR-0069,Handa and Sons,Renewable Energy,Healthy,Q1,298.9,11.18,1.5,2.08,1.53,50.0,60.0,45.0,87.76,78.46
+BORR-0070,"Sen, Dey and Sami",Food Processing,Watch,Q1,103.65,13.12,1.5,2.08,1.53,50.0,60.0,45.0,16.74,16.25
+BORR-0071,Mallick Group,Infrastructure,Healthy,Q1,270.88,11.79,1.5,2.08,1.53,50.0,60.0,45.0,59.13,107.96
+BORR-0072,Borra Group,Construction,Watch,Q1,941.12,15.83,1.5,2.08,1.53,50.0,60.0,45.0,462.96,355.6
+BORR-0073,"Chaudhari, Bedi and Zachariah",Steel,Watch,Q1,195.76,12.86,1.5,2.08,1.53,50.0,60.0,45.0,40.57,44.96
+BORR-0074,Chander and Sons,Chemicals,Watch,Q1,886.74,14.36,1.5,2.08,1.53,50.0,60.0,45.0,239.03,413.79
+BORR-0075,Ray Group,Renewable Energy,Healthy,Q1,55.79,10.64,1.5,2.08,1.53,50.0,60.0,45.0,8.66,22.71
+BORR-0076,Kala-Rattan,Trading,Healthy,Q1,445.85,15.22,1.5,2.08,1.53,50.0,60.0,45.0,158.14,140.78
+BORR-0077,Gala Group,Auto Components,Healthy,Q1,217.41,12.87,1.5,2.08,1.53,50.0,60.0,45.0,92.33,95.12
+BORR-0078,Ramakrishnan LLC,Steel,Healthy,Q1,142.06,13.23,1.5,2.08,1.53,50.0,60.0,45.0,52.86,40.73
+BORR-0079,Mangal-Sampath,Infrastructure,Healthy,Q1,223.92,11.3,1.5,2.08,1.53,50.0,60.0,45.0,47.86,93.15
+BORR-0080,"Sur, Dubey and Gupta",Trading,Watch,Q1,57.45,14.72,1.5,2.08,1.53,50.0,60.0,45.0,25.6,11.31
+BORR-0081,Kalla-Bhardwaj,Logistics,Stressed,Q1,170.59,15.01,1.5,2.08,1.53,50.0,60.0,45.0,98.78,58.0
+BORR-0082,"Bhat, Murthy and Bhandari",Chemicals,Healthy,Q1,289.15,12.38,1.5,2.08,1.53,50.0,60.0,45.0,163.5,101.24
+BORR-0083,Sood PLC,Engineering,Watch,Q1,812.64,13.19,1.5,2.08,1.53,50.0,60.0,45.0,222.01,264.96
+BORR-0084,"Dugar, Bhandari and Trivedi",Renewable Energy,Healthy,Q1,110.09,13.41,1.5,2.08,1.53,50.0,60.0,45.0,79.06,48.64
+BORR-0085,Grewal Inc,Manufacturing,Stressed,Q1,94.06,14.32,1.5,2.08,1.53,50.0,60.0,45.0,27.37,28.71
+BORR-0086,"Bir, Keer and Raval",Textiles,Watch,Q1,120.04,13.97,1.5,2.08,1.53,50.0,60.0,45.0,58.4,40.38
+BORR-0087,Koshy PLC,Renewable Energy,Healthy,Q1,491.25,10.94,1.5,2.08,1.53,50.0,60.0,45.0,103.03,114.79
+BORR-0088,"Baral, Bumb and Saini",Renewable Energy,Watch,Q1,264.86,14.05,1.5,2.08,1.53,50.0,60.0,45.0,156.36,113.01
+BORR-0089,"Virk, Mutti and Lal",Textiles,Healthy,Q1,101.31,11.66,1.5,2.08,1.53,50.0,60.0,45.0,50.34,32.57
+BORR-0090,Murthy and Sons,Construction,Watch,Q1,307.77,12.68,1.5,2.08,1.53,50.0,60.0,45.0,167.68,88.64
+BORR-0091,Randhawa-Deep,Logistics,Healthy,Q1,196.53,12.99,1.5,2.08,1.53,50.0,60.0,45.0,59.21,61.24
+BORR-0092,"Mital, Shankar and Mutti",Logistics,Healthy,Q1,499.67,11.23,1.5,2.08,1.53,50.0,60.0,45.0,302.81,93.62
+BORR-0093,Andra Group,Renewable Energy,Healthy,Q1,92.84,11.67,1.5,2.08,1.53,50.0,60.0,45.0,51.15,37.61
+BORR-0094,"Chaudhry, Borah and Yogi",Food Processing,Watch,Q1,142.7,11.7,1.5,2.08,1.53,50.0,60.0,45.0,88.57,23.46
+BORR-0095,Toor LLC,Engineering,Watch,Q1,139.76,12.52,1.5,2.08,1.53,50.0,60.0,45.0,71.57,47.81
+BORR-0096,Palla Inc,Construction,Stressed,Q1,56.71,14.18,1.5,2.08,1.53,50.0,60.0,45.0,12.24,11.88
+BORR-0097,Pingle LLC,Infrastructure,Healthy,Q1,253.92,10.64,1.5,2.08,1.53,50.0,60.0,45.0,186.83,116.45
+BORR-0098,Sarma PLC,Manufacturing,Healthy,Q1,251.02,12.16,1.5,2.08,1.53,50.0,60.0,45.0,113.36,57.06
+BORR-0099,"Mittal, Wadhwa and Anand",Renewable Energy,Healthy,Q1,195.62,13.98,1.5,2.08,1.53,50.0,60.0,45.0,121.39,31.98
+BORR-0100,"Mistry, Chawla and Desai",Power,Watch,Q1,147.34,15.27,1.5,2.08,1.53,50.0,60.0,45.0,64.28,23.48
+BORR-0101,D’Alia-Chhabra,Construction,Watch,Q1,55.94,12.55,1.5,2.08,1.53,50.0,60.0,45.0,30.1,16.02
+BORR-0102,"Dugal, Magar and Manda",Trading,Healthy,Q1,109.93,13.69,1.5,2.08,1.53,50.0,60.0,45.0,63.89,50.33
+BORR-0103,"Kade, Oza and Jani",Steel,Healthy,Q1,125.71,13.58,1.5,2.08,1.53,50.0,60.0,45.0,21.97,34.71
+BORR-0104,"Lalla, Tiwari and Suresh",Chemicals,Healthy,Q1,78.98,12.01,1.5,2.08,1.53,50.0,60.0,45.0,36.87,14.16
+BORR-0105,Behl-Chanda,Food Processing,Watch,Q1,176.09,13.67,1.5,2.08,1.53,50.0,60.0,45.0,53.79,74.09
+BORR-0106,"Sampath, Malhotra and Basu",Trading,Healthy,Q1,293.47,13.64,1.5,2.08,1.53,50.0,60.0,45.0,90.84,104.97
+BORR-0107,Nath and Sons,Trading,Healthy,Q1,1269.39,11.92,1.5,2.08,1.53,50.0,60.0,45.0,581.3,439.61
+BORR-0108,"Lala, Edwin and Sathe",Pharmaceuticals,Healthy,Q1,247.74,12.92,1.5,2.08,1.53,50.0,60.0,45.0,85.52,89.37
+BORR-0109,"Sane, Andra and Choudhury",Manufacturing,Healthy,Q1,246.22,11.1,1.5,2.08,1.53,50.0,60.0,45.0,153.66,43.95
+BORR-0110,Dixit PLC,Food Processing,Stressed,Q1,186.42,14.5,1.5,2.08,1.53,50.0,60.0,45.0,87.58,47.42
+BORR-0111,Pingle PLC,Logistics,Healthy,Q1,51.14,13.64,1.5,2.08,1.53,50.0,60.0,45.0,21.88,10.36
+BORR-0112,"Divan, Sani and Datta",Textiles,Stressed,Q1,192.87,16.2,1.5,2.08,1.53,50.0,60.0,45.0,87.81,55.88
+BORR-0113,Morar LLC,Engineering,Healthy,Q1,202.48,11.6,1.5,2.08,1.53,50.0,60.0,45.0,93.71,39.61
+BORR-0114,Parmar and Sons,Pharmaceuticals,Healthy,Q1,2194.11,13.91,1.5,2.08,1.53,50.0,60.0,45.0,1463.1,378.34
+BORR-0115,"Krish, Chauhan and Pandya",Construction,Healthy,Q1,153.02,13.54,1.5,2.08,1.53,50.0,60.0,45.0,50.15,51.62
+BORR-0116,"Ray, Dubey and Khalsa",Food Processing,Healthy,Q1,235.14,12.23,1.5,2.08,1.53,50.0,60.0,45.0,49.3,103.35
+BORR-0117,Goel Group,Pharmaceuticals,Healthy,Q1,171.49,13.94,1.5,2.08,1.53,50.0,60.0,45.0,116.68,46.26
+BORR-0118,Gola Ltd,Renewable Energy,Healthy,Q1,62.01,11.32,1.5,2.08,1.53,50.0,60.0,45.0,21.25,9.93
+BORR-0119,Sabharwal-Kothari,Logistics,Watch,Q1,568.14,14.88,1.5,2.08,1.53,50.0,60.0,45.0,236.17,109.88
+BORR-0120,Dutta-Chokshi,Textiles,Watch,Q1,423.34,13.36,1.5,2.08,1.53,50.0,60.0,45.0,277.99,138.47
+BORR-0121,Barad-Singhal,Chemicals,Watch,Q1,416.86,15.13,1.5,2.08,1.53,50.0,60.0,45.0,112.54,142.74
+BORR-0122,Iyengar Group,Trading,Healthy,Q1,79.8,12.44,1.5,2.08,1.53,50.0,60.0,45.0,14.57,25.57
+BORR-0123,Mody-Kari,Textiles,Critical,Q1,893.22,16.8,1.5,2.08,1.53,50.0,60.0,45.0,358.24,208.21
+BORR-0124,Bajwa Ltd,Infrastructure,Stressed,Q1,54.77,15.36,1.5,2.08,1.53,50.0,60.0,45.0,23.71,21.56
+BORR-0125,Rastogi LLC,Textiles,Healthy,Q1,318.44,12.58,1.5,2.08,1.53,50.0,60.0,45.0,101.76,59.73
+BORR-0126,Boase-Mallick,Logistics,Healthy,Q1,1841.75,13.84,1.5,2.08,1.53,50.0,60.0,45.0,328.35,447.69
+BORR-0127,Upadhyay-Ratta,Trading,Healthy,Q1,61.9,14.59,1.5,2.08,1.53,50.0,60.0,45.0,42.68,26.95
+BORR-0128,"Yadav, Narula and Bala",Chemicals,Healthy,Q1,115.95,13.93,1.5,2.08,1.53,50.0,60.0,45.0,21.82,47.88
+BORR-0129,Lal and Sons,Pharmaceuticals,Watch,Q1,221.64,13.52,1.5,2.08,1.53,50.0,60.0,45.0,86.97,45.71
+BORR-0130,"Lanka, Barad and Chopra",Power,Watch,Q1,114.59,15.96,1.5,2.08,1.53,50.0,60.0,45.0,19.66,47.76
+BORR-0131,"Saraf, Pai and Murthy",Engineering,Watch,Q1,53.86,13.06,1.5,2.08,1.53,50.0,60.0,45.0,11.76,21.58
+BORR-0132,Vaidya-D’Alia,Auto Components,Healthy,Q1,190.81,12.27,1.5,2.08,1.53,50.0,60.0,45.0,50.73,43.05
+BORR-0133,Gupta-Kumar,Manufacturing,Healthy,Q1,59.52,12.05,1.5,2.08,1.53,50.0,60.0,45.0,48.0,26.15
+BORR-0134,Sarin Inc,Infrastructure,Healthy,Q1,279.14,13.7,1.5,2.08,1.53,50.0,60.0,45.0,191.81,135.05
+BORR-0135,"Yohannan, Hegde and Patla",Manufacturing,Healthy,Q1,77.63,13.81,1.5,2.08,1.53,50.0,60.0,45.0,15.2,16.48
+BORR-0136,Boase-Narayanan,Steel,Healthy,Q1,859.64,14.37,1.5,2.08,1.53,50.0,60.0,45.0,309.57,221.16
+BORR-0137,"Murthy, Dash and Mital",Power,Stressed,Q1,93.66,16.26,1.5,2.08,1.53,50.0,60.0,45.0,32.84,40.63
+BORR-0138,"More, Rege and Narain",Steel,Healthy,Q1,138.22,12.99,1.5,2.08,1.53,50.0,60.0,45.0,48.75,55.05
+BORR-0139,Merchant-Datta,Steel,Stressed,Q1,500.47,13.4,1.5,2.08,1.53,50.0,60.0,45.0,149.56,185.59
+BORR-0140,Salvi Ltd,Manufacturing,Healthy,Q1,56.61,13.14,1.5,2.08,1.53,50.0,60.0,45.0,21.03,17.86
+BORR-0141,Ghosh-Mitra,Auto Components,Watch,Q1,254.69,13.61,1.5,2.08,1.53,50.0,60.0,45.0,61.16,103.09
+BORR-0142,Acharya-Modi,Auto Components,Watch,Q1,653.83,12.92,1.5,2.08,1.53,50.0,60.0,45.0,503.28,257.66
+BORR-0143,Kade-Sani,Auto Components,Critical,Q1,59.93,15.86,1.5,2.08,1.53,50.0,60.0,45.0,13.97,21.56
+BORR-0144,"Nagy, Shroff and Sathe",Steel,Healthy,Q1,222.76,14.6,1.5,2.08,1.53,50.0,60.0,45.0,158.31,74.51
+BORR-0145,Kala-Vaidya,Chemicals,Healthy,Q1,226.63,9.59,1.5,2.08,1.53,50.0,60.0,45.0,166.63,36.38
+BORR-0146,Gara-Chad,Logistics,Stressed,Q1,457.1,14.21,1.5,2.08,1.53,50.0,60.0,45.0,74.96,166.63
+BORR-0147,Varma-Nayak,Food Processing,Healthy,Q1,56.4,14.21,1.5,2.08,1.53,50.0,60.0,45.0,13.9,23.56
+BORR-0148,Keer Ltd,Manufacturing,Watch,Q1,52.64,14.64,1.5,2.08,1.53,50.0,60.0,45.0,22.37,9.67
+BORR-0149,Kar-Issac,Logistics,Stressed,Q1,370.07,14.98,1.5,2.08,1.53,50.0,60.0,45.0,117.85,113.31
+BORR-0150,Bakshi Inc,Renewable Energy,Watch,Q1,281.43,16.81,1.5,2.08,1.53,50.0,60.0,45.0,112.68,60.9
+BORR-0151,Soman PLC,Construction,Watch,Q1,246.81,13.97,1.5,2.08,1.53,50.0,60.0,45.0,152.32,95.65
+BORR-0152,Shah Group,Auto Components,Stressed,Q1,301.83,15.85,1.5,2.08,1.53,50.0,60.0,45.0,123.54,74.38
+BORR-0153,"Hayer, Rajagopalan and Talwar",Food Processing,Watch,Q1,98.54,15.46,1.5,2.08,1.53,50.0,60.0,45.0,58.75,38.26
+BORR-0154,Kohli-Divan,Steel,Healthy,Q1,230.86,10.59,1.5,2.08,1.53,50.0,60.0,45.0,89.53,80.19
+BORR-0155,"Ahluwalia, Chhabra and Sandal",Steel,Healthy,Q1,244.79,12.95,1.5,2.08,1.53,50.0,60.0,45.0,92.6,90.4
+BORR-0156,Goda Ltd,Auto Components,Healthy,Q1,90.85,14.08,1.5,2.08,1.53,50.0,60.0,45.0,50.0,33.37
+BORR-0157,"Shetty, Bedi and Krish",Engineering,Healthy,Q1,1287.14,13.39,1.5,2.08,1.53,50.0,60.0,45.0,679.07,367.12
+BORR-0158,Shan and Sons,Trading,Healthy,Q1,298.31,15.26,1.5,2.08,1.53,50.0,60.0,45.0,166.76,85.77
+BORR-0159,Wali-Nadig,Steel,Watch,Q1,56.39,14.22,1.5,2.08,1.53,50.0,60.0,45.0,13.02,21.93
+BORR-0160,Thaman-Sandhu,Manufacturing,Watch,Q1,368.84,14.1,1.5,2.08,1.53,50.0,60.0,45.0,206.19,133.33
+BORR-0161,"Sehgal, Dutt and Soman",Food Processing,Healthy,Q1,73.81,13.09,1.5,2.08,1.53,50.0,60.0,45.0,46.58,30.6
+BORR-0162,Lad-Kota,Auto Components,Healthy,Q1,414.2,13.35,1.5,2.08,1.53,50.0,60.0,45.0,70.35,134.24
+BORR-0163,"Malhotra, Verma and Sundaram",Engineering,Watch,Q1,689.55,15.43,1.5,2.08,1.53,50.0,60.0,45.0,90.0,156.01
+BORR-0164,"Khare, Maharaj and Sarraf",Renewable Energy,Healthy,Q1,79.1,11.71,1.5,2.08,1.53,50.0,60.0,45.0,53.62,27.98
+BORR-0165,Mangal and Sons,Infrastructure,Stressed,Q1,569.91,18.31,1.5,2.08,1.53,50.0,60.0,45.0,332.14,138.75
+BORR-0166,Nayak-Nagarajan,Renewable Energy,Watch,Q1,299.76,12.94,1.5,2.08,1.53,50.0,60.0,45.0,64.78,107.55
+BORR-0167,"Buch, Devi and Dora",Renewable Energy,Healthy,Q1,467.67,11.74,1.5,2.08,1.53,50.0,60.0,45.0,78.15,98.89
+BORR-0168,Rajagopal Ltd,Chemicals,Watch,Q1,1422.83,14.02,1.5,2.08,1.53,50.0,60.0,45.0,703.99,198.06
+BORR-0169,Kala Inc,Textiles,Healthy,Q1,147.17,13.18,1.5,2.08,1.53,50.0,60.0,45.0,108.11,24.6
+BORR-0170,Reddy-Narayanan,Trading,Healthy,Q1,85.48,10.84,1.5,2.08,1.53,50.0,60.0,45.0,50.49,28.05
+BORR-0171,"Shukla, Sagar and Bhatia",Renewable Energy,Healthy,Q1,83.34,15.39,1.5,2.08,1.53,50.0,60.0,45.0,39.76,26.95
+BORR-0172,Salvi Group,Trading,Healthy,Q1,75.22,13.03,1.5,2.08,1.53,50.0,60.0,45.0,39.04,12.05
+BORR-0173,"Bahri, Rai and Sood",Steel,Healthy,Q1,174.86,13.0,1.5,2.08,1.53,50.0,60.0,45.0,85.56,37.96
+BORR-0174,Pandey LLC,Steel,Healthy,Q1,253.88,9.34,1.5,2.08,1.53,50.0,60.0,45.0,83.75,119.13
+BORR-0175,Saini-Yohannan,Infrastructure,Healthy,Q1,252.05,15.76,1.5,2.08,1.53,50.0,60.0,45.0,117.82,42.34
+BORR-0176,"Kannan, Sura and Kanda",Construction,Healthy,Q1,426.43,13.24,1.5,2.08,1.53,50.0,60.0,45.0,212.79,197.24
+BORR-0177,Sarin-Sunder,Construction,Watch,Q1,192.37,15.48,1.5,2.08,1.53,50.0,60.0,45.0,112.33,54.75
+BORR-0178,Ramachandran LLC,Renewable Energy,Watch,Q1,868.12,15.01,1.5,2.08,1.53,50.0,60.0,45.0,134.77,270.16
+BORR-0179,"Ravel, Gandhi and Sibal",Logistics,Watch,Q1,153.94,15.71,1.5,2.08,1.53,50.0,60.0,45.0,104.38,67.65
+BORR-0180,Walla Inc,Food Processing,Healthy,Q1,3047.21,16.13,1.5,2.08,1.53,50.0,60.0,45.0,1924.64,444.5
+BORR-0181,Bala-Chacko,Trading,Healthy,Q1,323.54,14.52,1.5,2.08,1.53,50.0,60.0,45.0,153.33,120.66
+BORR-0182,"Sangha, Deshmukh and Shenoy",Renewable Energy,Healthy,Q1,83.8,11.24,1.5,2.08,1.53,50.0,60.0,45.0,51.5,11.96
+BORR-0183,Bedi LLC,Food Processing,Healthy,Q1,62.88,13.79,1.5,2.08,1.53,50.0,60.0,45.0,16.15,26.96
+BORR-0184,Narang-Kakar,Textiles,Watch,Q1,314.22,11.78,1.5,2.08,1.53,50.0,60.0,45.0,131.74,105.63
+BORR-0185,Narain-Nazareth,Construction,Healthy,Q1,152.8,11.38,1.5,2.08,1.53,50.0,60.0,45.0,103.73,63.26
+BORR-0186,Mall-Sama,Pharmaceuticals,Healthy,Q1,376.45,13.69,1.5,2.08,1.53,50.0,60.0,45.0,81.58,109.07
+BORR-0187,Bumb-Singhal,Logistics,Healthy,Q1,270.2,13.36,1.5,2.08,1.53,50.0,60.0,45.0,163.51,118.0
+BORR-0188,Zacharia Inc,Power,Healthy,Q1,168.65,13.22,1.5,2.08,1.53,50.0,60.0,45.0,29.97,47.23
+BORR-0189,Kapur-Biswas,Pharmaceuticals,Watch,Q1,81.37,12.08,1.5,2.08,1.53,50.0,60.0,45.0,23.5,11.49
+BORR-0190,"Baria, Balasubramanian and Kota",Manufacturing,Healthy,Q1,50.0,13.88,1.5,2.08,1.53,50.0,60.0,45.0,15.79,14.4
+BORR-0191,Bahri PLC,Steel,Healthy,Q1,114.48,13.28,1.5,2.08,1.53,50.0,60.0,45.0,45.35,48.67
+BORR-0192,Khare and Sons,Construction,Healthy,Q1,423.57,13.84,1.5,2.08,1.53,50.0,60.0,45.0,246.14,196.96
+BORR-0193,Contractor-Kamdar,Power,Healthy,Q1,249.32,12.55,1.5,2.08,1.53,50.0,60.0,45.0,155.25,71.18
+BORR-0194,Kunda-Pillay,Engineering,Healthy,Q1,52.99,13.24,1.5,2.08,1.53,50.0,60.0,45.0,20.29,9.52
+BORR-0195,Contractor and Sons,Chemicals,Healthy,Q1,228.53,15.18,1.5,2.08,1.53,50.0,60.0,45.0,140.41,73.12
+BORR-0196,Chokshi-Bal,Logistics,Healthy,Q1,262.22,11.99,1.5,2.08,1.53,50.0,60.0,45.0,83.05,116.45
+BORR-0197,Prashad-Ranganathan,Construction,Healthy,Q1,76.53,13.91,1.5,2.08,1.53,50.0,60.0,45.0,32.26,13.09
+BORR-0198,"Issac, Borra and Kibe",Construction,Stressed,Q1,244.48,14.65,1.5,2.08,1.53,50.0,60.0,45.0,109.33,101.6
+BORR-0199,Mitra Ltd,Steel,Watch,Q1,192.72,16.9,1.5,2.08,1.53,50.0,60.0,45.0,107.44,87.04
+BORR-0200,"Dara, Barman and Palan",Power,Watch,Q1,61.1,15.85,1.5,2.08,1.53,50.0,60.0,45.0,24.47,21.29
+BORR-0001,"Choudhury, Bakshi and Maharaj",Manufacturing,Watch,Q2,308.15,9.54,1.5,2.05,1.52,50.0,60.0,45.0,180.76,69.52
+BORR-0002,Kapoor and Sons,Trading,Healthy,Q2,159.18,13.86,1.5,2.05,1.52,50.0,60.0,45.0,39.58,46.56
+BORR-0003,"Chaudry, Chahal and Sami",Engineering,Healthy,Q2,345.89,12.53,1.5,2.05,1.52,50.0,60.0,45.0,216.9,169.71
+BORR-0004,Balan Inc,Infrastructure,Watch,Q2,875.22,15.49,1.5,2.05,1.52,50.0,60.0,45.0,238.92,216.87
+BORR-0005,Kaul PLC,Auto Components,Stressed,Q2,155.03,14.54,1.5,2.05,1.52,50.0,60.0,45.0,53.72,70.86
+BORR-0006,"Bala, Issac and Saini",Pharmaceuticals,Watch,Q2,143.22,14.23,1.5,2.05,1.52,50.0,60.0,45.0,31.73,42.91
+BORR-0007,Sen PLC,Logistics,Healthy,Q2,929.5,12.1,1.5,2.05,1.52,50.0,60.0,45.0,568.73,203.55
+BORR-0008,Ahuja-Dutta,Pharmaceuticals,Watch,Q2,419.94,14.18,1.5,2.05,1.52,50.0,60.0,45.0,164.44,128.03
+BORR-0009,"Sami, Oak and Mall",Power,Stressed,Q2,130.87,14.55,1.5,2.05,1.52,50.0,60.0,45.0,57.31,26.37
+BORR-0010,Kale LLC,Chemicals,Healthy,Q2,300.57,12.28,1.5,2.05,1.52,50.0,60.0,45.0,136.01,140.81
+BORR-0011,Chanda Group,Trading,Watch,Q2,118.91,14.52,1.5,2.05,1.52,50.0,60.0,45.0,56.24,45.32
+BORR-0012,Parmer LLC,Power,Healthy,Q2,116.99,12.6,1.5,2.05,1.52,50.0,60.0,45.0,58.8,41.31
+BORR-0013,"Lalla, Bassi and Sharaf",Pharmaceuticals,Healthy,Q2,239.01,11.44,1.5,2.05,1.52,50.0,60.0,45.0,159.8,104.63
+BORR-0014,"Dash, Radhakrishnan and Brar",Renewable Energy,Healthy,Q2,49.87,13.07,1.5,2.05,1.52,50.0,60.0,45.0,33.75,16.18
+BORR-0015,"Memon, Pathak and Handa",Textiles,Healthy,Q2,53.85,13.0,1.5,2.05,1.52,50.0,60.0,45.0,20.8,8.15
+BORR-0016,"Boase, Bath and Kari",Trading,Stressed,Q2,120.36,15.25,1.5,2.05,1.52,50.0,60.0,45.0,31.5,21.04
+BORR-0017,Buch-Kaul,Steel,Stressed,Q2,68.69,12.8,1.5,2.05,1.52,50.0,60.0,45.0,45.41,15.73
+BORR-0018,Rai LLC,Engineering,Watch,Q2,247.53,13.5,1.5,2.05,1.52,50.0,60.0,45.0,93.3,42.88
+BORR-0019,Patla-Gaba,Manufacturing,Healthy,Q2,73.3,12.15,1.5,2.05,1.52,50.0,60.0,45.0,24.79,16.18
+BORR-0020,Pant-Kadakia,Manufacturing,Healthy,Q2,51.62,10.8,1.5,2.05,1.52,50.0,60.0,45.0,9.07,24.47
+BORR-0021,"Loke, Bora and Garg",Steel,Stressed,Q2,835.88,13.72,1.5,2.05,1.52,50.0,60.0,45.0,339.38,334.55
+BORR-0022,"Konda, Gade and Shere",Chemicals,Healthy,Q2,147.63,11.86,1.5,2.05,1.52,50.0,60.0,45.0,51.86,66.23
+BORR-0023,Madan-Kanda,Auto Components,Healthy,Q2,190.23,13.83,1.5,2.05,1.52,50.0,60.0,45.0,130.97,92.87
+BORR-0024,"Nair, Bhalla and Karnik",Steel,Watch,Q2,51.66,13.44,1.5,2.05,1.52,50.0,60.0,45.0,27.32,9.77
+BORR-0025,Mutti Group,Engineering,Healthy,Q2,110.61,10.46,1.5,2.05,1.52,50.0,60.0,45.0,28.93,16.36
+BORR-0026,Bhatti-Kakar,Construction,Healthy,Q2,204.44,11.37,1.5,2.05,1.52,50.0,60.0,45.0,55.57,71.63
+BORR-0027,"Murty, Kala and Tata",Logistics,Healthy,Q2,56.95,12.57,1.5,2.05,1.52,50.0,60.0,45.0,24.91,11.55
+BORR-0028,Shanker-Dhar,Food Processing,Healthy,Q2,266.02,13.29,1.5,2.05,1.52,50.0,60.0,45.0,74.64,112.16
+BORR-0029,Dewan-Koshy,Renewable Energy,Healthy,Q2,97.59,13.46,1.5,2.05,1.52,50.0,60.0,45.0,50.59,31.07
+BORR-0030,"Yohannan, Lall and Sangha",Power,Watch,Q2,136.3,14.66,1.5,2.05,1.52,50.0,60.0,45.0,44.17,24.83
+BORR-0031,"Rastogi, Pathak and Kanda",Logistics,Healthy,Q2,98.93,12.22,1.5,2.05,1.52,50.0,60.0,45.0,44.23,43.04
+BORR-0032,Upadhyay Group,Auto Components,Healthy,Q2,1078.01,13.16,1.5,2.05,1.52,50.0,60.0,45.0,392.74,420.24
+BORR-0033,Batta Inc,Steel,Stressed,Q2,208.14,14.43,1.5,2.05,1.52,50.0,60.0,45.0,102.6,83.81
+BORR-0034,Dutta Ltd,Power,Healthy,Q2,63.12,13.94,1.5,2.05,1.52,50.0,60.0,45.0,11.17,18.77
+BORR-0035,Bhatt-Rajan,Pharmaceuticals,Healthy,Q2,426.12,14.16,1.5,2.05,1.52,50.0,60.0,45.0,166.25,107.18
+BORR-0036,Sidhu-Wadhwa,Trading,Healthy,Q2,53.87,12.78,1.5,2.05,1.52,50.0,60.0,45.0,24.49,16.13
+BORR-0037,Apte-Contractor,Construction,Healthy,Q2,232.04,12.4,1.5,2.05,1.52,50.0,60.0,45.0,74.07,87.77
+BORR-0038,"Yadav, Loke and Oak",Textiles,Healthy,Q2,52.05,11.94,1.5,2.05,1.52,50.0,60.0,45.0,21.32,15.82
+BORR-0039,Memon Group,Pharmaceuticals,Stressed,Q2,55.32,17.0,1.5,2.05,1.52,50.0,60.0,45.0,34.26,22.57
+BORR-0040,Setty Inc,Renewable Energy,Healthy,Q2,227.08,11.83,1.5,2.05,1.52,50.0,60.0,45.0,158.16,109.06
+BORR-0041,"Lall, Tella and Gokhale",Power,Stressed,Q2,404.98,13.32,1.5,2.05,1.52,50.0,60.0,45.0,216.64,121.75
+BORR-0042,"Cherian, Misra and Tripathi",Steel,Stressed,Q2,238.81,14.7,1.5,2.05,1.52,50.0,60.0,45.0,64.16,74.59
+BORR-0043,"Issac, Dua and Prakash",Renewable Energy,Watch,Q2,173.32,12.02,1.5,2.05,1.52,50.0,60.0,45.0,91.99,31.63
+BORR-0044,Zacharia PLC,Food Processing,Stressed,Q2,149.79,14.5,1.5,2.05,1.52,50.0,60.0,45.0,99.94,33.64
+BORR-0045,Naik Group,Steel,Stressed,Q2,55.45,14.44,1.5,2.05,1.52,50.0,60.0,45.0,28.3,15.59
+BORR-0046,Choudhury LLC,Infrastructure,Watch,Q2,91.02,13.94,1.5,2.05,1.52,50.0,60.0,45.0,36.14,35.8
+BORR-0047,Khatri-Bhardwaj,Steel,Watch,Q2,121.07,11.74,1.5,2.05,1.52,50.0,60.0,45.0,63.88,42.41
+BORR-0048,Brar Inc,Renewable Energy,Healthy,Q2,525.01,10.58,1.5,2.05,1.52,50.0,60.0,45.0,356.47,101.3
+BORR-0049,"Sunder, Biswas and Walia",Renewable Energy,Stressed,Q2,291.36,13.87,1.5,2.05,1.52,50.0,60.0,45.0,120.68,78.53
+BORR-0050,Dave Ltd,Auto Components,Healthy,Q2,53.22,11.74,1.5,2.05,1.52,50.0,60.0,45.0,10.69,19.58
+BORR-0051,Gandhi-Lanka,Steel,Healthy,Q2,250.74,12.51,1.5,2.05,1.52,50.0,60.0,45.0,152.57,69.59
+BORR-0052,"Sampath, Kakar and Zacharia",Pharmaceuticals,Watch,Q2,123.19,13.94,1.5,2.05,1.52,50.0,60.0,45.0,27.54,30.22
+BORR-0053,"Iyer, Muni and Rastogi",Renewable Energy,Healthy,Q2,90.36,11.58,1.5,2.05,1.52,50.0,60.0,45.0,68.88,16.61
+BORR-0054,"Prakash, Sarma and Varughese",Trading,Healthy,Q2,351.87,10.9,1.5,2.05,1.52,50.0,60.0,45.0,155.92,89.6
+BORR-0055,Dara-Kota,Infrastructure,Healthy,Q2,542.06,11.78,1.5,2.05,1.52,50.0,60.0,45.0,296.65,163.58
+BORR-0056,Bhatt LLC,Engineering,Watch,Q2,456.09,13.68,1.5,2.05,1.52,50.0,60.0,45.0,193.05,132.15
+BORR-0057,Karpe PLC,Renewable Energy,Watch,Q2,81.41,13.01,1.5,2.05,1.52,50.0,60.0,45.0,15.6,37.44
+BORR-0058,Amble Inc,Manufacturing,Healthy,Q2,134.12,11.85,1.5,2.05,1.52,50.0,60.0,45.0,24.99,58.1
+BORR-0059,"Bhargava, Karnik and Bir",Infrastructure,Watch,Q2,274.66,12.7,1.5,2.05,1.52,50.0,60.0,45.0,138.45,40.92
+BORR-0060,Narayanan Inc,Power,Watch,Q2,483.74,13.02,1.5,2.05,1.52,50.0,60.0,45.0,330.55,126.95
+BORR-0061,"Khanna, Mallick and Sunder",Manufacturing,Healthy,Q2,111.46,12.1,1.5,2.05,1.52,50.0,60.0,45.0,42.09,23.68
+BORR-0062,Zacharia and Sons,Textiles,Watch,Q2,162.48,13.78,1.5,2.05,1.52,50.0,60.0,45.0,89.48,24.64
+BORR-0063,"Solanki, Kibe and Solanki",Textiles,Healthy,Q2,68.29,14.07,1.5,2.05,1.52,50.0,60.0,45.0,39.15,25.55
+BORR-0064,Gupta-Chandra,Auto Components,Healthy,Q2,54.74,12.19,1.5,2.05,1.52,50.0,60.0,45.0,41.74,15.26
+BORR-0065,Sankar LLC,Chemicals,Healthy,Q2,439.9,12.9,1.5,2.05,1.52,50.0,60.0,45.0,121.91,77.91
+BORR-0066,Roy-Sibal,Pharmaceuticals,Healthy,Q2,725.12,14.24,1.5,2.05,1.52,50.0,60.0,45.0,136.8,232.74
+BORR-0067,"Bhagat, Chaudhari and Bhat",Renewable Energy,Healthy,Q2,167.09,12.5,1.5,2.05,1.52,50.0,60.0,45.0,43.88,70.59
+BORR-0068,Nori-Chopra,Logistics,Healthy,Q2,494.32,14.46,1.5,2.05,1.52,50.0,60.0,45.0,311.97,221.78
+BORR-0069,Handa and Sons,Renewable Energy,Healthy,Q2,286.01,11.46,1.5,2.05,1.52,50.0,60.0,45.0,86.9,78.85
+BORR-0070,"Sen, Dey and Sami",Food Processing,Watch,Q2,100.8,12.74,1.5,2.05,1.52,50.0,60.0,45.0,16.58,16.34
+BORR-0071,Mallick Group,Infrastructure,Healthy,Q2,267.32,11.86,1.5,2.05,1.52,50.0,60.0,45.0,58.56,108.5
+BORR-0072,Borra Group,Construction,Watch,Q2,908.71,14.56,1.5,2.05,1.52,50.0,60.0,45.0,458.47,357.41
+BORR-0073,"Chaudhari, Bedi and Zachariah",Steel,Watch,Q2,188.8,12.57,1.5,2.05,1.52,50.0,60.0,45.0,40.18,45.18
+BORR-0074,Chander and Sons,Chemicals,Watch,Q2,880.05,13.58,1.5,2.05,1.52,50.0,60.0,45.0,236.71,415.89
+BORR-0075,Ray Group,Renewable Energy,Healthy,Q2,53.86,11.1,1.5,2.05,1.52,50.0,60.0,45.0,8.58,22.83
+BORR-0076,Kala-Rattan,Trading,Healthy,Q2,434.69,14.15,1.5,2.05,1.52,50.0,60.0,45.0,156.6,141.49
+BORR-0077,Gala Group,Auto Components,Healthy,Q2,210.86,12.58,1.5,2.05,1.52,50.0,60.0,45.0,91.43,95.6
+BORR-0078,Ramakrishnan LLC,Steel,Healthy,Q2,139.51,12.82,1.5,2.05,1.52,50.0,60.0,45.0,52.35,40.94
+BORR-0079,Mangal-Sampath,Infrastructure,Healthy,Q2,215.51,11.54,1.5,2.05,1.52,50.0,60.0,45.0,47.4,93.62
+BORR-0080,"Sur, Dubey and Gupta",Trading,Watch,Q2,54.96,13.81,1.5,2.05,1.52,50.0,60.0,45.0,25.35,11.37
+BORR-0081,Kalla-Bhardwaj,Logistics,Stressed,Q2,162.23,14.0,1.5,2.05,1.52,50.0,60.0,45.0,97.82,58.29
+BORR-0082,"Bhat, Murthy and Bhandari",Chemicals,Healthy,Q2,279.12,12.26,1.5,2.05,1.52,50.0,60.0,45.0,161.91,101.75
+BORR-0083,Sood PLC,Engineering,Watch,Q2,806.64,12.8,1.5,2.05,1.52,50.0,60.0,45.0,219.85,266.3
+BORR-0084,"Dugar, Bhandari and Trivedi",Renewable Energy,Healthy,Q2,109.38,12.94,1.5,2.05,1.52,50.0,60.0,45.0,78.3,48.89
+BORR-0085,Grewal Inc,Manufacturing,Stressed,Q2,89.62,13.55,1.5,2.05,1.52,50.0,60.0,45.0,27.1,28.86
+BORR-0086,"Bir, Keer and Raval",Textiles,Watch,Q2,116.61,13.32,1.5,2.05,1.52,50.0,60.0,45.0,57.83,40.59
+BORR-0087,Koshy PLC,Renewable Energy,Healthy,Q2,478.43,11.3,1.5,2.05,1.52,50.0,60.0,45.0,102.03,115.37
+BORR-0088,"Baral, Bumb and Saini",Renewable Energy,Watch,Q2,260.52,13.36,1.5,2.05,1.52,50.0,60.0,45.0,154.85,113.58
+BORR-0089,"Virk, Mutti and Lal",Textiles,Healthy,Q2,103.11,11.77,1.5,2.05,1.52,50.0,60.0,45.0,49.85,32.74
+BORR-0090,Murthy and Sons,Construction,Watch,Q2,306.13,12.45,1.5,2.05,1.52,50.0,60.0,45.0,166.06,89.09
+BORR-0091,Randhawa-Deep,Logistics,Healthy,Q2,197.6,12.66,1.5,2.05,1.52,50.0,60.0,45.0,58.64,61.55
+BORR-0092,"Mital, Shankar and Mutti",Logistics,Healthy,Q2,492.3,11.48,1.5,2.05,1.52,50.0,60.0,45.0,299.87,94.1
+BORR-0093,Andra Group,Renewable Energy,Healthy,Q2,91.84,11.78,1.5,2.05,1.52,50.0,60.0,45.0,50.65,37.8
+BORR-0094,"Chaudhry, Borah and Yogi",Food Processing,Watch,Q2,138.68,11.8,1.5,2.05,1.52,50.0,60.0,45.0,87.71,23.58
+BORR-0095,Toor LLC,Engineering,Watch,Q2,133.99,12.34,1.5,2.05,1.52,50.0,60.0,45.0,70.88,48.05
+BORR-0096,Palla Inc,Construction,Stressed,Q2,54.47,13.46,1.5,2.05,1.52,50.0,60.0,45.0,12.12,11.94
+BORR-0097,Pingle LLC,Infrastructure,Healthy,Q2,250.53,11.09,1.5,2.05,1.52,50.0,60.0,45.0,185.02,117.04
+BORR-0098,Sarma PLC,Manufacturing,Healthy,Q2,245.8,12.1,1.5,2.05,1.52,50.0,60.0,45.0,112.26,57.35
+BORR-0099,"Mittal, Wadhwa and Anand",Renewable Energy,Healthy,Q2,191.15,13.32,1.5,2.05,1.52,50.0,60.0,45.0,120.21,32.15
+BORR-0100,"Mistry, Chawla and Desai",Power,Watch,Q2,146.02,14.18,1.5,2.05,1.52,50.0,60.0,45.0,63.66,23.6
+BORR-0101,D’Alia-Chhabra,Construction,Watch,Q2,53.96,12.36,1.5,2.05,1.52,50.0,60.0,45.0,29.8,16.1
+BORR-0102,"Dugal, Magar and Manda",Trading,Healthy,Q2,112.97,13.12,1.5,2.05,1.52,50.0,60.0,45.0,63.27,50.59
+BORR-0103,"Kade, Oza and Jani",Steel,Healthy,Q2,126.69,13.06,1.5,2.05,1.52,50.0,60.0,45.0,21.76,34.89
+BORR-0104,"Lalla, Tiwari and Suresh",Chemicals,Healthy,Q2,79.75,12.0,1.5,2.05,1.52,50.0,60.0,45.0,36.52,14.24
+BORR-0105,Behl-Chanda,Food Processing,Watch,Q2,168.82,13.12,1.5,2.05,1.52,50.0,60.0,45.0,53.26,74.47
+BORR-0106,"Sampath, Malhotra and Basu",Trading,Healthy,Q2,286.15,13.09,1.5,2.05,1.52,50.0,60.0,45.0,89.95,105.5
+BORR-0107,Nath and Sons,Trading,Healthy,Q2,1244.71,11.94,1.5,2.05,1.52,50.0,60.0,45.0,575.66,441.84
+BORR-0108,"Lala, Edwin and Sathe",Pharmaceuticals,Healthy,Q2,237.11,12.61,1.5,2.05,1.52,50.0,60.0,45.0,84.69,89.82
+BORR-0109,"Sane, Andra and Choudhury",Manufacturing,Healthy,Q2,242.32,11.4,1.5,2.05,1.52,50.0,60.0,45.0,152.16,44.17
+BORR-0110,Dixit PLC,Food Processing,Stressed,Q2,180.37,13.67,1.5,2.05,1.52,50.0,60.0,45.0,86.73,47.66
+BORR-0111,Pingle PLC,Logistics,Healthy,Q2,50.76,13.09,1.5,2.05,1.52,50.0,60.0,45.0,21.66,10.41
+BORR-0112,"Divan, Sani and Datta",Textiles,Stressed,Q2,187.42,14.8,1.5,2.05,1.52,50.0,60.0,45.0,86.96,56.16
+BORR-0113,Morar LLC,Engineering,Healthy,Q2,199.16,11.74,1.5,2.05,1.52,50.0,60.0,45.0,92.8,39.81
+BORR-0114,Parmar and Sons,Pharmaceuticals,Healthy,Q2,2172.29,13.28,1.5,2.05,1.52,50.0,60.0,45.0,1448.9,380.26
+BORR-0115,"Krish, Chauhan and Pandya",Construction,Healthy,Q2,151.86,13.02,1.5,2.05,1.52,50.0,60.0,45.0,49.66,51.89
+BORR-0116,"Ray, Dubey and Khalsa",Food Processing,Healthy,Q2,238.45,12.16,1.5,2.05,1.52,50.0,60.0,45.0,48.82,103.87
+BORR-0117,Goel Group,Pharmaceuticals,Healthy,Q2,172.69,13.29,1.5,2.05,1.52,50.0,60.0,45.0,115.55,46.49
+BORR-0118,Gola Ltd,Renewable Energy,Healthy,Q2,60.12,11.55,1.5,2.05,1.52,50.0,60.0,45.0,21.04,9.98
+BORR-0119,Sabharwal-Kothari,Logistics,Watch,Q2,568.23,13.92,1.5,2.05,1.52,50.0,60.0,45.0,233.88,110.43
+BORR-0120,Dutta-Chokshi,Textiles,Watch,Q2,410.4,12.91,1.5,2.05,1.52,50.0,60.0,45.0,275.29,139.17
+BORR-0121,Barad-Singhal,Chemicals,Watch,Q2,411.19,14.08,1.5,2.05,1.52,50.0,60.0,45.0,111.45,143.46
+BORR-0122,Iyengar Group,Trading,Healthy,Q2,77.54,12.29,1.5,2.05,1.52,50.0,60.0,45.0,14.43,25.7
+BORR-0123,Mody-Kari,Textiles,Critical,Q2,841.2,15.2,1.5,2.05,1.52,50.0,60.0,45.0,354.77,209.27
+BORR-0124,Bajwa Ltd,Infrastructure,Stressed,Q2,53.18,14.24,1.5,2.05,1.52,50.0,60.0,45.0,23.48,21.67
+BORR-0125,Rastogi LLC,Textiles,Healthy,Q2,320.95,12.39,1.5,2.05,1.52,50.0,60.0,45.0,100.78,60.03
+BORR-0126,Boase-Mallick,Logistics,Healthy,Q2,1767.98,13.23,1.5,2.05,1.52,50.0,60.0,45.0,325.17,449.96
+BORR-0127,Upadhyay-Ratta,Trading,Healthy,Q2,63.7,13.72,1.5,2.05,1.52,50.0,60.0,45.0,42.27,27.09
+BORR-0128,"Yadav, Narula and Bala",Chemicals,Healthy,Q2,111.59,13.28,1.5,2.05,1.52,50.0,60.0,45.0,21.6,48.12
+BORR-0129,Lal and Sons,Pharmaceuticals,Watch,Q2,214.52,13.02,1.5,2.05,1.52,50.0,60.0,45.0,86.13,45.95
+BORR-0130,"Lanka, Barad and Chopra",Power,Watch,Q2,112.92,14.64,1.5,2.05,1.52,50.0,60.0,45.0,19.47,48.01
+BORR-0131,"Saraf, Pai and Murthy",Engineering,Watch,Q2,52.57,12.71,1.5,2.05,1.52,50.0,60.0,45.0,11.65,21.69
+BORR-0132,Vaidya-D’Alia,Auto Components,Healthy,Q2,191.92,12.18,1.5,2.05,1.52,50.0,60.0,45.0,50.24,43.27
+BORR-0133,Gupta-Kumar,Manufacturing,Healthy,Q2,60.56,12.04,1.5,2.05,1.52,50.0,60.0,45.0,47.53,26.28
+BORR-0134,Sarin Inc,Infrastructure,Healthy,Q2,283.12,13.14,1.5,2.05,1.52,50.0,60.0,45.0,189.94,135.74
+BORR-0135,"Yohannan, Hegde and Patla",Manufacturing,Healthy,Q2,75.85,13.2,1.5,2.05,1.52,50.0,60.0,45.0,15.06,16.56
+BORR-0136,Boase-Narayanan,Steel,Healthy,Q2,857.76,13.58,1.5,2.05,1.52,50.0,60.0,45.0,306.56,222.28
+BORR-0137,"Murthy, Dash and Mital",Power,Stressed,Q2,90.05,14.84,1.5,2.05,1.52,50.0,60.0,45.0,32.52,40.84
+BORR-0138,"More, Rege and Narain",Steel,Healthy,Q2,135.93,12.66,1.5,2.05,1.52,50.0,60.0,45.0,48.28,55.33
+BORR-0139,Merchant-Datta,Steel,Stressed,Q2,469.95,12.93,1.5,2.05,1.52,50.0,60.0,45.0,148.1,186.54
+BORR-0140,Salvi Ltd,Manufacturing,Healthy,Q2,55.39,12.76,1.5,2.05,1.52,50.0,60.0,45.0,20.83,17.95
+BORR-0141,Ghosh-Mitra,Auto Components,Watch,Q2,245.65,13.08,1.5,2.05,1.52,50.0,60.0,45.0,60.57,103.61
+BORR-0142,Acharya-Modi,Auto Components,Watch,Q2,659.19,12.61,1.5,2.05,1.52,50.0,60.0,45.0,498.39,258.96
+BORR-0143,Kade-Sani,Auto Components,Critical,Q2,56.62,14.58,1.5,2.05,1.52,50.0,60.0,45.0,13.83,21.67
+BORR-0144,"Nagy, Shroff and Sathe",Steel,Healthy,Q2,221.18,13.74,1.5,2.05,1.52,50.0,60.0,45.0,156.77,74.88
+BORR-0145,Kala-Vaidya,Chemicals,Healthy,Q2,229.44,10.39,1.5,2.05,1.52,50.0,60.0,45.0,165.02,36.56
+BORR-0146,Gara-Chad,Logistics,Stressed,Q2,436.79,13.48,1.5,2.05,1.52,50.0,60.0,45.0,74.24,167.48
+BORR-0147,Varma-Nayak,Food Processing,Healthy,Q2,55.14,13.48,1.5,2.05,1.52,50.0,60.0,45.0,13.77,23.68
+BORR-0148,Keer Ltd,Manufacturing,Watch,Q2,51.76,13.76,1.5,2.05,1.52,50.0,60.0,45.0,22.15,9.72
+BORR-0149,Kar-Issac,Logistics,Stressed,Q2,348.54,13.99,1.5,2.05,1.52,50.0,60.0,45.0,116.71,113.89
+BORR-0150,Bakshi Inc,Renewable Energy,Watch,Q2,268.94,15.21,1.5,2.05,1.52,50.0,60.0,45.0,111.59,61.21
+BORR-0151,Soman PLC,Construction,Watch,Q2,242.16,13.32,1.5,2.05,1.52,50.0,60.0,45.0,150.84,96.14
+BORR-0152,Shah Group,Auto Components,Stressed,Q2,286.67,14.56,1.5,2.05,1.52,50.0,60.0,45.0,122.34,74.75
+BORR-0153,"Hayer, Rajagopalan and Talwar",Food Processing,Watch,Q2,96.3,14.3,1.5,2.05,1.52,50.0,60.0,45.0,58.18,38.45
+BORR-0154,Kohli-Divan,Steel,Healthy,Q2,230.12,11.06,1.5,2.05,1.52,50.0,60.0,45.0,88.66,80.6
+BORR-0155,"Ahluwalia, Chhabra and Sandal",Steel,Healthy,Q2,244.19,12.64,1.5,2.05,1.52,50.0,60.0,45.0,91.7,90.86
+BORR-0156,Goda Ltd,Auto Components,Healthy,Q2,90.15,13.38,1.5,2.05,1.52,50.0,60.0,45.0,49.51,33.54
+BORR-0157,"Shetty, Bedi and Krish",Engineering,Healthy,Q2,1248.49,12.92,1.5,2.05,1.52,50.0,60.0,45.0,672.48,368.98
+BORR-0158,Shan and Sons,Trading,Healthy,Q2,295.92,14.18,1.5,2.05,1.52,50.0,60.0,45.0,165.14,86.21
+BORR-0159,Wali-Nadig,Steel,Watch,Q2,55.95,13.48,1.5,2.05,1.52,50.0,60.0,45.0,12.89,22.04
+BORR-0160,Thaman-Sandhu,Manufacturing,Watch,Q2,362.4,13.4,1.5,2.05,1.52,50.0,60.0,45.0,204.18,134.01
+BORR-0161,"Sehgal, Dutt and Soman",Food Processing,Healthy,Q2,72.01,12.72,1.5,2.05,1.52,50.0,60.0,45.0,46.12,30.76
+BORR-0162,Lad-Kota,Auto Components,Healthy,Q2,408.88,12.9,1.5,2.05,1.52,50.0,60.0,45.0,69.67,134.92
+BORR-0163,"Malhotra, Verma and Sundaram",Engineering,Watch,Q2,652.18,14.28,1.5,2.05,1.52,50.0,60.0,45.0,89.13,156.81
+BORR-0164,"Khare, Maharaj and Sarraf",Renewable Energy,Healthy,Q2,79.33,11.8,1.5,2.05,1.52,50.0,60.0,45.0,53.1,28.13
+BORR-0165,Mangal and Sons,Infrastructure,Stressed,Q2,538.28,16.2,1.5,2.05,1.52,50.0,60.0,45.0,328.92,139.45
+BORR-0166,Nayak-Nagarajan,Renewable Energy,Watch,Q2,291.14,12.63,1.5,2.05,1.52,50.0,60.0,45.0,64.15,108.1
+BORR-0167,"Buch, Devi and Dora",Renewable Energy,Healthy,Q2,449.26,11.83,1.5,2.05,1.52,50.0,60.0,45.0,77.39,99.4
+BORR-0168,Rajagopal Ltd,Chemicals,Watch,Q2,1351.25,13.34,1.5,2.05,1.52,50.0,60.0,45.0,697.16,199.07
+BORR-0169,Kala Inc,Textiles,Healthy,Q2,145.39,12.78,1.5,2.05,1.52,50.0,60.0,45.0,107.06,24.72
+BORR-0170,Reddy-Narayanan,Trading,Healthy,Q2,85.43,11.22,1.5,2.05,1.52,50.0,60.0,45.0,50.0,28.2
+BORR-0171,"Shukla, Sagar and Bhatia",Renewable Energy,Healthy,Q2,80.39,14.26,1.5,2.05,1.52,50.0,60.0,45.0,39.37,27.09
+BORR-0172,Salvi Group,Trading,Healthy,Q2,76.87,12.68,1.5,2.05,1.52,50.0,60.0,45.0,38.66,12.11
+BORR-0173,"Bahri, Rai and Sood",Steel,Healthy,Q2,172.51,12.66,1.5,2.05,1.52,50.0,60.0,45.0,84.73,38.15
+BORR-0174,Pandey LLC,Steel,Healthy,Q2,254.24,10.23,1.5,2.05,1.52,50.0,60.0,45.0,82.94,119.73
+BORR-0175,Saini-Yohannan,Infrastructure,Healthy,Q2,247.72,14.51,1.5,2.05,1.52,50.0,60.0,45.0,116.68,42.55
+BORR-0176,"Kannan, Sura and Kanda",Construction,Healthy,Q2,422.47,12.82,1.5,2.05,1.52,50.0,60.0,45.0,210.72,198.24
+BORR-0177,Sarin-Sunder,Construction,Watch,Q2,189.46,14.32,1.5,2.05,1.52,50.0,60.0,45.0,111.24,55.02
+BORR-0178,Ramachandran LLC,Renewable Energy,Watch,Q2,837.25,14.0,1.5,2.05,1.52,50.0,60.0,45.0,133.46,271.53
+BORR-0179,"Ravel, Gandhi and Sibal",Logistics,Watch,Q2,149.0,14.48,1.5,2.05,1.52,50.0,60.0,45.0,103.37,67.99
+BORR-0180,Walla Inc,Food Processing,Healthy,Q2,2948.89,14.76,1.5,2.05,1.52,50.0,60.0,45.0,1905.95,446.76
+BORR-0181,Bala-Chacko,Trading,Healthy,Q2,328.66,13.68,1.5,2.05,1.52,50.0,60.0,45.0,151.84,121.28
+BORR-0182,"Sangha, Deshmukh and Shenoy",Renewable Energy,Healthy,Q2,81.51,11.5,1.5,2.05,1.52,50.0,60.0,45.0,51.0,12.02
+BORR-0183,Bedi LLC,Food Processing,Healthy,Q2,62.63,13.2,1.5,2.05,1.52,50.0,60.0,45.0,15.99,27.1
+BORR-0184,Narang-Kakar,Textiles,Watch,Q2,307.37,11.86,1.5,2.05,1.52,50.0,60.0,45.0,130.46,106.17
+BORR-0185,Narain-Nazareth,Construction,Healthy,Q2,150.19,11.58,1.5,2.05,1.52,50.0,60.0,45.0,102.72,63.58
+BORR-0186,Mall-Sama,Pharmaceuticals,Healthy,Q2,374.36,13.12,1.5,2.05,1.52,50.0,60.0,45.0,80.78,109.62
+BORR-0187,Bumb-Singhal,Logistics,Healthy,Q2,277.13,12.91,1.5,2.05,1.52,50.0,60.0,45.0,161.93,118.6
+BORR-0188,Zacharia Inc,Power,Healthy,Q2,168.62,12.81,1.5,2.05,1.52,50.0,60.0,45.0,29.68,47.47
+BORR-0189,Kapur-Biswas,Pharmaceuticals,Watch,Q2,80.16,12.06,1.5,2.05,1.52,50.0,60.0,45.0,23.28,11.55
+BORR-0190,"Baria, Balasubramanian and Kota",Manufacturing,Healthy,Q2,50.0,13.26,1.5,2.05,1.52,50.0,60.0,45.0,15.64,14.47
+BORR-0191,Bahri PLC,Steel,Healthy,Q2,114.98,12.85,1.5,2.05,1.52,50.0,60.0,45.0,44.91,48.92
+BORR-0192,Khare and Sons,Construction,Healthy,Q2,424.66,13.23,1.5,2.05,1.52,50.0,60.0,45.0,243.75,197.96
+BORR-0193,Contractor-Kamdar,Power,Healthy,Q2,241.07,12.36,1.5,2.05,1.52,50.0,60.0,45.0,153.74,71.54
+BORR-0194,Kunda-Pillay,Engineering,Healthy,Q2,52.72,12.83,1.5,2.05,1.52,50.0,60.0,45.0,20.09,9.56
+BORR-0195,Contractor and Sons,Chemicals,Healthy,Q2,224.2,14.12,1.5,2.05,1.52,50.0,60.0,45.0,139.05,73.49
+BORR-0196,Chokshi-Bal,Logistics,Healthy,Q2,263.64,12.0,1.5,2.05,1.52,50.0,60.0,45.0,82.24,117.04
+BORR-0197,Prashad-Ranganathan,Construction,Healthy,Q2,75.99,13.28,1.5,2.05,1.52,50.0,60.0,45.0,31.95,13.16
+BORR-0198,"Issac, Borra and Kibe",Construction,Stressed,Q2,233.45,13.76,1.5,2.05,1.52,50.0,60.0,45.0,108.27,102.12
+BORR-0199,Mitra Ltd,Steel,Watch,Q2,192.52,15.27,1.5,2.05,1.52,50.0,60.0,45.0,106.4,87.49
+BORR-0200,"Dara, Barman and Palan",Power,Watch,Q2,60.0,14.56,1.5,2.05,1.52,50.0,60.0,45.0,24.24,21.39
+BORR-0001,"Choudhury, Bakshi and Maharaj",Manufacturing,Watch,Q3,303.02,10.77,1.5,2.02,1.51,50.0,60.0,45.0,178.99,69.87
+BORR-0002,Kapoor and Sons,Trading,Healthy,Q3,158.52,12.93,1.5,2.02,1.51,50.0,60.0,45.0,39.19,46.79
+BORR-0003,"Chaudry, Chahal and Sami",Engineering,Healthy,Q3,346.16,12.26,1.5,2.02,1.51,50.0,60.0,45.0,214.78,170.56
+BORR-0004,Balan Inc,Infrastructure,Watch,Q3,853.28,13.74,1.5,2.02,1.51,50.0,60.0,45.0,236.58,217.96
+BORR-0005,Kaul PLC,Auto Components,Stressed,Q3,149.23,13.27,1.5,2.02,1.51,50.0,60.0,45.0,53.2,71.22
+BORR-0006,"Bala, Issac and Saini",Pharmaceuticals,Watch,Q3,143.33,13.12,1.5,2.02,1.51,50.0,60.0,45.0,31.42,43.12
+BORR-0007,Sen PLC,Logistics,Healthy,Q3,904.44,12.05,1.5,2.02,1.51,50.0,60.0,45.0,563.16,204.58
+BORR-0008,Ahuja-Dutta,Pharmaceuticals,Watch,Q3,405.22,13.09,1.5,2.02,1.51,50.0,60.0,45.0,162.83,128.67
+BORR-0009,"Sami, Oak and Mall",Power,Stressed,Q3,122.11,13.28,1.5,2.02,1.51,50.0,60.0,45.0,56.75,26.51
+BORR-0010,Kale LLC,Chemicals,Healthy,Q3,306.22,12.14,1.5,2.02,1.51,50.0,60.0,45.0,134.67,141.52
+BORR-0011,Chanda Group,Trading,Watch,Q3,116.47,13.26,1.5,2.02,1.51,50.0,60.0,45.0,55.69,45.55
+BORR-0012,Parmer LLC,Power,Healthy,Q3,115.39,12.3,1.5,2.02,1.51,50.0,60.0,45.0,58.23,41.52
+BORR-0013,"Lalla, Bassi and Sharaf",Pharmaceuticals,Healthy,Q3,234.95,11.72,1.5,2.02,1.51,50.0,60.0,45.0,158.24,105.16
+BORR-0014,"Dash, Radhakrishnan and Brar",Renewable Energy,Healthy,Q3,49.94,12.54,1.5,2.02,1.51,50.0,60.0,45.0,33.42,16.26
+BORR-0015,"Memon, Pathak and Handa",Textiles,Healthy,Q3,51.93,12.5,1.5,2.02,1.51,50.0,60.0,45.0,20.59,8.19
+BORR-0016,"Boase, Bath and Kari",Trading,Stressed,Q3,111.84,13.62,1.5,2.02,1.51,50.0,60.0,45.0,31.19,21.14
+BORR-0017,Buch-Kaul,Steel,Stressed,Q3,67.27,12.4,1.5,2.02,1.51,50.0,60.0,45.0,44.97,15.81
+BORR-0018,Rai LLC,Engineering,Watch,Q3,247.86,12.75,1.5,2.02,1.51,50.0,60.0,45.0,92.38,43.09
+BORR-0019,Patla-Gaba,Manufacturing,Healthy,Q3,73.2,12.08,1.5,2.02,1.51,50.0,60.0,45.0,24.54,16.26
+BORR-0020,Pant-Kadakia,Manufacturing,Healthy,Q3,50.81,11.4,1.5,2.02,1.51,50.0,60.0,45.0,8.98,24.6
+BORR-0021,"Loke, Bora and Garg",Steel,Stressed,Q3,810.42,12.86,1.5,2.02,1.51,50.0,60.0,45.0,336.06,336.24
+BORR-0022,"Konda, Gade and Shere",Chemicals,Healthy,Q3,146.14,11.93,1.5,2.02,1.51,50.0,60.0,45.0,51.35,66.57
+BORR-0023,Madan-Kanda,Auto Components,Healthy,Q3,192.08,12.92,1.5,2.02,1.51,50.0,60.0,45.0,129.68,93.34
+BORR-0024,"Nair, Bhalla and Karnik",Steel,Watch,Q3,50.83,12.72,1.5,2.02,1.51,50.0,60.0,45.0,27.05,9.82
+BORR-0025,Mutti Group,Engineering,Healthy,Q3,107.89,11.23,1.5,2.02,1.51,50.0,60.0,45.0,28.64,16.45
+BORR-0026,Bhatti-Kakar,Construction,Healthy,Q3,203.49,11.68,1.5,2.02,1.51,50.0,60.0,45.0,55.02,71.99
+BORR-0027,"Murty, Kala and Tata",Logistics,Healthy,Q3,57.15,12.28,1.5,2.02,1.51,50.0,60.0,45.0,24.66,11.61
+BORR-0028,Shanker-Dhar,Food Processing,Healthy,Q3,264.97,12.64,1.5,2.02,1.51,50.0,60.0,45.0,73.91,112.72
+BORR-0029,Dewan-Koshy,Renewable Energy,Healthy,Q3,98.51,12.73,1.5,2.02,1.51,50.0,60.0,45.0,50.1,31.22
+BORR-0030,"Yohannan, Lall and Sangha",Power,Watch,Q3,135.86,13.33,1.5,2.02,1.51,50.0,60.0,45.0,43.73,24.95
+BORR-0031,"Rastogi, Pathak and Kanda",Logistics,Healthy,Q3,99.12,12.11,1.5,2.02,1.51,50.0,60.0,45.0,43.79,43.25
+BORR-0032,Upadhyay Group,Auto Components,Healthy,Q3,1116.75,12.58,1.5,2.02,1.51,50.0,60.0,45.0,388.89,422.36
+BORR-0033,Batta Inc,Steel,Stressed,Q3,193.49,13.22,1.5,2.02,1.51,50.0,60.0,45.0,101.6,84.24
+BORR-0034,Dutta Ltd,Power,Healthy,Q3,63.03,12.97,1.5,2.02,1.51,50.0,60.0,45.0,11.06,18.87
+BORR-0035,Bhatt-Rajan,Pharmaceuticals,Healthy,Q3,419.38,13.08,1.5,2.02,1.51,50.0,60.0,45.0,164.62,107.72
+BORR-0036,Sidhu-Wadhwa,Trading,Healthy,Q3,53.67,12.39,1.5,2.02,1.51,50.0,60.0,45.0,24.25,16.21
+BORR-0037,Apte-Contractor,Construction,Healthy,Q3,227.71,12.2,1.5,2.02,1.51,50.0,60.0,45.0,73.35,88.22
+BORR-0038,"Yadav, Loke and Oak",Textiles,Healthy,Q3,51.02,11.97,1.5,2.02,1.51,50.0,60.0,45.0,21.11,15.9
+BORR-0039,Memon Group,Pharmaceuticals,Stressed,Q3,52.66,14.5,1.5,2.02,1.51,50.0,60.0,45.0,33.93,22.69
+BORR-0040,Setty Inc,Renewable Energy,Healthy,Q3,223.89,11.92,1.5,2.02,1.51,50.0,60.0,45.0,156.61,109.61
+BORR-0041,"Lall, Tella and Gokhale",Power,Stressed,Q3,392.16,12.66,1.5,2.02,1.51,50.0,60.0,45.0,214.51,122.37
+BORR-0042,"Cherian, Misra and Tripathi",Steel,Stressed,Q3,226.98,13.35,1.5,2.02,1.51,50.0,60.0,45.0,63.53,74.96
+BORR-0043,"Issac, Dua and Prakash",Renewable Energy,Watch,Q3,167.4,12.01,1.5,2.02,1.51,50.0,60.0,45.0,91.09,31.79
+BORR-0044,Zacharia PLC,Food Processing,Stressed,Q3,141.97,13.25,1.5,2.02,1.51,50.0,60.0,45.0,98.96,33.81
+BORR-0045,Naik Group,Steel,Stressed,Q3,52.72,13.22,1.5,2.02,1.51,50.0,60.0,45.0,28.03,15.67
+BORR-0046,Choudhury LLC,Infrastructure,Watch,Q3,89.64,12.97,1.5,2.02,1.51,50.0,60.0,45.0,35.78,35.98
+BORR-0047,Khatri-Bhardwaj,Steel,Watch,Q3,117.71,11.87,1.5,2.02,1.51,50.0,60.0,45.0,63.26,42.63
+BORR-0048,Brar Inc,Renewable Energy,Healthy,Q3,523.36,11.29,1.5,2.02,1.51,50.0,60.0,45.0,352.97,101.81
+BORR-0049,"Sunder, Biswas and Walia",Renewable Energy,Stressed,Q3,273.48,12.94,1.5,2.02,1.51,50.0,60.0,45.0,119.49,78.92
+BORR-0050,Dave Ltd,Auto Components,Healthy,Q3,51.61,11.87,1.5,2.02,1.51,50.0,60.0,45.0,10.58,19.68
+BORR-0051,Gandhi-Lanka,Steel,Healthy,Q3,250.7,12.26,1.5,2.02,1.51,50.0,60.0,45.0,151.08,69.94
+BORR-0052,"Sampath, Kakar and Zacharia",Pharmaceuticals,Watch,Q3,123.27,12.97,1.5,2.02,1.51,50.0,60.0,45.0,27.27,30.38
+BORR-0053,"Iyer, Muni and Rastogi",Renewable Energy,Healthy,Q3,91.24,11.79,1.5,2.02,1.51,50.0,60.0,45.0,68.21,16.7
+BORR-0054,"Prakash, Sarma and Varughese",Trading,Healthy,Q3,343.03,11.45,1.5,2.02,1.51,50.0,60.0,45.0,154.39,90.05
+BORR-0055,Dara-Kota,Infrastructure,Healthy,Q3,525.16,11.89,1.5,2.02,1.51,50.0,60.0,45.0,293.74,164.4
+BORR-0056,Bhatt LLC,Engineering,Watch,Q3,458.05,12.84,1.5,2.02,1.51,50.0,60.0,45.0,191.15,132.81
+BORR-0057,Karpe PLC,Renewable Energy,Watch,Q3,79.87,12.5,1.5,2.02,1.51,50.0,60.0,45.0,15.44,37.63
+BORR-0058,Amble Inc,Manufacturing,Healthy,Q3,133.59,11.92,1.5,2.02,1.51,50.0,60.0,45.0,24.74,58.4
+BORR-0059,"Bhargava, Karnik and Bir",Infrastructure,Watch,Q3,263.56,12.35,1.5,2.02,1.51,50.0,60.0,45.0,137.1,41.12
+BORR-0060,Narayanan Inc,Power,Watch,Q3,482.29,12.51,1.5,2.02,1.51,50.0,60.0,45.0,327.31,127.59
+BORR-0061,"Khanna, Mallick and Sunder",Manufacturing,Healthy,Q3,111.86,12.05,1.5,2.02,1.51,50.0,60.0,45.0,41.67,23.8
+BORR-0062,Zacharia and Sons,Textiles,Watch,Q3,156.52,12.89,1.5,2.02,1.51,50.0,60.0,45.0,88.61,24.77
+BORR-0063,"Solanki, Kibe and Solanki",Textiles,Healthy,Q3,64.12,13.04,1.5,2.02,1.51,50.0,60.0,45.0,38.76,25.68
+BORR-0064,Gupta-Chandra,Auto Components,Healthy,Q3,54.77,12.1,1.5,2.02,1.51,50.0,60.0,45.0,41.33,15.33
+BORR-0065,Sankar LLC,Chemicals,Healthy,Q3,424.21,12.45,1.5,2.02,1.51,50.0,60.0,45.0,120.72,78.31
+BORR-0066,Roy-Sibal,Pharmaceuticals,Healthy,Q3,714.37,13.12,1.5,2.02,1.51,50.0,60.0,45.0,135.46,233.91
+BORR-0067,"Bhagat, Chaudhari and Bhat",Renewable Energy,Healthy,Q3,167.89,12.25,1.5,2.02,1.51,50.0,60.0,45.0,43.45,70.94
+BORR-0068,Nori-Chopra,Logistics,Healthy,Q3,494.4,13.23,1.5,2.02,1.51,50.0,60.0,45.0,308.91,222.9
+BORR-0069,Handa and Sons,Renewable Energy,Healthy,Q3,273.13,11.73,1.5,2.02,1.51,50.0,60.0,45.0,86.05,79.25
+BORR-0070,"Sen, Dey and Sami",Food Processing,Watch,Q3,97.95,12.37,1.5,2.02,1.51,50.0,60.0,45.0,16.41,16.42
+BORR-0071,Mallick Group,Infrastructure,Healthy,Q3,263.75,11.93,1.5,2.02,1.51,50.0,60.0,45.0,57.98,109.05
+BORR-0072,Borra Group,Construction,Watch,Q3,876.31,13.28,1.5,2.02,1.51,50.0,60.0,45.0,453.97,359.21
+BORR-0073,"Chaudhari, Bedi and Zachariah",Steel,Watch,Q3,181.85,12.28,1.5,2.02,1.51,50.0,60.0,45.0,39.78,45.41
+BORR-0074,Chander and Sons,Chemicals,Watch,Q3,873.35,12.79,1.5,2.02,1.51,50.0,60.0,45.0,234.39,417.99
+BORR-0075,Ray Group,Renewable Energy,Healthy,Q3,51.93,11.55,1.5,2.02,1.51,50.0,60.0,45.0,8.49,22.94
+BORR-0076,Kala-Rattan,Trading,Healthy,Q3,423.52,13.08,1.5,2.02,1.51,50.0,60.0,45.0,155.07,142.21
+BORR-0077,Gala Group,Auto Components,Healthy,Q3,204.31,12.29,1.5,2.02,1.51,50.0,60.0,45.0,90.54,96.09
+BORR-0078,Ramakrishnan LLC,Steel,Healthy,Q3,136.97,12.41,1.5,2.02,1.51,50.0,60.0,45.0,51.83,41.14
+BORR-0079,Mangal-Sampath,Infrastructure,Healthy,Q3,207.1,11.77,1.5,2.02,1.51,50.0,60.0,45.0,46.93,94.1
+BORR-0080,"Sur, Dubey and Gupta",Trading,Watch,Q3,52.48,12.9,1.5,2.02,1.51,50.0,60.0,45.0,25.1,11.42
+BORR-0081,Kalla-Bhardwaj,Logistics,Stressed,Q3,153.88,13.0,1.5,2.02,1.51,50.0,60.0,45.0,96.86,58.59
+BORR-0082,"Bhat, Murthy and Bhandari",Chemicals,Healthy,Q3,269.1,12.13,1.5,2.02,1.51,50.0,60.0,45.0,160.33,102.27
+BORR-0083,Sood PLC,Engineering,Watch,Q3,800.64,12.4,1.5,2.02,1.51,50.0,60.0,45.0,217.7,267.65
+BORR-0084,"Dugar, Bhandari and Trivedi",Renewable Energy,Healthy,Q3,108.67,12.47,1.5,2.02,1.51,50.0,60.0,45.0,77.53,49.13
+BORR-0085,Grewal Inc,Manufacturing,Stressed,Q3,85.19,12.78,1.5,2.02,1.51,50.0,60.0,45.0,26.84,29.0
+BORR-0086,"Bir, Keer and Raval",Textiles,Watch,Q3,113.18,12.66,1.5,2.02,1.51,50.0,60.0,45.0,57.27,40.8
+BORR-0087,Koshy PLC,Renewable Energy,Healthy,Q3,465.6,11.65,1.5,2.02,1.51,50.0,60.0,45.0,101.03,115.96
+BORR-0088,"Baral, Bumb and Saini",Renewable Energy,Watch,Q3,256.17,12.68,1.5,2.02,1.51,50.0,60.0,45.0,153.33,114.16
+BORR-0089,"Virk, Mutti and Lal",Textiles,Healthy,Q3,104.92,11.88,1.5,2.02,1.51,50.0,60.0,45.0,49.36,32.9
+BORR-0090,Murthy and Sons,Construction,Watch,Q3,304.5,12.22,1.5,2.02,1.51,50.0,60.0,45.0,164.43,89.54
+BORR-0091,Randhawa-Deep,Logistics,Healthy,Q3,198.68,12.33,1.5,2.02,1.51,50.0,60.0,45.0,58.06,61.86
+BORR-0092,"Mital, Shankar and Mutti",Logistics,Healthy,Q3,484.92,11.74,1.5,2.02,1.51,50.0,60.0,45.0,296.93,94.57
+BORR-0093,Andra Group,Renewable Energy,Healthy,Q3,90.83,11.89,1.5,2.02,1.51,50.0,60.0,45.0,50.16,37.99
+BORR-0094,"Chaudhry, Borah and Yogi",Food Processing,Watch,Q3,134.65,11.9,1.5,2.02,1.51,50.0,60.0,45.0,86.85,23.7
+BORR-0095,Toor LLC,Engineering,Watch,Q3,128.23,12.17,1.5,2.02,1.51,50.0,60.0,45.0,70.18,48.3
+BORR-0096,Palla Inc,Construction,Stressed,Q3,52.24,12.73,1.5,2.02,1.51,50.0,60.0,45.0,12.0,12.0
+BORR-0097,Pingle LLC,Infrastructure,Healthy,Q3,247.13,11.54,1.5,2.02,1.51,50.0,60.0,45.0,183.2,117.63
+BORR-0098,Sarma PLC,Manufacturing,Healthy,Q3,240.57,12.05,1.5,2.02,1.51,50.0,60.0,45.0,111.16,57.64
+BORR-0099,"Mittal, Wadhwa and Anand",Renewable Energy,Healthy,Q3,186.67,12.66,1.5,2.02,1.51,50.0,60.0,45.0,119.03,32.31
+BORR-0100,"Mistry, Chawla and Desai",Power,Watch,Q3,144.69,13.09,1.5,2.02,1.51,50.0,60.0,45.0,63.03,23.72
+BORR-0101,D’Alia-Chhabra,Construction,Watch,Q3,51.98,12.18,1.5,2.02,1.51,50.0,60.0,45.0,29.51,16.18
+BORR-0102,"Dugal, Magar and Manda",Trading,Healthy,Q3,116.0,12.56,1.5,2.02,1.51,50.0,60.0,45.0,62.65,50.84
+BORR-0103,"Kade, Oza and Jani",Steel,Healthy,Q3,127.68,12.53,1.5,2.02,1.51,50.0,60.0,45.0,21.54,35.06
+BORR-0104,"Lalla, Tiwari and Suresh",Chemicals,Healthy,Q3,80.51,12.0,1.5,2.02,1.51,50.0,60.0,45.0,36.16,14.31
+BORR-0105,Behl-Chanda,Food Processing,Watch,Q3,161.54,12.56,1.5,2.02,1.51,50.0,60.0,45.0,52.74,74.84
+BORR-0106,"Sampath, Malhotra and Basu",Trading,Healthy,Q3,278.84,12.54,1.5,2.02,1.51,50.0,60.0,45.0,89.07,106.04
+BORR-0107,Nath and Sons,Trading,Healthy,Q3,1220.02,11.97,1.5,2.02,1.51,50.0,60.0,45.0,570.01,444.07
+BORR-0108,"Lala, Edwin and Sathe",Pharmaceuticals,Healthy,Q3,226.48,12.3,1.5,2.02,1.51,50.0,60.0,45.0,83.86,90.28
+BORR-0109,"Sane, Andra and Choudhury",Manufacturing,Healthy,Q3,238.42,11.7,1.5,2.02,1.51,50.0,60.0,45.0,150.67,44.4
+BORR-0110,Dixit PLC,Food Processing,Stressed,Q3,174.32,12.84,1.5,2.02,1.51,50.0,60.0,45.0,85.88,47.9
+BORR-0111,Pingle PLC,Logistics,Healthy,Q3,50.38,12.54,1.5,2.02,1.51,50.0,60.0,45.0,21.45,10.47
+BORR-0112,"Divan, Sani and Datta",Textiles,Stressed,Q3,181.98,13.4,1.5,2.02,1.51,50.0,60.0,45.0,86.1,56.45
+BORR-0113,Morar LLC,Engineering,Healthy,Q3,195.85,11.87,1.5,2.02,1.51,50.0,60.0,45.0,91.89,40.01
+BORR-0114,Parmar and Sons,Pharmaceuticals,Healthy,Q3,2150.47,12.64,1.5,2.02,1.51,50.0,60.0,45.0,1434.69,382.18
+BORR-0115,"Krish, Chauhan and Pandya",Construction,Healthy,Q3,150.71,12.51,1.5,2.02,1.51,50.0,60.0,45.0,49.18,52.15
+BORR-0116,"Ray, Dubey and Khalsa",Food Processing,Healthy,Q3,241.76,12.08,1.5,2.02,1.51,50.0,60.0,45.0,48.34,104.4
+BORR-0117,Goel Group,Pharmaceuticals,Healthy,Q3,173.89,12.64,1.5,2.02,1.51,50.0,60.0,45.0,114.41,46.73
+BORR-0118,Gola Ltd,Renewable Energy,Healthy,Q3,58.23,11.78,1.5,2.02,1.51,50.0,60.0,45.0,20.84,10.03
+BORR-0119,Sabharwal-Kothari,Logistics,Watch,Q3,568.31,12.96,1.5,2.02,1.51,50.0,60.0,45.0,231.58,110.99
+BORR-0120,Dutta-Chokshi,Textiles,Watch,Q3,397.45,12.46,1.5,2.02,1.51,50.0,60.0,45.0,272.59,139.88
+BORR-0121,Barad-Singhal,Chemicals,Watch,Q3,405.51,13.04,1.5,2.02,1.51,50.0,60.0,45.0,110.35,144.19
+BORR-0122,Iyengar Group,Trading,Healthy,Q3,75.27,12.14,1.5,2.02,1.51,50.0,60.0,45.0,14.29,25.83
+BORR-0123,Mody-Kari,Textiles,Critical,Q3,789.17,13.6,1.5,2.02,1.51,50.0,60.0,45.0,351.29,210.32
+BORR-0124,Bajwa Ltd,Infrastructure,Stressed,Q3,51.59,13.12,1.5,2.02,1.51,50.0,60.0,45.0,23.25,21.78
+BORR-0125,Rastogi LLC,Textiles,Healthy,Q3,323.47,12.2,1.5,2.02,1.51,50.0,60.0,45.0,99.79,60.34
+BORR-0126,Boase-Mallick,Logistics,Healthy,Q3,1694.21,12.62,1.5,2.02,1.51,50.0,60.0,45.0,321.98,452.24
+BORR-0127,Upadhyay-Ratta,Trading,Healthy,Q3,65.51,12.86,1.5,2.02,1.51,50.0,60.0,45.0,41.85,27.22
+BORR-0128,"Yadav, Narula and Bala",Chemicals,Healthy,Q3,107.24,12.64,1.5,2.02,1.51,50.0,60.0,45.0,21.39,48.37
+BORR-0129,Lal and Sons,Pharmaceuticals,Watch,Q3,207.39,12.51,1.5,2.02,1.51,50.0,60.0,45.0,85.28,46.18
+BORR-0130,"Lanka, Barad and Chopra",Power,Watch,Q3,111.24,13.32,1.5,2.02,1.51,50.0,60.0,45.0,19.28,48.25
+BORR-0131,"Saraf, Pai and Murthy",Engineering,Watch,Q3,51.28,12.36,1.5,2.02,1.51,50.0,60.0,45.0,11.53,21.8
+BORR-0132,Vaidya-D’Alia,Auto Components,Healthy,Q3,193.03,12.09,1.5,2.02,1.51,50.0,60.0,45.0,49.74,43.49
+BORR-0133,Gupta-Kumar,Manufacturing,Healthy,Q3,61.61,12.02,1.5,2.02,1.51,50.0,60.0,45.0,47.07,26.42
+BORR-0134,Sarin Inc,Infrastructure,Healthy,Q3,287.1,12.57,1.5,2.02,1.51,50.0,60.0,45.0,188.08,136.42
+BORR-0135,"Yohannan, Hegde and Patla",Manufacturing,Healthy,Q3,74.06,12.6,1.5,2.02,1.51,50.0,60.0,45.0,14.91,16.65
+BORR-0136,Boase-Narayanan,Steel,Healthy,Q3,855.88,12.79,1.5,2.02,1.51,50.0,60.0,45.0,303.56,223.41
+BORR-0137,"Murthy, Dash and Mital",Power,Stressed,Q3,86.44,13.42,1.5,2.02,1.51,50.0,60.0,45.0,32.2,41.04
+BORR-0138,"More, Rege and Narain",Steel,Healthy,Q3,133.65,12.33,1.5,2.02,1.51,50.0,60.0,45.0,47.8,55.61
+BORR-0139,Merchant-Datta,Steel,Stressed,Q3,439.44,12.46,1.5,2.02,1.51,50.0,60.0,45.0,146.65,187.48
+BORR-0140,Salvi Ltd,Manufacturing,Healthy,Q3,54.16,12.38,1.5,2.02,1.51,50.0,60.0,45.0,20.62,18.04
+BORR-0141,Ghosh-Mitra,Auto Components,Watch,Q3,236.61,12.54,1.5,2.02,1.51,50.0,60.0,45.0,59.97,104.14
+BORR-0142,Acharya-Modi,Auto Components,Watch,Q3,664.55,12.3,1.5,2.02,1.51,50.0,60.0,45.0,493.51,260.27
+BORR-0143,Kade-Sani,Auto Components,Critical,Q3,53.31,13.29,1.5,2.02,1.51,50.0,60.0,45.0,13.7,21.78
+BORR-0144,"Nagy, Shroff and Sathe",Steel,Healthy,Q3,219.61,12.87,1.5,2.02,1.51,50.0,60.0,45.0,155.24,75.26
+BORR-0145,Kala-Vaidya,Chemicals,Healthy,Q3,232.26,11.2,1.5,2.02,1.51,50.0,60.0,45.0,163.4,36.75
+BORR-0146,Gara-Chad,Logistics,Stressed,Q3,416.47,12.74,1.5,2.02,1.51,50.0,60.0,45.0,73.51,168.32
+BORR-0147,Varma-Nayak,Food Processing,Healthy,Q3,53.88,12.74,1.5,2.02,1.51,50.0,60.0,45.0,13.64,23.8
+BORR-0148,Keer Ltd,Manufacturing,Watch,Q3,50.88,12.88,1.5,2.02,1.51,50.0,60.0,45.0,21.94,9.77
+BORR-0149,Kar-Issac,Logistics,Stressed,Q3,327.02,13.0,1.5,2.02,1.51,50.0,60.0,45.0,115.56,114.46
+BORR-0150,Bakshi Inc,Renewable Energy,Watch,Q3,256.45,13.6,1.5,2.02,1.51,50.0,60.0,45.0,110.49,61.52
+BORR-0151,Soman PLC,Construction,Watch,Q3,237.52,12.66,1.5,2.02,1.51,50.0,60.0,45.0,149.36,96.62
+BORR-0152,Shah Group,Auto Components,Stressed,Q3,271.5,13.28,1.5,2.02,1.51,50.0,60.0,45.0,121.14,75.13
+BORR-0153,"Hayer, Rajagopalan and Talwar",Food Processing,Watch,Q3,94.07,13.15,1.5,2.02,1.51,50.0,60.0,45.0,57.61,38.65
+BORR-0154,Kohli-Divan,Steel,Healthy,Q3,229.39,11.53,1.5,2.02,1.51,50.0,60.0,45.0,87.79,81.0
+BORR-0155,"Ahluwalia, Chhabra and Sandal",Steel,Healthy,Q3,243.6,12.32,1.5,2.02,1.51,50.0,60.0,45.0,90.8,91.32
+BORR-0156,Goda Ltd,Auto Components,Healthy,Q3,89.44,12.69,1.5,2.02,1.51,50.0,60.0,45.0,49.03,33.71
+BORR-0157,"Shetty, Bedi and Krish",Engineering,Healthy,Q3,1209.84,12.46,1.5,2.02,1.51,50.0,60.0,45.0,665.88,370.85
+BORR-0158,Shan and Sons,Trading,Healthy,Q3,293.54,13.09,1.5,2.02,1.51,50.0,60.0,45.0,163.52,86.64
+BORR-0159,Wali-Nadig,Steel,Watch,Q3,55.52,12.74,1.5,2.02,1.51,50.0,60.0,45.0,12.77,22.15
+BORR-0160,Thaman-Sandhu,Manufacturing,Watch,Q3,355.96,12.7,1.5,2.02,1.51,50.0,60.0,45.0,202.18,134.68
+BORR-0161,"Sehgal, Dutt and Soman",Food Processing,Healthy,Q3,70.2,12.36,1.5,2.02,1.51,50.0,60.0,45.0,45.67,30.91
+BORR-0162,Lad-Kota,Auto Components,Healthy,Q3,403.57,12.45,1.5,2.02,1.51,50.0,60.0,45.0,68.98,135.6
+BORR-0163,"Malhotra, Verma and Sundaram",Engineering,Watch,Q3,614.8,13.14,1.5,2.02,1.51,50.0,60.0,45.0,88.25,157.6
+BORR-0164,"Khare, Maharaj and Sarraf",Renewable Energy,Healthy,Q3,79.55,11.9,1.5,2.02,1.51,50.0,60.0,45.0,52.58,28.27
+BORR-0165,Mangal and Sons,Infrastructure,Stressed,Q3,506.66,14.1,1.5,2.02,1.51,50.0,60.0,45.0,325.69,140.16
+BORR-0166,Nayak-Nagarajan,Renewable Energy,Watch,Q3,282.52,12.32,1.5,2.02,1.51,50.0,60.0,45.0,63.52,108.64
+BORR-0167,"Buch, Devi and Dora",Renewable Energy,Healthy,Q3,430.84,11.92,1.5,2.02,1.51,50.0,60.0,45.0,76.63,99.9
+BORR-0168,Rajagopal Ltd,Chemicals,Watch,Q3,1279.67,12.67,1.5,2.02,1.51,50.0,60.0,45.0,690.32,200.07
+BORR-0169,Kala Inc,Textiles,Healthy,Q3,143.61,12.39,1.5,2.02,1.51,50.0,60.0,45.0,106.01,24.85
+BORR-0170,Reddy-Narayanan,Trading,Healthy,Q3,85.37,11.61,1.5,2.02,1.51,50.0,60.0,45.0,49.51,28.34
+BORR-0171,"Shukla, Sagar and Bhatia",Renewable Energy,Healthy,Q3,77.43,13.13,1.5,2.02,1.51,50.0,60.0,45.0,38.99,27.22
+BORR-0172,Salvi Group,Trading,Healthy,Q3,78.52,12.34,1.5,2.02,1.51,50.0,60.0,45.0,38.28,12.17
+BORR-0173,"Bahri, Rai and Sood",Steel,Healthy,Q3,170.17,12.33,1.5,2.02,1.51,50.0,60.0,45.0,83.9,38.35
+BORR-0174,Pandey LLC,Steel,Healthy,Q3,254.61,11.12,1.5,2.02,1.51,50.0,60.0,45.0,82.12,120.34
+BORR-0175,Saini-Yohannan,Infrastructure,Healthy,Q3,243.38,13.26,1.5,2.02,1.51,50.0,60.0,45.0,115.53,42.77
+BORR-0176,"Kannan, Sura and Kanda",Construction,Healthy,Q3,418.51,12.41,1.5,2.02,1.51,50.0,60.0,45.0,208.66,199.24
+BORR-0177,Sarin-Sunder,Construction,Watch,Q3,186.55,13.16,1.5,2.02,1.51,50.0,60.0,45.0,110.15,55.3
+BORR-0178,Ramachandran LLC,Renewable Energy,Watch,Q3,806.39,13.0,1.5,2.02,1.51,50.0,60.0,45.0,132.15,272.9
+BORR-0179,"Ravel, Gandhi and Sibal",Logistics,Watch,Q3,144.06,13.24,1.5,2.02,1.51,50.0,60.0,45.0,102.35,68.34
+BORR-0180,Walla Inc,Food Processing,Healthy,Q3,2850.56,13.38,1.5,2.02,1.51,50.0,60.0,45.0,1887.27,449.01
+BORR-0181,Bala-Chacko,Trading,Healthy,Q3,333.77,12.84,1.5,2.02,1.51,50.0,60.0,45.0,150.35,121.89
+BORR-0182,"Sangha, Deshmukh and Shenoy",Renewable Energy,Healthy,Q3,79.22,11.75,1.5,2.02,1.51,50.0,60.0,45.0,50.5,12.08
+BORR-0183,Bedi LLC,Food Processing,Healthy,Q3,62.37,12.6,1.5,2.02,1.51,50.0,60.0,45.0,15.84,27.23
+BORR-0184,Narang-Kakar,Textiles,Watch,Q3,300.52,11.93,1.5,2.02,1.51,50.0,60.0,45.0,129.18,106.7
+BORR-0185,Narain-Nazareth,Construction,Healthy,Q3,147.58,11.79,1.5,2.02,1.51,50.0,60.0,45.0,101.72,63.9
+BORR-0186,Mall-Sama,Pharmaceuticals,Healthy,Q3,372.27,12.56,1.5,2.02,1.51,50.0,60.0,45.0,79.99,110.18
+BORR-0187,Bumb-Singhal,Logistics,Healthy,Q3,284.05,12.46,1.5,2.02,1.51,50.0,60.0,45.0,160.34,119.2
+BORR-0188,Zacharia Inc,Power,Healthy,Q3,168.58,12.4,1.5,2.02,1.51,50.0,60.0,45.0,29.39,47.71
+BORR-0189,Kapur-Biswas,Pharmaceuticals,Watch,Q3,78.94,12.03,1.5,2.02,1.51,50.0,60.0,45.0,23.05,11.61
+BORR-0190,"Baria, Balasubramanian and Kota",Manufacturing,Healthy,Q3,50.0,12.63,1.5,2.02,1.51,50.0,60.0,45.0,15.48,14.55
+BORR-0191,Bahri PLC,Steel,Healthy,Q3,115.49,12.42,1.5,2.02,1.51,50.0,60.0,45.0,44.47,49.16
+BORR-0192,Khare and Sons,Construction,Healthy,Q3,425.75,12.62,1.5,2.02,1.51,50.0,60.0,45.0,241.36,198.96
+BORR-0193,Contractor-Kamdar,Power,Healthy,Q3,232.81,12.18,1.5,2.02,1.51,50.0,60.0,45.0,152.24,71.9
+BORR-0194,Kunda-Pillay,Engineering,Healthy,Q3,52.44,12.42,1.5,2.02,1.51,50.0,60.0,45.0,19.9,9.61
+BORR-0195,Contractor and Sons,Chemicals,Healthy,Q3,219.88,13.06,1.5,2.02,1.51,50.0,60.0,45.0,137.68,73.86
+BORR-0196,Chokshi-Bal,Logistics,Healthy,Q3,265.06,12.0,1.5,2.02,1.51,50.0,60.0,45.0,81.44,117.63
+BORR-0197,Prashad-Ranganathan,Construction,Healthy,Q3,75.44,12.64,1.5,2.02,1.51,50.0,60.0,45.0,31.63,13.22
+BORR-0198,"Issac, Borra and Kibe",Construction,Stressed,Q3,222.42,12.88,1.5,2.02,1.51,50.0,60.0,45.0,107.21,102.63
+BORR-0199,Mitra Ltd,Steel,Watch,Q3,192.33,13.64,1.5,2.02,1.51,50.0,60.0,45.0,105.35,87.93
+BORR-0200,"Dara, Barman and Palan",Power,Watch,Q3,58.9,13.28,1.5,2.02,1.51,50.0,60.0,45.0,24.0,21.5
+BORR-0001,"Choudhury, Bakshi and Maharaj",Manufacturing,Watch,Q4,297.89,12.0,1.5,2.0,1.5,50.0,60.0,45.0,177.22,70.22
+BORR-0002,Kapoor and Sons,Trading,Healthy,Q4,157.86,12.0,1.5,2.0,1.5,50.0,60.0,45.0,38.8,47.03
+BORR-0003,"Chaudry, Chahal and Sami",Engineering,Healthy,Q4,346.43,12.0,1.5,2.0,1.5,50.0,60.0,45.0,212.65,171.42
+BORR-0004,Balan Inc,Infrastructure,Watch,Q4,831.33,12.0,1.5,2.0,1.5,50.0,60.0,45.0,234.24,219.06
+BORR-0005,Kaul PLC,Auto Components,Stressed,Q4,143.43,12.0,1.5,2.0,1.5,50.0,60.0,45.0,52.67,71.58
+BORR-0006,"Bala, Issac and Saini",Pharmaceuticals,Watch,Q4,143.43,12.0,1.5,2.0,1.5,50.0,60.0,45.0,31.11,43.34
+BORR-0007,Sen PLC,Logistics,Healthy,Q4,879.38,12.0,1.5,2.0,1.5,50.0,60.0,45.0,557.58,205.61
+BORR-0008,Ahuja-Dutta,Pharmaceuticals,Watch,Q4,390.5,12.0,1.5,2.0,1.5,50.0,60.0,45.0,161.22,129.32
+BORR-0009,"Sami, Oak and Mall",Power,Stressed,Q4,113.36,12.0,1.5,2.0,1.5,50.0,60.0,45.0,56.19,26.64
+BORR-0010,Kale LLC,Chemicals,Healthy,Q4,311.86,12.0,1.5,2.0,1.5,50.0,60.0,45.0,133.34,142.23
+BORR-0011,Chanda Group,Trading,Watch,Q4,114.04,12.0,1.5,2.0,1.5,50.0,60.0,45.0,55.14,45.78
+BORR-0012,Parmer LLC,Power,Healthy,Q4,113.78,12.0,1.5,2.0,1.5,50.0,60.0,45.0,57.65,41.73
+BORR-0013,"Lalla, Bassi and Sharaf",Pharmaceuticals,Healthy,Q4,230.89,12.0,1.5,2.0,1.5,50.0,60.0,45.0,156.67,105.69
+BORR-0014,"Dash, Radhakrishnan and Brar",Renewable Energy,Healthy,Q4,50.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,33.09,16.34
+BORR-0015,"Memon, Pathak and Handa",Textiles,Healthy,Q4,50.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,20.39,8.23
+BORR-0016,"Boase, Bath and Kari",Trading,Stressed,Q4,103.31,12.0,1.5,2.0,1.5,50.0,60.0,45.0,30.88,21.25
+BORR-0017,Buch-Kaul,Steel,Stressed,Q4,65.84,12.0,1.5,2.0,1.5,50.0,60.0,45.0,44.52,15.89
+BORR-0018,Rai LLC,Engineering,Watch,Q4,248.2,12.0,1.5,2.0,1.5,50.0,60.0,45.0,91.47,43.31
+BORR-0019,Patla-Gaba,Manufacturing,Healthy,Q4,73.11,12.0,1.5,2.0,1.5,50.0,60.0,45.0,24.3,16.34
+BORR-0020,Pant-Kadakia,Manufacturing,Healthy,Q4,50.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,8.89,24.72
+BORR-0021,"Loke, Bora and Garg",Steel,Stressed,Q4,784.97,12.0,1.5,2.0,1.5,50.0,60.0,45.0,332.73,337.93
+BORR-0022,"Konda, Gade and Shere",Chemicals,Healthy,Q4,144.64,12.0,1.5,2.0,1.5,50.0,60.0,45.0,50.84,66.9
+BORR-0023,Madan-Kanda,Auto Components,Healthy,Q4,193.94,12.0,1.5,2.0,1.5,50.0,60.0,45.0,128.4,93.81
+BORR-0024,"Nair, Bhalla and Karnik",Steel,Watch,Q4,50.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,26.78,9.87
+BORR-0025,Mutti Group,Engineering,Healthy,Q4,105.17,12.0,1.5,2.0,1.5,50.0,60.0,45.0,28.36,16.53
+BORR-0026,Bhatti-Kakar,Construction,Healthy,Q4,202.54,12.0,1.5,2.0,1.5,50.0,60.0,45.0,54.48,72.35
+BORR-0027,"Murty, Kala and Tata",Logistics,Healthy,Q4,57.34,12.0,1.5,2.0,1.5,50.0,60.0,45.0,24.42,11.67
+BORR-0028,Shanker-Dhar,Food Processing,Healthy,Q4,263.93,12.0,1.5,2.0,1.5,50.0,60.0,45.0,73.18,113.29
+BORR-0029,Dewan-Koshy,Renewable Energy,Healthy,Q4,99.42,12.0,1.5,2.0,1.5,50.0,60.0,45.0,49.6,31.38
+BORR-0030,"Yohannan, Lall and Sangha",Power,Watch,Q4,135.41,12.0,1.5,2.0,1.5,50.0,60.0,45.0,43.3,25.08
+BORR-0031,"Rastogi, Pathak and Kanda",Logistics,Healthy,Q4,99.31,12.0,1.5,2.0,1.5,50.0,60.0,45.0,43.36,43.47
+BORR-0032,Upadhyay Group,Auto Components,Healthy,Q4,1155.49,12.0,1.5,2.0,1.5,50.0,60.0,45.0,385.04,424.48
+BORR-0033,Batta Inc,Steel,Stressed,Q4,178.84,12.0,1.5,2.0,1.5,50.0,60.0,45.0,100.59,84.66
+BORR-0034,Dutta Ltd,Power,Healthy,Q4,62.95,12.0,1.5,2.0,1.5,50.0,60.0,45.0,10.95,18.96
+BORR-0035,Bhatt-Rajan,Pharmaceuticals,Healthy,Q4,412.63,12.0,1.5,2.0,1.5,50.0,60.0,45.0,162.99,108.26
+BORR-0036,Sidhu-Wadhwa,Trading,Healthy,Q4,53.47,12.0,1.5,2.0,1.5,50.0,60.0,45.0,24.01,16.29
+BORR-0037,Apte-Contractor,Construction,Healthy,Q4,223.38,12.0,1.5,2.0,1.5,50.0,60.0,45.0,72.62,88.66
+BORR-0038,"Yadav, Loke and Oak",Textiles,Healthy,Q4,50.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,20.9,15.98
+BORR-0039,Memon Group,Pharmaceuticals,Stressed,Q4,50.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,33.59,22.8
+BORR-0040,Setty Inc,Renewable Energy,Healthy,Q4,220.71,12.0,1.5,2.0,1.5,50.0,60.0,45.0,155.06,110.16
+BORR-0041,"Lall, Tella and Gokhale",Power,Stressed,Q4,379.35,12.0,1.5,2.0,1.5,50.0,60.0,45.0,212.39,122.98
+BORR-0042,"Cherian, Misra and Tripathi",Steel,Stressed,Q4,215.16,12.0,1.5,2.0,1.5,50.0,60.0,45.0,62.9,75.34
+BORR-0043,"Issac, Dua and Prakash",Renewable Energy,Watch,Q4,161.48,12.0,1.5,2.0,1.5,50.0,60.0,45.0,90.19,31.95
+BORR-0044,Zacharia PLC,Food Processing,Stressed,Q4,134.14,12.0,1.5,2.0,1.5,50.0,60.0,45.0,97.98,33.98
+BORR-0045,Naik Group,Steel,Stressed,Q4,50.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,27.75,15.75
+BORR-0046,Choudhury LLC,Infrastructure,Watch,Q4,88.25,12.0,1.5,2.0,1.5,50.0,60.0,45.0,35.43,36.16
+BORR-0047,Khatri-Bhardwaj,Steel,Watch,Q4,114.36,12.0,1.5,2.0,1.5,50.0,60.0,45.0,62.63,42.84
+BORR-0048,Brar Inc,Renewable Energy,Healthy,Q4,521.72,12.0,1.5,2.0,1.5,50.0,60.0,45.0,349.48,102.32
+BORR-0049,"Sunder, Biswas and Walia",Renewable Energy,Stressed,Q4,255.6,12.0,1.5,2.0,1.5,50.0,60.0,45.0,118.31,79.32
+BORR-0050,Dave Ltd,Auto Components,Healthy,Q4,50.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,10.48,19.78
+BORR-0051,Gandhi-Lanka,Steel,Healthy,Q4,250.66,12.0,1.5,2.0,1.5,50.0,60.0,45.0,149.58,70.29
+BORR-0052,"Sampath, Kakar and Zacharia",Pharmaceuticals,Watch,Q4,123.34,12.0,1.5,2.0,1.5,50.0,60.0,45.0,27.0,30.53
+BORR-0053,"Iyer, Muni and Rastogi",Renewable Energy,Healthy,Q4,92.12,12.0,1.5,2.0,1.5,50.0,60.0,45.0,67.53,16.78
+BORR-0054,"Prakash, Sarma and Varughese",Trading,Healthy,Q4,334.18,12.0,1.5,2.0,1.5,50.0,60.0,45.0,152.86,90.5
+BORR-0055,Dara-Kota,Infrastructure,Healthy,Q4,508.26,12.0,1.5,2.0,1.5,50.0,60.0,45.0,290.83,165.23
+BORR-0056,Bhatt LLC,Engineering,Watch,Q4,460.02,12.0,1.5,2.0,1.5,50.0,60.0,45.0,189.26,133.48
+BORR-0057,Karpe PLC,Renewable Energy,Watch,Q4,78.32,12.0,1.5,2.0,1.5,50.0,60.0,45.0,15.29,37.82
+BORR-0058,Amble Inc,Manufacturing,Healthy,Q4,133.06,12.0,1.5,2.0,1.5,50.0,60.0,45.0,24.5,58.69
+BORR-0059,"Bhargava, Karnik and Bir",Infrastructure,Watch,Q4,252.46,12.0,1.5,2.0,1.5,50.0,60.0,45.0,135.74,41.33
+BORR-0060,Narayanan Inc,Power,Watch,Q4,480.85,12.0,1.5,2.0,1.5,50.0,60.0,45.0,324.07,128.23
+BORR-0061,"Khanna, Mallick and Sunder",Manufacturing,Healthy,Q4,112.26,12.0,1.5,2.0,1.5,50.0,60.0,45.0,41.26,23.92
+BORR-0062,Zacharia and Sons,Textiles,Watch,Q4,150.56,12.0,1.5,2.0,1.5,50.0,60.0,45.0,87.73,24.89
+BORR-0063,"Solanki, Kibe and Solanki",Textiles,Healthy,Q4,59.96,12.0,1.5,2.0,1.5,50.0,60.0,45.0,38.38,25.81
+BORR-0064,Gupta-Chandra,Auto Components,Healthy,Q4,54.81,12.0,1.5,2.0,1.5,50.0,60.0,45.0,40.92,15.41
+BORR-0065,Sankar LLC,Chemicals,Healthy,Q4,408.51,12.0,1.5,2.0,1.5,50.0,60.0,45.0,119.52,78.7
+BORR-0066,Roy-Sibal,Pharmaceuticals,Healthy,Q4,703.62,12.0,1.5,2.0,1.5,50.0,60.0,45.0,134.12,235.09
+BORR-0067,"Bhagat, Chaudhari and Bhat",Renewable Energy,Healthy,Q4,168.68,12.0,1.5,2.0,1.5,50.0,60.0,45.0,43.02,71.3
+BORR-0068,Nori-Chopra,Logistics,Healthy,Q4,494.49,12.0,1.5,2.0,1.5,50.0,60.0,45.0,305.85,224.02
+BORR-0069,Handa and Sons,Renewable Energy,Healthy,Q4,260.25,12.0,1.5,2.0,1.5,50.0,60.0,45.0,85.2,79.65
+BORR-0070,"Sen, Dey and Sami",Food Processing,Watch,Q4,95.1,12.0,1.5,2.0,1.5,50.0,60.0,45.0,16.25,16.5
+BORR-0071,Mallick Group,Infrastructure,Healthy,Q4,260.19,12.0,1.5,2.0,1.5,50.0,60.0,45.0,57.41,109.6
+BORR-0072,Borra Group,Construction,Watch,Q4,843.9,12.0,1.5,2.0,1.5,50.0,60.0,45.0,449.48,361.02
+BORR-0073,"Chaudhari, Bedi and Zachariah",Steel,Watch,Q4,174.89,12.0,1.5,2.0,1.5,50.0,60.0,45.0,39.39,45.64
+BORR-0074,Chander and Sons,Chemicals,Watch,Q4,866.66,12.0,1.5,2.0,1.5,50.0,60.0,45.0,232.07,420.09
+BORR-0075,Ray Group,Renewable Energy,Healthy,Q4,50.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,8.41,23.06
+BORR-0076,Kala-Rattan,Trading,Healthy,Q4,412.36,12.0,1.5,2.0,1.5,50.0,60.0,45.0,153.53,142.92
+BORR-0077,Gala Group,Auto Components,Healthy,Q4,197.76,12.0,1.5,2.0,1.5,50.0,60.0,45.0,89.64,96.57
+BORR-0078,Ramakrishnan LLC,Steel,Healthy,Q4,134.42,12.0,1.5,2.0,1.5,50.0,60.0,45.0,51.32,41.35
+BORR-0079,Mangal-Sampath,Infrastructure,Healthy,Q4,198.69,12.0,1.5,2.0,1.5,50.0,60.0,45.0,46.47,94.57
+BORR-0080,"Sur, Dubey and Gupta",Trading,Watch,Q4,50.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,24.85,11.48
+BORR-0081,Kalla-Bhardwaj,Logistics,Stressed,Q4,145.52,12.0,1.5,2.0,1.5,50.0,60.0,45.0,95.9,58.88
+BORR-0082,"Bhat, Murthy and Bhandari",Chemicals,Healthy,Q4,259.07,12.0,1.5,2.0,1.5,50.0,60.0,45.0,158.74,102.78
+BORR-0083,Sood PLC,Engineering,Watch,Q4,794.64,12.0,1.5,2.0,1.5,50.0,60.0,45.0,215.54,268.99
+BORR-0084,"Dugar, Bhandari and Trivedi",Renewable Energy,Healthy,Q4,107.96,12.0,1.5,2.0,1.5,50.0,60.0,45.0,76.76,49.38
+BORR-0085,Grewal Inc,Manufacturing,Stressed,Q4,80.76,12.0,1.5,2.0,1.5,50.0,60.0,45.0,26.57,29.15
+BORR-0086,"Bir, Keer and Raval",Textiles,Watch,Q4,109.75,12.0,1.5,2.0,1.5,50.0,60.0,45.0,56.7,41.0
+BORR-0087,Koshy PLC,Renewable Energy,Healthy,Q4,452.78,12.0,1.5,2.0,1.5,50.0,60.0,45.0,100.03,116.54
+BORR-0088,"Baral, Bumb and Saini",Renewable Energy,Watch,Q4,251.83,12.0,1.5,2.0,1.5,50.0,60.0,45.0,151.81,114.73
+BORR-0089,"Virk, Mutti and Lal",Textiles,Healthy,Q4,106.72,12.0,1.5,2.0,1.5,50.0,60.0,45.0,48.87,33.07
+BORR-0090,Murthy and Sons,Construction,Watch,Q4,302.86,12.0,1.5,2.0,1.5,50.0,60.0,45.0,162.8,89.99
+BORR-0091,Randhawa-Deep,Logistics,Healthy,Q4,199.75,12.0,1.5,2.0,1.5,50.0,60.0,45.0,57.49,62.17
+BORR-0092,"Mital, Shankar and Mutti",Logistics,Healthy,Q4,477.54,12.0,1.5,2.0,1.5,50.0,60.0,45.0,293.99,95.05
+BORR-0093,Andra Group,Renewable Energy,Healthy,Q4,89.83,12.0,1.5,2.0,1.5,50.0,60.0,45.0,49.66,38.18
+BORR-0094,"Chaudhry, Borah and Yogi",Food Processing,Watch,Q4,130.63,12.0,1.5,2.0,1.5,50.0,60.0,45.0,85.99,23.82
+BORR-0095,Toor LLC,Engineering,Watch,Q4,122.47,12.0,1.5,2.0,1.5,50.0,60.0,45.0,69.49,48.54
+BORR-0096,Palla Inc,Construction,Stressed,Q4,50.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,11.88,12.06
+BORR-0097,Pingle LLC,Infrastructure,Healthy,Q4,243.74,12.0,1.5,2.0,1.5,50.0,60.0,45.0,181.39,118.22
+BORR-0098,Sarma PLC,Manufacturing,Healthy,Q4,235.35,12.0,1.5,2.0,1.5,50.0,60.0,45.0,110.06,57.93
+BORR-0099,"Mittal, Wadhwa and Anand",Renewable Energy,Healthy,Q4,182.2,12.0,1.5,2.0,1.5,50.0,60.0,45.0,117.85,32.47
+BORR-0100,"Mistry, Chawla and Desai",Power,Watch,Q4,143.37,12.0,1.5,2.0,1.5,50.0,60.0,45.0,62.41,23.84
+BORR-0101,D’Alia-Chhabra,Construction,Watch,Q4,50.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,29.22,16.26
+BORR-0102,"Dugal, Magar and Manda",Trading,Healthy,Q4,119.03,12.0,1.5,2.0,1.5,50.0,60.0,45.0,62.03,51.1
+BORR-0103,"Kade, Oza and Jani",Steel,Healthy,Q4,128.67,12.0,1.5,2.0,1.5,50.0,60.0,45.0,21.33,35.24
+BORR-0104,"Lalla, Tiwari and Suresh",Chemicals,Healthy,Q4,81.27,12.0,1.5,2.0,1.5,50.0,60.0,45.0,35.8,14.38
+BORR-0105,Behl-Chanda,Food Processing,Watch,Q4,154.27,12.0,1.5,2.0,1.5,50.0,60.0,45.0,52.22,75.22
+BORR-0106,"Sampath, Malhotra and Basu",Trading,Healthy,Q4,271.52,12.0,1.5,2.0,1.5,50.0,60.0,45.0,88.19,106.57
+BORR-0107,Nath and Sons,Trading,Healthy,Q4,1195.34,12.0,1.5,2.0,1.5,50.0,60.0,45.0,564.37,446.3
+BORR-0108,"Lala, Edwin and Sathe",Pharmaceuticals,Healthy,Q4,215.85,12.0,1.5,2.0,1.5,50.0,60.0,45.0,83.03,90.73
+BORR-0109,"Sane, Andra and Choudhury",Manufacturing,Healthy,Q4,234.52,12.0,1.5,2.0,1.5,50.0,60.0,45.0,149.18,44.62
+BORR-0110,Dixit PLC,Food Processing,Stressed,Q4,168.27,12.0,1.5,2.0,1.5,50.0,60.0,45.0,85.03,48.14
+BORR-0111,Pingle PLC,Logistics,Healthy,Q4,50.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,21.24,10.52
+BORR-0112,"Divan, Sani and Datta",Textiles,Stressed,Q4,176.53,12.0,1.5,2.0,1.5,50.0,60.0,45.0,85.25,56.73
+BORR-0113,Morar LLC,Engineering,Healthy,Q4,192.53,12.0,1.5,2.0,1.5,50.0,60.0,45.0,90.98,40.21
+BORR-0114,Parmar and Sons,Pharmaceuticals,Healthy,Q4,2128.65,12.0,1.5,2.0,1.5,50.0,60.0,45.0,1420.49,384.1
+BORR-0115,"Krish, Chauhan and Pandya",Construction,Healthy,Q4,149.55,12.0,1.5,2.0,1.5,50.0,60.0,45.0,48.69,52.41
+BORR-0116,"Ray, Dubey and Khalsa",Food Processing,Healthy,Q4,245.07,12.0,1.5,2.0,1.5,50.0,60.0,45.0,47.86,104.92
+BORR-0117,Goel Group,Pharmaceuticals,Healthy,Q4,175.09,12.0,1.5,2.0,1.5,50.0,60.0,45.0,113.28,46.96
+BORR-0118,Gola Ltd,Renewable Energy,Healthy,Q4,56.34,12.0,1.5,2.0,1.5,50.0,60.0,45.0,20.63,10.08
+BORR-0119,Sabharwal-Kothari,Logistics,Watch,Q4,568.4,12.0,1.5,2.0,1.5,50.0,60.0,45.0,229.29,111.55
+BORR-0120,Dutta-Chokshi,Textiles,Watch,Q4,384.5,12.0,1.5,2.0,1.5,50.0,60.0,45.0,269.89,140.58
+BORR-0121,Barad-Singhal,Chemicals,Watch,Q4,399.83,12.0,1.5,2.0,1.5,50.0,60.0,45.0,109.26,144.91
+BORR-0122,Iyengar Group,Trading,Healthy,Q4,73.01,12.0,1.5,2.0,1.5,50.0,60.0,45.0,14.15,25.96
+BORR-0123,Mody-Kari,Textiles,Critical,Q4,737.15,12.0,1.5,2.0,1.5,50.0,60.0,45.0,347.81,211.38
+BORR-0124,Bajwa Ltd,Infrastructure,Stressed,Q4,50.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,23.02,21.89
+BORR-0125,Rastogi LLC,Textiles,Healthy,Q4,325.99,12.0,1.5,2.0,1.5,50.0,60.0,45.0,98.8,60.64
+BORR-0126,Boase-Mallick,Logistics,Healthy,Q4,1620.44,12.0,1.5,2.0,1.5,50.0,60.0,45.0,318.79,454.51
+BORR-0127,Upadhyay-Ratta,Trading,Healthy,Q4,67.32,12.0,1.5,2.0,1.5,50.0,60.0,45.0,41.44,27.36
+BORR-0128,"Yadav, Narula and Bala",Chemicals,Healthy,Q4,102.89,12.0,1.5,2.0,1.5,50.0,60.0,45.0,21.18,48.61
+BORR-0129,Lal and Sons,Pharmaceuticals,Watch,Q4,200.27,12.0,1.5,2.0,1.5,50.0,60.0,45.0,84.44,46.41
+BORR-0130,"Lanka, Barad and Chopra",Power,Watch,Q4,109.57,12.0,1.5,2.0,1.5,50.0,60.0,45.0,19.09,48.49
+BORR-0131,"Saraf, Pai and Murthy",Engineering,Watch,Q4,50.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,11.42,21.91
+BORR-0132,Vaidya-D’Alia,Auto Components,Healthy,Q4,194.14,12.0,1.5,2.0,1.5,50.0,60.0,45.0,49.25,43.71
+BORR-0133,Gupta-Kumar,Manufacturing,Healthy,Q4,62.66,12.0,1.5,2.0,1.5,50.0,60.0,45.0,46.6,26.55
+BORR-0134,Sarin Inc,Infrastructure,Healthy,Q4,291.08,12.0,1.5,2.0,1.5,50.0,60.0,45.0,186.22,137.11
+BORR-0135,"Yohannan, Hegde and Patla",Manufacturing,Healthy,Q4,72.28,12.0,1.5,2.0,1.5,50.0,60.0,45.0,14.76,16.73
+BORR-0136,Boase-Narayanan,Steel,Healthy,Q4,854.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,300.55,224.53
+BORR-0137,"Murthy, Dash and Mital",Power,Stressed,Q4,82.83,12.0,1.5,2.0,1.5,50.0,60.0,45.0,31.88,41.25
+BORR-0138,"More, Rege and Narain",Steel,Healthy,Q4,131.36,12.0,1.5,2.0,1.5,50.0,60.0,45.0,47.33,55.89
+BORR-0139,Merchant-Datta,Steel,Stressed,Q4,408.92,12.0,1.5,2.0,1.5,50.0,60.0,45.0,145.2,188.42
+BORR-0140,Salvi Ltd,Manufacturing,Healthy,Q4,52.94,12.0,1.5,2.0,1.5,50.0,60.0,45.0,20.42,18.13
+BORR-0141,Ghosh-Mitra,Auto Components,Watch,Q4,227.57,12.0,1.5,2.0,1.5,50.0,60.0,45.0,59.38,104.66
+BORR-0142,Acharya-Modi,Auto Components,Watch,Q4,669.91,12.0,1.5,2.0,1.5,50.0,60.0,45.0,488.62,261.58
+BORR-0143,Kade-Sani,Auto Components,Critical,Q4,50.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,13.56,21.89
+BORR-0144,"Nagy, Shroff and Sathe",Steel,Healthy,Q4,218.03,12.0,1.5,2.0,1.5,50.0,60.0,45.0,153.7,75.64
+BORR-0145,Kala-Vaidya,Chemicals,Healthy,Q4,235.07,12.0,1.5,2.0,1.5,50.0,60.0,45.0,161.78,36.93
+BORR-0146,Gara-Chad,Logistics,Stressed,Q4,396.16,12.0,1.5,2.0,1.5,50.0,60.0,45.0,72.78,169.17
+BORR-0147,Varma-Nayak,Food Processing,Healthy,Q4,52.62,12.0,1.5,2.0,1.5,50.0,60.0,45.0,13.5,23.92
+BORR-0148,Keer Ltd,Manufacturing,Watch,Q4,50.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,21.72,9.82
+BORR-0149,Kar-Issac,Logistics,Stressed,Q4,305.5,12.0,1.5,2.0,1.5,50.0,60.0,45.0,114.42,115.04
+BORR-0150,Bakshi Inc,Renewable Energy,Watch,Q4,243.96,12.0,1.5,2.0,1.5,50.0,60.0,45.0,109.4,61.83
+BORR-0151,Soman PLC,Construction,Watch,Q4,232.87,12.0,1.5,2.0,1.5,50.0,60.0,45.0,147.88,97.11
+BORR-0152,Shah Group,Auto Components,Stressed,Q4,256.33,12.0,1.5,2.0,1.5,50.0,60.0,45.0,119.94,75.51
+BORR-0153,"Hayer, Rajagopalan and Talwar",Food Processing,Watch,Q4,91.83,12.0,1.5,2.0,1.5,50.0,60.0,45.0,57.04,38.84
+BORR-0154,Kohli-Divan,Steel,Healthy,Q4,228.66,12.0,1.5,2.0,1.5,50.0,60.0,45.0,86.92,81.41
+BORR-0155,"Ahluwalia, Chhabra and Sandal",Steel,Healthy,Q4,243.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,89.9,91.78
+BORR-0156,Goda Ltd,Auto Components,Healthy,Q4,88.73,12.0,1.5,2.0,1.5,50.0,60.0,45.0,48.54,33.88
+BORR-0157,"Shetty, Bedi and Krish",Engineering,Healthy,Q4,1171.19,12.0,1.5,2.0,1.5,50.0,60.0,45.0,659.29,372.71
+BORR-0158,Shan and Sons,Trading,Healthy,Q4,291.15,12.0,1.5,2.0,1.5,50.0,60.0,45.0,161.9,87.08
+BORR-0159,Wali-Nadig,Steel,Watch,Q4,55.08,12.0,1.5,2.0,1.5,50.0,60.0,45.0,12.64,22.26
+BORR-0160,Thaman-Sandhu,Manufacturing,Watch,Q4,349.52,12.0,1.5,2.0,1.5,50.0,60.0,45.0,200.18,135.36
+BORR-0161,"Sehgal, Dutt and Soman",Food Processing,Healthy,Q4,68.4,12.0,1.5,2.0,1.5,50.0,60.0,45.0,45.22,31.07
+BORR-0162,Lad-Kota,Auto Components,Healthy,Q4,398.25,12.0,1.5,2.0,1.5,50.0,60.0,45.0,68.3,136.28
+BORR-0163,"Malhotra, Verma and Sundaram",Engineering,Watch,Q4,577.43,12.0,1.5,2.0,1.5,50.0,60.0,45.0,87.38,158.39
+BORR-0164,"Khare, Maharaj and Sarraf",Renewable Energy,Healthy,Q4,79.78,12.0,1.5,2.0,1.5,50.0,60.0,45.0,52.06,28.41
+BORR-0165,Mangal and Sons,Infrastructure,Stressed,Q4,475.03,12.0,1.5,2.0,1.5,50.0,60.0,45.0,322.47,140.86
+BORR-0166,Nayak-Nagarajan,Renewable Energy,Watch,Q4,273.9,12.0,1.5,2.0,1.5,50.0,60.0,45.0,62.89,109.19
+BORR-0167,"Buch, Devi and Dora",Renewable Energy,Healthy,Q4,412.43,12.0,1.5,2.0,1.5,50.0,60.0,45.0,75.87,100.4
+BORR-0168,Rajagopal Ltd,Chemicals,Watch,Q4,1208.09,12.0,1.5,2.0,1.5,50.0,60.0,45.0,683.49,201.08
+BORR-0169,Kala Inc,Textiles,Healthy,Q4,141.83,12.0,1.5,2.0,1.5,50.0,60.0,45.0,104.96,24.97
+BORR-0170,Reddy-Narayanan,Trading,Healthy,Q4,85.31,12.0,1.5,2.0,1.5,50.0,60.0,45.0,49.02,28.48
+BORR-0171,"Shukla, Sagar and Bhatia",Renewable Energy,Healthy,Q4,74.48,12.0,1.5,2.0,1.5,50.0,60.0,45.0,38.6,27.36
+BORR-0172,Salvi Group,Trading,Healthy,Q4,80.17,12.0,1.5,2.0,1.5,50.0,60.0,45.0,37.9,12.23
+BORR-0173,"Bahri, Rai and Sood",Steel,Healthy,Q4,167.82,12.0,1.5,2.0,1.5,50.0,60.0,45.0,83.07,38.54
+BORR-0174,Pandey LLC,Steel,Healthy,Q4,254.97,12.0,1.5,2.0,1.5,50.0,60.0,45.0,81.31,120.94
+BORR-0175,Saini-Yohannan,Infrastructure,Healthy,Q4,239.05,12.0,1.5,2.0,1.5,50.0,60.0,45.0,114.39,42.98
+BORR-0176,"Kannan, Sura and Kanda",Construction,Healthy,Q4,414.55,12.0,1.5,2.0,1.5,50.0,60.0,45.0,206.59,200.24
+BORR-0177,Sarin-Sunder,Construction,Watch,Q4,183.64,12.0,1.5,2.0,1.5,50.0,60.0,45.0,109.06,55.58
+BORR-0178,Ramachandran LLC,Renewable Energy,Watch,Q4,775.52,12.0,1.5,2.0,1.5,50.0,60.0,45.0,130.84,274.27
+BORR-0179,"Ravel, Gandhi and Sibal",Logistics,Watch,Q4,139.12,12.0,1.5,2.0,1.5,50.0,60.0,45.0,101.34,68.68
+BORR-0180,Walla Inc,Food Processing,Healthy,Q4,2752.24,12.0,1.5,2.0,1.5,50.0,60.0,45.0,1868.58,451.27
+BORR-0181,Bala-Chacko,Trading,Healthy,Q4,338.89,12.0,1.5,2.0,1.5,50.0,60.0,45.0,148.86,122.5
+BORR-0182,"Sangha, Deshmukh and Shenoy",Renewable Energy,Healthy,Q4,76.93,12.0,1.5,2.0,1.5,50.0,60.0,45.0,50.0,12.14
+BORR-0183,Bedi LLC,Food Processing,Healthy,Q4,62.12,12.0,1.5,2.0,1.5,50.0,60.0,45.0,15.68,27.37
+BORR-0184,Narang-Kakar,Textiles,Watch,Q4,293.67,12.0,1.5,2.0,1.5,50.0,60.0,45.0,127.9,107.24
+BORR-0185,Narain-Nazareth,Construction,Healthy,Q4,144.97,12.0,1.5,2.0,1.5,50.0,60.0,45.0,100.71,64.22
+BORR-0186,Mall-Sama,Pharmaceuticals,Healthy,Q4,370.18,12.0,1.5,2.0,1.5,50.0,60.0,45.0,79.2,110.73
+BORR-0187,Bumb-Singhal,Logistics,Healthy,Q4,290.98,12.0,1.5,2.0,1.5,50.0,60.0,45.0,158.75,119.8
+BORR-0188,Zacharia Inc,Power,Healthy,Q4,168.54,12.0,1.5,2.0,1.5,50.0,60.0,45.0,29.1,47.95
+BORR-0189,Kapur-Biswas,Pharmaceuticals,Watch,Q4,77.73,12.0,1.5,2.0,1.5,50.0,60.0,45.0,22.82,11.67
+BORR-0190,"Baria, Balasubramanian and Kota",Manufacturing,Healthy,Q4,50.0,12.0,1.5,2.0,1.5,50.0,60.0,45.0,15.33,14.62
+BORR-0191,Bahri PLC,Steel,Healthy,Q4,115.99,12.0,1.5,2.0,1.5,50.0,60.0,45.0,44.03,49.41
+BORR-0192,Khare and Sons,Construction,Healthy,Q4,426.84,12.0,1.5,2.0,1.5,50.0,60.0,45.0,238.97,199.96
+BORR-0193,Contractor-Kamdar,Power,Healthy,Q4,224.55,12.0,1.5,2.0,1.5,50.0,60.0,45.0,150.73,72.26
+BORR-0194,Kunda-Pillay,Engineering,Healthy,Q4,52.16,12.0,1.5,2.0,1.5,50.0,60.0,45.0,19.7,9.66
+BORR-0195,Contractor and Sons,Chemicals,Healthy,Q4,215.55,12.0,1.5,2.0,1.5,50.0,60.0,45.0,136.32,74.23
+BORR-0196,Chokshi-Bal,Logistics,Healthy,Q4,266.48,12.0,1.5,2.0,1.5,50.0,60.0,45.0,80.63,118.22
+BORR-0197,Prashad-Ranganathan,Construction,Healthy,Q4,74.9,12.0,1.5,2.0,1.5,50.0,60.0,45.0,31.32,13.29
+BORR-0198,"Issac, Borra and Kibe",Construction,Stressed,Q4,211.39,12.0,1.5,2.0,1.5,50.0,60.0,45.0,106.15,103.15
+BORR-0199,Mitra Ltd,Steel,Watch,Q4,192.14,12.0,1.5,2.0,1.5,50.0,60.0,45.0,104.31,88.37
+BORR-0200,"Dara, Barman and Palan",Power,Watch,Q4,57.8,12.0,1.5,2.0,1.5,50.0,60.0,45.0,23.76,21.61

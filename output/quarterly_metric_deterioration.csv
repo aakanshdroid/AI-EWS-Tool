@@ -1,0 +1,22 @@
+Borrower_ID,Borrower_Name,Previous_Quarter,Current_Quarter,Metric,Metric_Column,Previous_Value,Current_Value,QoQ_Change_pct,Direction,Deterioration
+BORR-0004,Balan Inc,Q1,Q2,EBITDA Margin,EBITDA_Margin_pct,17.24,15.49,-10.15,decrease,Yes
+BORR-0004,Balan Inc,Q2,Q3,EBITDA Margin,EBITDA_Margin_pct,15.49,13.74,-11.3,decrease,Yes
+BORR-0004,Balan Inc,Q3,Q4,EBITDA Margin,EBITDA_Margin_pct,13.74,12.0,-12.66,decrease,Yes
+BORR-0016,"Boase, Bath and Kari",Q2,Q3,EBITDA Margin,EBITDA_Margin_pct,15.25,13.62,-10.69,decrease,Yes
+BORR-0016,"Boase, Bath and Kari",Q3,Q4,EBITDA Margin,EBITDA_Margin_pct,13.62,12.0,-11.89,decrease,Yes
+BORR-0039,Memon Group,Q1,Q2,EBITDA Margin,EBITDA_Margin_pct,19.51,17.0,-12.87,decrease,Yes
+BORR-0039,Memon Group,Q2,Q3,EBITDA Margin,EBITDA_Margin_pct,17.0,14.5,-14.71,decrease,Yes
+BORR-0039,Memon Group,Q3,Q4,EBITDA Margin,EBITDA_Margin_pct,14.5,12.0,-17.24,decrease,Yes
+BORR-0042,"Cherian, Misra and Tripathi",Q3,Q4,EBITDA Margin,EBITDA_Margin_pct,13.35,12.0,-10.11,decrease,Yes
+BORR-0112,"Divan, Sani and Datta",Q3,Q4,EBITDA Margin,EBITDA_Margin_pct,13.4,12.0,-10.45,decrease,Yes
+BORR-0123,Mody-Kari,Q2,Q3,EBITDA Margin,EBITDA_Margin_pct,15.2,13.6,-10.53,decrease,Yes
+BORR-0123,Mody-Kari,Q3,Q4,EBITDA Margin,EBITDA_Margin_pct,13.6,12.0,-11.76,decrease,Yes
+BORR-0137,"Murthy, Dash and Mital",Q3,Q4,EBITDA Margin,EBITDA_Margin_pct,13.42,12.0,-10.58,decrease,Yes
+BORR-0150,Bakshi Inc,Q2,Q3,EBITDA Margin,EBITDA_Margin_pct,15.21,13.6,-10.59,decrease,Yes
+BORR-0150,Bakshi Inc,Q3,Q4,EBITDA Margin,EBITDA_Margin_pct,13.6,12.0,-11.76,decrease,Yes
+BORR-0165,Mangal and Sons,Q1,Q2,EBITDA Margin,EBITDA_Margin_pct,18.31,16.2,-11.52,decrease,Yes
+BORR-0165,Mangal and Sons,Q2,Q3,EBITDA Margin,EBITDA_Margin_pct,16.2,14.1,-12.96,decrease,Yes
+BORR-0165,Mangal and Sons,Q3,Q4,EBITDA Margin,EBITDA_Margin_pct,14.1,12.0,-14.89,decrease,Yes
+BORR-0180,Walla Inc,Q3,Q4,EBITDA Margin,EBITDA_Margin_pct,13.38,12.0,-10.31,decrease,Yes
+BORR-0199,Mitra Ltd,Q2,Q3,EBITDA Margin,EBITDA_Margin_pct,15.27,13.64,-10.67,decrease,Yes
+BORR-0199,Mitra Ltd,Q3,Q4,EBITDA Margin,EBITDA_Margin_pct,13.64,12.0,-12.02,decrease,Yes
