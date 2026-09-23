@@ -13,6 +13,17 @@ from common.trend_analytics import (
     generate_peer_benchmark
 )
 
+from common.notifier import (
+    send_critical_alert_email
+)
+
+from common.notification_tracker import (
+    initialize_notification_table,
+    should_send_critical_alert,
+    record_critical_notification,
+    mark_non_critical
+)
+
 
 # ============================================================
 # PATH CONFIGURATION
@@ -278,6 +289,187 @@ def find_column(
             return normalized[key]
 
     return None
+
+
+# ============================================================
+# CRITICAL EWS EMAIL NOTIFICATIONS
+# ============================================================
+
+def process_critical_notifications(
+    ews_data,
+    borrower_data,
+    borrower_id_column,
+    score_column,
+    risk_band_column,
+    status_column,
+    critical_column
+):
+    """
+    Send a Critical EWS email only when a borrower enters a new
+    Critical state.
+
+    Duplicate notifications are suppressed using the SQLite
+    notification history maintained by common.notification_tracker.
+
+    A borrower can receive a new notification after it has first
+    recovered from Critical and later becomes Critical again.
+    """
+
+    summary = {
+        "critical_borrowers": 0,
+        "emails_sent": 0,
+        "duplicates_suppressed": 0,
+        "send_failures": 0
+    }
+
+    if ews_data.empty or not borrower_id_column:
+        return summary
+
+    try:
+        initialize_notification_table()
+    except Exception as e:
+        st.warning(
+            f"Notification history could not be initialized: {e}"
+        )
+        return summary
+
+    working_df = ews_data.copy()
+
+    critical_mask = pd.Series(
+        False,
+        index=working_df.index
+    )
+
+    if status_column and status_column in working_df.columns:
+        critical_mask = critical_mask | (
+            working_df[status_column]
+            .astype(str)
+            .str.strip()
+            .str.lower()
+            == "critical"
+        )
+
+    if risk_band_column and risk_band_column in working_df.columns:
+        critical_mask = critical_mask | (
+            working_df[risk_band_column]
+            .astype(str)
+            .str.strip()
+            .str.lower()
+            == "critical"
+        )
+
+    critical_rows = working_df.loc[critical_mask].copy()
+
+    current_critical_ids = {
+        str(value).strip()
+        for value in critical_rows[borrower_id_column].dropna().tolist()
+        if str(value).strip()
+    }
+
+    summary["critical_borrowers"] = len(current_critical_ids)
+
+    try:
+        mark_non_critical(current_critical_ids)
+    except Exception as e:
+        st.warning(
+            f"Unable to update notification recovery status: {e}"
+        )
+
+    for _, row in critical_rows.iterrows():
+
+        borrower_id = str(
+            row.get(borrower_id_column, "")
+        ).strip()
+
+        if not borrower_id:
+            continue
+
+        borrower_name = "Unknown Borrower"
+
+        for name_column in [
+            "Borrower_Name",
+            "Company_Name",
+            "BorrowerName"
+        ]:
+            if name_column in row.index:
+                value = row.get(name_column)
+                if pd.notna(value) and str(value).strip():
+                    borrower_name = str(value).strip()
+                    break
+
+        risk_score = row.get(score_column) if score_column else None
+
+        try:
+            risk_score = float(risk_score)
+        except Exception:
+            risk_score = 0.0
+
+        risk_band = (
+            str(row.get(risk_band_column, "Critical"))
+            if risk_band_column
+            else "Critical"
+        )
+
+        if not risk_band or risk_band.lower() == "nan":
+            risk_band = "Critical"
+
+        override_flag = "Critical"
+
+        if critical_column and critical_column in row.index:
+            override_value = row.get(critical_column)
+            if pd.notna(override_value):
+                override_text = str(override_value).strip()
+                if override_text:
+                    override_flag = override_text
+
+        try:
+            send_required = should_send_critical_alert(
+                borrower_id=borrower_id,
+                risk_score=risk_score,
+                risk_band=risk_band,
+                override_flag=override_flag
+            )
+        except Exception as e:
+            st.warning(
+                f"Notification history check failed for {borrower_id}: {e}"
+            )
+            continue
+
+        if not send_required:
+            summary["duplicates_suppressed"] += 1
+            continue
+
+        try:
+            email_sent = send_critical_alert_email(
+                account_number=borrower_id,
+                borrower_name=borrower_name,
+                risk_score=risk_score,
+                risk_band=risk_band,
+                override_flag=override_flag
+            )
+        except Exception as e:
+            email_sent = False
+            st.warning(
+                f"Critical email could not be sent for {borrower_id}: {e}"
+            )
+
+        if email_sent:
+            try:
+                record_critical_notification(
+                    borrower_id=borrower_id,
+                    risk_score=risk_score,
+                    risk_band=risk_band,
+                    override_flag=override_flag
+                )
+                summary["emails_sent"] += 1
+            except Exception as e:
+                st.warning(
+                    f"Email was sent but notification history could not be recorded for {borrower_id}: {e}"
+                )
+        else:
+            summary["send_failures"] += 1
+
+    return summary
 
 
 # ============================================================
@@ -673,6 +865,21 @@ if (
                 )
             )
         )
+
+
+# ============================================================
+# CRITICAL EMAIL NOTIFICATION ENGINE
+# ============================================================
+
+notification_summary = process_critical_notifications(
+    ews_data=ews_df,
+    borrower_data=dashboard_df,
+    borrower_id_column=borrower_id_col,
+    score_column=score_col,
+    risk_band_column=risk_band_col,
+    status_column=status_col,
+    critical_column=critical_col
+)
 
 
 # ============================================================
@@ -2687,6 +2894,65 @@ with tab5:
 
 
     st.divider()
+
+
+    # --------------------------------------------------------
+    # NOTIFICATION HISTORY
+    # --------------------------------------------------------
+
+    st.markdown(
+        "### 🚨 Critical EWS Notification History"
+    )
+
+    notification_history_df = load_db_table(
+        "ews_notification_history"
+    )
+
+    if not notification_history_df.empty:
+
+        notification_display_columns = [
+            "borrower_id",
+            "alert_type",
+            "risk_score",
+            "risk_band",
+            "override_flag",
+            "first_detected",
+            "last_notified",
+            "notification_count",
+            "active"
+        ]
+
+        available_notification_columns = [
+            col
+            for col in notification_display_columns
+            if col in notification_history_df.columns
+        ]
+
+        if available_notification_columns:
+            st.dataframe(
+                notification_history_df[available_notification_columns],
+                use_container_width=True,
+                height=300,
+                hide_index=True
+            )
+        else:
+            st.dataframe(
+                notification_history_df,
+                use_container_width=True,
+                height=300,
+                hide_index=True
+            )
+
+        st.caption(
+            f"Critical borrowers: {notification_summary['critical_borrowers']} | "
+            f"Emails sent this run: {notification_summary['emails_sent']} | "
+            f"Duplicates suppressed: {notification_summary['duplicates_suppressed']} | "
+            f"Send failures: {notification_summary['send_failures']}"
+        )
+    else:
+        st.info(
+            "No Critical EWS notification history is available yet."
+        )
 
 
     # --------------------------------------------------------
