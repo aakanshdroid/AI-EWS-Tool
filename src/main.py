@@ -49,6 +49,14 @@ from common.notifier import (
     send_critical_alert_email
 )
 
+from common.notification_tracker import (
+    should_send_critical_alert,
+    record_critical_notification,
+    record_critical_baseline,
+    notification_history_exists,
+    mark_non_critical
+)
+
 
 # ============================================================
 # CONFIGURATION
@@ -61,29 +69,16 @@ NUMBER_OF_BORROWERS = 200
 # CRITICAL EMAIL NOTIFICATION
 # ============================================================
 
-def send_critical_notifications(
-    ews_final
-):
+def send_critical_notifications(ews_final):
     """
-    Send Resend email notifications for borrowers
-    where a Critical EWS trigger has been detected.
+    Send Resend email notifications only for NEW Critical EWS events.
 
-    Critical trigger is based on:
-        1. Critical Indicator Override
-        2. Critical Combination Override
-
-    The actual email configuration is handled by
-    common/notifier.py.
+    Duplicate Critical notifications are suppressed using the
+    SQLite notification history table.
     """
 
     print()
-    print(
-        "Checking for Critical EWS triggers..."
-    )
-
-    # --------------------------------------------------------
-    # Check that required columns exist
-    # --------------------------------------------------------
+    print("Checking for Critical EWS triggers...")
 
     required_columns = [
         "Borrower_ID",
@@ -99,20 +94,12 @@ def send_critical_notifications(
     ]
 
     if missing_columns:
-
-        print(
-            "⚠ Critical notification skipped."
-        )
-
-        print(
-            "Missing columns:",
-            missing_columns
-        )
-
+        print("⚠ Critical notification skipped.")
+        print("Missing columns:", missing_columns)
         return
 
     # --------------------------------------------------------
-    # Identify critical borrowers
+    # Identify current Critical borrowers
     # --------------------------------------------------------
 
     critical_mask = (
@@ -123,21 +110,84 @@ def send_critical_notifications(
         .eq("critical")
     )
 
-    critical_borrowers = (
-        ews_final.loc[
-            critical_mask
-        ]
-    )
+    critical_borrowers = ews_final.loc[critical_mask]
 
     # --------------------------------------------------------
-    # No critical trigger
+    # Mark borrowers who are no longer Critical as inactive
+    # --------------------------------------------------------
+
+    current_critical_ids = (
+        critical_borrowers["Borrower_ID"]
+        .dropna()
+        .astype(str)
+        .tolist()
+    )
+
+    mark_non_critical(current_critical_ids)
+
+    # --------------------------------------------------------
+    # No Critical trigger
     # --------------------------------------------------------
 
     if critical_borrowers.empty:
+        print("✓ No Critical EWS triggers detected.")
+        return
+
+    # --------------------------------------------------------
+    # FIRST-RUN BASELINE
+    # --------------------------------------------------------
+    # The first run after notification tracking is enabled is
+    # treated as the baseline. Existing Critical borrowers are
+    # recorded without sending emails. This prevents a bulk
+    # email on the first run.
+
+    if not notification_history_exists():
+
+        print()
+        print("No notification history found.")
+        print("Creating initial Critical EWS baseline...")
+
+        for _, row in critical_borrowers.iterrows():
+
+            borrower_id = row.get(
+                "Borrower_ID",
+                "Unknown"
+            )
+
+            risk_score = row.get(
+                "Overall_Normalized_Score",
+                0
+            )
+
+            if pd.isna(risk_score):
+                risk_score = 0
+
+            risk_score = round(
+                float(risk_score),
+                2
+            )
+
+            risk_band = row.get(
+                "Risk_Band",
+                "Critical"
+            )
+
+            if pd.isna(risk_band):
+                risk_band = "Critical"
+
+            record_critical_baseline(
+                borrower_id=borrower_id,
+                risk_score=risk_score,
+                risk_band=risk_band,
+                override_flag="Baseline"
+            )
 
         print(
-            "✓ No Critical EWS triggers detected."
+            f"✓ Baseline created for "
+            f"{len(critical_borrowers)} Critical borrowers."
         )
+
+        print("✓ No emails sent during baseline creation.")
 
         return
 
@@ -146,12 +196,13 @@ def send_critical_notifications(
         f"{len(critical_borrowers)}"
     )
 
-    # --------------------------------------------------------
-    # Send email for each critical borrower
-    # --------------------------------------------------------
-
     emails_sent = 0
+    emails_suppressed = 0
     emails_failed = 0
+
+    # --------------------------------------------------------
+    # Process Critical borrowers
+    # --------------------------------------------------------
 
     for _, row in critical_borrowers.iterrows():
 
@@ -160,51 +211,10 @@ def send_critical_notifications(
             "Unknown"
         )
 
-        # ----------------------------------------------------
-        # Borrower name
-        # ----------------------------------------------------
-
-        borrower_name = row.get(
-            "Borrower_Name",
-            borrower_id
-        )
-
-        if pd.isna(borrower_name):
-            borrower_name = borrower_id
+        borrower_id = str(borrower_id)
 
         # ----------------------------------------------------
-        # Account number
-        # ----------------------------------------------------
-
-        account_number = None
-
-        possible_account_columns = [
-            "Account_Number",
-            "Account_No",
-            "Account_Number",
-            "AccountNo",
-            "Account"
-        ]
-
-        for column in possible_account_columns:
-
-            if column in row.index:
-
-                value = row[column]
-
-                if pd.notna(value):
-
-                    account_number = value
-                    break
-
-        # If account number is not present,
-        # use Borrower_ID as the reference.
-        if account_number is None:
-
-            account_number = borrower_id
-
-        # ----------------------------------------------------
-        # Risk score
+        # Check duplicate notification
         # ----------------------------------------------------
 
         risk_score = row.get(
@@ -219,10 +229,6 @@ def send_critical_notifications(
             float(risk_score),
             2
         )
-
-        # ----------------------------------------------------
-        # Risk band
-        # ----------------------------------------------------
 
         risk_band = row.get(
             "Risk_Band",
@@ -254,29 +260,86 @@ def send_critical_notifications(
             indicator_override
             and combination_override
         ):
-
             override_flag = (
                 "Critical Indicator Override + "
                 "Critical Combination Override"
             )
 
         elif indicator_override:
-
             override_flag = (
                 "Critical Indicator Override"
             )
 
         elif combination_override:
-
             override_flag = (
                 "Critical Combination Override"
             )
 
         else:
-
             override_flag = (
                 "Critical Final Status"
             )
+
+        # ----------------------------------------------------
+        # Check notification history
+        # ----------------------------------------------------
+
+        should_send = should_send_critical_alert(
+            borrower_id=borrower_id,
+            risk_score=risk_score,
+            risk_band=risk_band,
+            override_flag=override_flag
+        )
+
+        if not should_send:
+
+            emails_suppressed += 1
+
+            print(
+                f"↳ Duplicate Critical alert suppressed "
+                f"for {borrower_id}"
+            )
+
+            continue
+
+        # ----------------------------------------------------
+        # Borrower name
+        # ----------------------------------------------------
+
+        borrower_name = row.get(
+            "Borrower_Name",
+            borrower_id
+        )
+
+        if pd.isna(borrower_name):
+            borrower_name = borrower_id
+
+        # ----------------------------------------------------
+        # Account number
+        # ----------------------------------------------------
+
+        account_number = None
+
+        possible_account_columns = [
+            "Account_Number",
+            "Account_No",
+            "AccountNo",
+            "Account"
+        ]
+
+        for column in possible_account_columns:
+
+            if column in row.index:
+
+                value = row[column]
+
+                if pd.notna(value):
+
+                    account_number = value
+                    break
+
+        if account_number is None:
+            account_number = borrower_id
 
         # ----------------------------------------------------
         # Send email
@@ -284,7 +347,7 @@ def send_critical_notifications(
 
         print()
         print(
-            f"Sending Critical Alert for "
+            f"Sending NEW Critical Alert for "
             f"{borrower_name} "
             f"({borrower_id})..."
         )
@@ -299,11 +362,19 @@ def send_critical_notifications(
 
         if success:
 
+            # Record only after successful email
+            record_critical_notification(
+                borrower_id=borrower_id,
+                risk_score=risk_score,
+                risk_band=risk_band,
+                override_flag=override_flag
+            )
+
             emails_sent += 1
 
             print(
-                f"✓ Critical email sent for "
-                f"{borrower_name}"
+                f"✓ Critical email sent and recorded "
+                f"for {borrower_name}"
             )
 
         else:
@@ -311,8 +382,8 @@ def send_critical_notifications(
             emails_failed += 1
 
             print(
-                f"✗ Critical email failed for "
-                f"{borrower_name}"
+                f"✗ Critical email failed "
+                f"for {borrower_name}"
             )
 
     # --------------------------------------------------------
@@ -335,10 +406,14 @@ def send_critical_notifications(
     )
 
     print(
+        f"Duplicates blocked : "
+        f"{emails_suppressed}"
+    )
+
+    print(
         f"Emails failed      : "
         f"{emails_failed}"
     )
-
 
 # ============================================================
 # EXPORT SYNTHETIC DATA TO EXCEL
