@@ -8,9 +8,16 @@ import pandas as pd
 # PROJECT PATH
 # ============================================================
 
-BASE_DIR = Path(
-    __file__
-).resolve().parent.parent
+BASE_DIR = (
+    Path(__file__)
+    .resolve()
+    .parent.parent
+)
+
+# Make project root available for common/ imports
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+
 
 OUTPUT_DIR = (
     BASE_DIR
@@ -37,12 +44,300 @@ from src.scoring_engine import (
     generate_alerts
 )
 
+# Resend notification
+from common.notifier import (
+    send_critical_alert_email
+)
+
 
 # ============================================================
 # CONFIGURATION
 # ============================================================
 
 NUMBER_OF_BORROWERS = 200
+
+
+# ============================================================
+# CRITICAL EMAIL NOTIFICATION
+# ============================================================
+
+def send_critical_notifications(
+    ews_final
+):
+    """
+    Send Resend email notifications for borrowers
+    where a Critical EWS trigger has been detected.
+
+    Critical trigger is based on:
+        1. Critical Indicator Override
+        2. Critical Combination Override
+
+    The actual email configuration is handled by
+    common/notifier.py.
+    """
+
+    print()
+    print(
+        "Checking for Critical EWS triggers..."
+    )
+
+    # --------------------------------------------------------
+    # Check that required columns exist
+    # --------------------------------------------------------
+
+    required_columns = [
+        "Borrower_ID",
+        "Overall_Normalized_Score",
+        "Risk_Band",
+        "Final_Status"
+    ]
+
+    missing_columns = [
+        column
+        for column in required_columns
+        if column not in ews_final.columns
+    ]
+
+    if missing_columns:
+
+        print(
+            "⚠ Critical notification skipped."
+        )
+
+        print(
+            "Missing columns:",
+            missing_columns
+        )
+
+        return
+
+    # --------------------------------------------------------
+    # Identify critical borrowers
+    # --------------------------------------------------------
+
+    critical_mask = (
+        ews_final["Final_Status"]
+        .astype(str)
+        .str.strip()
+        .str.lower()
+        .eq("critical")
+    )
+
+    critical_borrowers = (
+        ews_final.loc[
+            critical_mask
+        ]
+    )
+
+    # --------------------------------------------------------
+    # No critical trigger
+    # --------------------------------------------------------
+
+    if critical_borrowers.empty:
+
+        print(
+            "✓ No Critical EWS triggers detected."
+        )
+
+        return
+
+    print(
+        f"⚠ Critical EWS triggers detected: "
+        f"{len(critical_borrowers)}"
+    )
+
+    # --------------------------------------------------------
+    # Send email for each critical borrower
+    # --------------------------------------------------------
+
+    emails_sent = 0
+    emails_failed = 0
+
+    for _, row in critical_borrowers.iterrows():
+
+        borrower_id = row.get(
+            "Borrower_ID",
+            "Unknown"
+        )
+
+        # ----------------------------------------------------
+        # Borrower name
+        # ----------------------------------------------------
+
+        borrower_name = row.get(
+            "Borrower_Name",
+            borrower_id
+        )
+
+        if pd.isna(borrower_name):
+            borrower_name = borrower_id
+
+        # ----------------------------------------------------
+        # Account number
+        # ----------------------------------------------------
+
+        account_number = None
+
+        possible_account_columns = [
+            "Account_Number",
+            "Account_No",
+            "Account_Number",
+            "AccountNo",
+            "Account"
+        ]
+
+        for column in possible_account_columns:
+
+            if column in row.index:
+
+                value = row[column]
+
+                if pd.notna(value):
+
+                    account_number = value
+                    break
+
+        # If account number is not present,
+        # use Borrower_ID as the reference.
+        if account_number is None:
+
+            account_number = borrower_id
+
+        # ----------------------------------------------------
+        # Risk score
+        # ----------------------------------------------------
+
+        risk_score = row.get(
+            "Overall_Normalized_Score",
+            0
+        )
+
+        if pd.isna(risk_score):
+            risk_score = 0
+
+        risk_score = round(
+            float(risk_score),
+            2
+        )
+
+        # ----------------------------------------------------
+        # Risk band
+        # ----------------------------------------------------
+
+        risk_band = row.get(
+            "Risk_Band",
+            "Critical"
+        )
+
+        if pd.isna(risk_band):
+            risk_band = "Critical"
+
+        # ----------------------------------------------------
+        # Determine override type
+        # ----------------------------------------------------
+
+        indicator_override = bool(
+            row.get(
+                "Critical_Indicator_Override",
+                False
+            )
+        )
+
+        combination_override = bool(
+            row.get(
+                "Critical_Combination_Override",
+                False
+            )
+        )
+
+        if (
+            indicator_override
+            and combination_override
+        ):
+
+            override_flag = (
+                "Critical Indicator Override + "
+                "Critical Combination Override"
+            )
+
+        elif indicator_override:
+
+            override_flag = (
+                "Critical Indicator Override"
+            )
+
+        elif combination_override:
+
+            override_flag = (
+                "Critical Combination Override"
+            )
+
+        else:
+
+            override_flag = (
+                "Critical Final Status"
+            )
+
+        # ----------------------------------------------------
+        # Send email
+        # ----------------------------------------------------
+
+        print()
+        print(
+            f"Sending Critical Alert for "
+            f"{borrower_name} "
+            f"({borrower_id})..."
+        )
+
+        success = send_critical_alert_email(
+            account_number=account_number,
+            borrower_name=borrower_name,
+            risk_score=risk_score,
+            risk_band=risk_band,
+            override_flag=override_flag
+        )
+
+        if success:
+
+            emails_sent += 1
+
+            print(
+                f"✓ Critical email sent for "
+                f"{borrower_name}"
+            )
+
+        else:
+
+            emails_failed += 1
+
+            print(
+                f"✗ Critical email failed for "
+                f"{borrower_name}"
+            )
+
+    # --------------------------------------------------------
+    # Notification summary
+    # --------------------------------------------------------
+
+    print()
+    print(
+        "Critical Email Notification Summary"
+    )
+
+    print(
+        f"Critical borrowers : "
+        f"{len(critical_borrowers)}"
+    )
+
+    print(
+        f"Emails sent        : "
+        f"{emails_sent}"
+    )
+
+    print(
+        f"Emails failed      : "
+        f"{emails_failed}"
+    )
 
 
 # ============================================================
@@ -64,7 +359,9 @@ def export_to_excel(
     )
 
     print()
-    print("Creating Excel workbook...")
+    print(
+        "Creating Excel workbook..."
+    )
 
     with pd.ExcelWriter(
         excel_path,
@@ -184,6 +481,7 @@ def export_to_excel(
 
     return excel_path
 
+
 # ============================================================
 # MAIN
 # ============================================================
@@ -192,15 +490,19 @@ def main():
 
     print()
     print("=" * 75)
+
     print(
         "AI EWS + CREDIT MONITORING"
     )
+
     print(
         "STRUCTURED SYNTHETIC CORPORATE BORROWER GENERATOR"
     )
+
     print("=" * 75)
 
     print()
+
     print(
         f"Generating {NUMBER_OF_BORROWERS} "
         "corporate borrowers..."
@@ -235,6 +537,7 @@ def main():
     # --------------------------------------------------------
 
     print()
+
     print(
         "Calculating EWS scores..."
     )
@@ -296,7 +599,15 @@ def main():
     )
 
     # --------------------------------------------------------
-    # 6. Save CSV files
+    # 6. SEND CRITICAL EMAIL NOTIFICATIONS
+    # --------------------------------------------------------
+
+    send_critical_notifications(
+        ews_final
+    )
+
+    # --------------------------------------------------------
+    # 7. Save CSV files
     # --------------------------------------------------------
 
     borrower_master.to_csv(
@@ -336,7 +647,7 @@ def main():
     )
 
     # --------------------------------------------------------
-    # 7. Export Excel workbook
+    # 8. Export Excel workbook
     # --------------------------------------------------------
 
     export_to_excel(
@@ -349,21 +660,24 @@ def main():
     )
 
     # --------------------------------------------------------
-    # 8. Summary
+    # 9. Summary
     # --------------------------------------------------------
 
     print()
+
     print("=" * 75)
     print("GENERATION COMPLETE")
     print("=" * 75)
 
     print()
+
     print(
         "Borrowers:",
         len(borrower_master)
     )
 
     print()
+
     print(
         "EWS Risk Distribution:"
     )
@@ -377,6 +691,7 @@ def main():
     )
 
     print()
+
     print(
         "Credit Monitoring Distribution:"
     )
@@ -390,12 +705,14 @@ def main():
     )
 
     print()
+
     print(
         "Total alerts:",
         len(alerts)
     )
 
     print()
+
     print(
         "Output location:"
     )
@@ -405,6 +722,7 @@ def main():
     )
 
     print()
+
     print("=" * 75)
 
 
